@@ -1,0 +1,252 @@
+/**
+ * =================================================================
+ * 文亚宇宙世界观 Wiki - 桌面端全局基础样式表 (Desktop Minimal Custom CSS)
+ * 适配平台: Fandom / MediaWiki
+ * 说明: 专注于全局基础排版、信息框、表格及目录等核心组件。
+ * -----------------------------------------------------------------
+ * 版本 (Version):     1.0.0
+ * 发布日期 (Release): 2026-07-25
+ * 维护者 (Author):    文亚宇宙 Wiki 编辑组
+ * 许可协议 (License): CC BY-SA 4.0
+ * 仓库 (Repository):  https://wenya-universe.fandom.com
+ * -----------------------------------------------------------------
+ * 修订历史 (Changelog):
+ *   [1.0.0] - 2026-07-25
+ *     + 初始版本发布
+ *     + 建立设计令牌 (Design Tokens) 变量体系
+ *     + 完成全局排版、标题、链接基础样式
+ *     + 完成 Portable Infobox 信息框样式重构
+ *     + 完成 Wikitable 表格美化与隔行变色
+ *     + 完成 TOC 目录栏样式优化
+ *
+ * 版本升级规范 (SemVer):
+ *   - 主版本号 (MAJOR): 不兼容的样式重构 / 变量体系变更
+ *   - 次版本号 (MINOR): 向下兼容的新组件、新样式模块
+ *   - 修订号   (PATCH): 向下兼容的样式修复、色值微调
+ * =================================================================
+ */
+
+/* 样式表版本标识 (可通过 DevTools 读取 :root --wy-css-version 快速核对) */
+:root {
+  --wy-css-version: "1.0.0";
+  --wy-css-build-date: "2026-07-25";
+}
+
+/* ==========================================
+   1. 设计令牌与全局变量 (Design Tokens)
+   ========================================== */
+:root {
+  /* 主色调：学术深蓝与星空次色 */
+  --wy-primary: #1e3a8a;          /* 深学术蓝 */
+  --wy-primary-hover: #1d4ed8;    /* 悬停蓝 */
+  --wy-secondary: #0f172a;        /* 暗夜极深蓝 */
+  --wy-accent: #0284c7;           /* 科技亮蓝 */
+
+  /* 中性色与背景 */
+  --wy-bg-card: #ffffff;          /* 卡片背景 */
+  --wy-bg-soft: #f8fafc;          /* 浅色软背景 */
+  --wy-border-color: #e2e8f0;     /* 通用边框色 */
+  --wy-text-main: #334155;        /* 正文主文本 */
+  --wy-text-muted: #64748b;       /* 次要文本 */
+
+  /* 阴影与圆角 */
+  --wy-radius-sm: 4px;
+  --wy-radius-md: 8px;
+  --wy-radius-lg: 12px;
+  --wy-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --wy-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================
+   2. 全局基础与排版优化 (Typography & Base)
+   ========================================== */
+/* 正文文字与行高控制 */
+.mw-parser-output {
+  color: var(--wy-text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+/* 标题样式增强 */
+.mw-parser-output h2 {
+  border-bottom: 2px solid var(--wy-border-color);
+  color: var(--wy-secondary);
+  font-weight: 700;
+  padding-bottom: 6px;
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  position: relative;
+}
+
+.mw-parser-output h2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background-color: var(--wy-accent);
+  margin-right: 10px;
+  border-radius: 2px;
+  vertical-align: -2px;
+}
+
+.mw-parser-output h3 {
+  color: var(--wy-primary);
+  font-weight: 600;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+/* 链接平滑动画 */
+.mw-parser-output a {
+  color: var(--wy-primary-hover);
+  text-decoration: none;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  border-bottom: 1px transparent solid;
+}
+
+.mw-parser-output a:hover {
+  color: var(--wy-accent);
+  border-bottom-color: var(--wy-accent);
+}
+
+/* ==========================================
+   3. Fandom / MediaWiki 信息框样式 (Portable Infobox)
+   ========================================== */
+.portable-infobox {
+  border: 1px solid var(--wy-border-color) !important;
+  border-radius: var(--wy-radius-lg) !important;
+  background-color: var(--wy-bg-card) !important;
+  box-shadow: var(--wy-shadow-md) !important;
+  overflow: hidden;
+  width: 300px !important;
+  float: right;
+  margin: 0 0 20px 20px !important;
+}
+
+/* 信息框主标题 */
+.portable-infobox .pi-title {
+  background: linear-gradient(135deg, var(--wy-secondary), var(--wy-primary)) !important;
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  padding: 12px 8px !important;
+  letter-spacing: 0.5px;
+}
+
+/* 分组小标题 */
+.portable-infobox .pi-header {
+  background-color: var(--wy-bg-soft) !important;
+  color: var(--wy-primary) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+  padding: 6px 12px !important;
+  border-top: 1px solid var(--wy-border-color);
+  border-bottom: 1px solid var(--wy-border-color);
+}
+
+/* 图片区域 */
+.portable-infobox .pi-image-collection,
+.portable-infobox .pi-image {
+  background-color: #f1f5f9;
+  padding: 8px;
+  text-align: center;
+}
+
+.portable-infobox img {
+  border-radius: var(--wy-radius-sm);
+  max-width: 100%;
+  height: auto;
+}
+
+/* 数据项标签与数值 */
+.portable-infobox .pi-data {
+  padding: 8px 14px !important;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 13px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portable-infobox .pi-data-label {
+  color: var(--wy-text-muted) !important;
+  font-weight: 600 !important;
+  width: 40%;
+}
+
+.portable-infobox .pi-data-value {
+  color: var(--wy-text-main) !important;
+  width: 60%;
+  text-align: right;
+}
+
+/* ==========================================
+   4. 标准维基表格美化 (Wikitable Styling)
+   ========================================== */
+.mw-parser-output table.wikitable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--wy-border-color);
+  border-radius: var(--wy-radius-md);
+  overflow: hidden;
+  margin: 20px 0;
+  box-shadow: var(--wy-shadow-sm);
+}
+
+.mw-parser-output table.wikitable > tr > th,
+.mw-parser-output table.wikitable > * > tr > th {
+  background-color: var(--wy-bg-soft);
+  color: var(--wy-secondary);
+  font-weight: 700;
+  padding: 10px 14px;
+  border-bottom: 2px solid var(--wy-border-color);
+  border-right: 1px solid var(--wy-border-color);
+  text-align: left;
+}
+
+.mw-parser-output table.wikitable > tr > td,
+.mw-parser-output table.wikitable > * > tr > td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--wy-border-color);
+  border-right: 1px solid var(--wy-border-color);
+  background-color: var(--wy-bg-card);
+}
+
+/* 隔行变色与悬停高亮 */
+.mw-parser-output table.wikitable > * > tr:nth-child(even) > td {
+  background-color: #f8fafc;
+}
+
+.mw-parser-output table.wikitable > * > tr:hover > td {
+  background-color: #f1f5f9;
+}
+
+/* ==========================================
+   5. 目录栏样式优化 (Table of Contents)
+   ========================================== */
+#toc, .toc {
+  background-color: var(--wy-bg-soft) !important;
+  border: 1px solid var(--wy-border-color) !important;
+  border-radius: var(--wy-radius-md) !important;
+  padding: 14px 18px !important;
+  box-shadow: var(--wy-shadow-sm) !important;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#toc .toctitle h2, .toc .toctitle h2 {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: var(--wy-secondary) !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+#toc .toctitle h2::before, .toc .toctitle h2::before {
+  display: none !important;
+}
