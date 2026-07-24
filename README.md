@@ -121,16 +121,6 @@ git push && git push --tags
 
 ---
 
-## 🌐 网络提示（中国大陆开发者）
-
-本仓库托管在 GitHub，推送时需要代理。如使用 Clash Verge 默认端口：
-
-```bash
-git config --global http.https://github.com.proxy http://127.0.0.1:7897
-```
-
----
-
 ## 📄 许可协议
 
 本仓库内容采用 **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)** 协议发布，与 Fandom 平台内容协议保持一致。
