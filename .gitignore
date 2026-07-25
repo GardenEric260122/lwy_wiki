@@ -39,3 +39,13 @@ chatgpt-code-*.html
 node_modules/
 dist/
 .cache/
+
+# ============================================
+# Pywikibot 敏感凭据（切勿提交）
+# ============================================
+user-password.py
+
+# Pywikibot 运行时生成文件
+throttle.ctrl
+apicache*/
+*.lwp
