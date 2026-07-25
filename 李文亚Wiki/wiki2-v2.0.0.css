@@ -1,0 +1,577 @@
+/**
+ * =================================================================
+ * 文亚宇宙世界观 Wiki - 桌面端全局样式表
+ * 适配平台：Fandom Desktop / MediaWiki
+ * 版本：2.0.0
+ *
+ * 重构内容：
+ *   - 统一浅色与深色设计令牌
+ *   - 修复一级标题、章节标题和链接在深色模式下不可见
+ *   - 修复目录标题“目录”颜色过暗
+ *   - 修复目录白色闪光问题
+ *   - 修复信息框和表格中的写死浅色背景
+ *   - 减少重复覆盖和 !important 堆叠
+ * =================================================================
+ */
+
+/* ==========================================
+   1. 基础设计令牌：默认浅色主题
+   ========================================== */
+
+:root {
+  --wy-css-version: "2.0.0";
+
+  /* 品牌色 */
+  --wy-primary: #1e3a8a;
+  --wy-primary-hover: #1d4ed8;
+  --wy-accent: #0284c7;
+  --wy-accent-bright: #0ea5e9;
+
+  /* 页面文字 */
+  --wy-heading-1: #0f172a;
+  --wy-heading-2: #0f172a;
+  --wy-heading-3: #1e3a8a;
+  --wy-text-main: #000000;
+  --wy-text-muted: #64748b;
+
+  /* 链接 */
+  --wy-link: #1d4ed8;
+  --wy-link-hover: #0284c7;
+  --wy-link-new: #b42318;
+
+  /* 背景 */
+  --wy-bg-card: #ffffff;
+  --wy-bg-soft: #f8fafc;
+  --wy-bg-subtle: #f1f5f9;
+  --wy-bg-hover: #eaf2fb;
+
+  /* 边框 */
+  --wy-border-color: #dce3ec;
+  --wy-border-strong: #cbd5e1;
+
+  /* 装饰 */
+  --wy-radius-sm: 4px;
+  --wy-radius-md: 8px;
+  --wy-radius-lg: 12px;
+
+  --wy-shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --wy-shadow-md: 0 4px 14px rgba(15, 23, 42, 0.12);
+}
+
+
+/* ==========================================
+   2. Fandom 深色主题设计令牌
+   ========================================== */
+
+body[data-theme="dark"],
+.theme-fandomdesktop-dark,
+.theme-fandommobile-dark {
+  --wy-primary: #8fb3ff;
+  --wy-primary-hover: #b7ccff;
+  --wy-accent: #38bdf8;
+  --wy-accent-bright: #67d2ff;
+
+  --wy-heading-1: #f4f7ff;
+  --wy-heading-2: #dce8ff;
+  --wy-heading-3: #abc6ff;
+  --wy-text-main: #ffffff;
+  --wy-text-muted: #aebbd0;
+
+  --wy-link: #8fb5ff;
+  --wy-link-hover: #c5d6ff;
+  --wy-link-new: #ff9da8;
+
+  --wy-bg-card: #182033;
+  --wy-bg-soft: #222b3d;
+  --wy-bg-subtle: #273247;
+  --wy-bg-hover: #303d56;
+
+  --wy-border-color: #3d4960;
+  --wy-border-strong: #53627c;
+
+  --wy-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.22);
+  --wy-shadow-md: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ==========================================
+   3. 正文与基础排版
+   ========================================== */
+
+.mw-parser-output {
+  color: var(--wy-text-main);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Noto Sans SC",
+    "Microsoft YaHei",
+    "PingFang SC",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+
+/* ==========================================
+   4. 页面一级标题
+   一级标题通常不在 .mw-parser-output 内
+   ========================================== */
+
+.page-header__title,
+.page-header__title-wrapper,
+.page-header__title-wrapper h1,
+.firstHeading,
+#firstHeading {
+  color: var(--wy-heading-1) !important;
+  text-shadow: none !important;
+}
+
+.page-header__title a,
+.page-header__title-wrapper a,
+.firstHeading a,
+#firstHeading a {
+  color: inherit !important;
+}
+
+
+/* 页面标题区域分隔线 */
+
+.page-header {
+  border-bottom-color: var(--wy-border-strong) !important;
+}
+
+
+/* ==========================================
+   5. 正文章节标题
+   ========================================== */
+
+.mw-parser-output h2 {
+  position: relative;
+
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  padding-bottom: 6px;
+
+  color: var(--wy-heading-2) !important;
+  border-bottom: 2px solid var(--wy-border-strong);
+
+  font-weight: 700;
+}
+
+.mw-parser-output h2::before {
+  content: "";
+
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+
+  margin-right: 10px;
+
+  background-color: var(--wy-accent);
+  border-radius: 2px;
+
+  vertical-align: -2px;
+}
+
+.mw-parser-output h3 {
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+
+  color: var(--wy-heading-3) !important;
+  font-weight: 650;
+}
+
+.mw-parser-output h4,
+.mw-parser-output h5,
+.mw-parser-output h6 {
+  color: var(--wy-heading-2) !important;
+}
+
+
+/* ==========================================
+   6. 链接
+   ========================================== */
+
+.mw-parser-output a:not(.new) {
+  color: var(--wy-link) !important;
+  text-decoration: none;
+
+  border-bottom: 1px solid transparent;
+
+  transition:
+    color 0.18s ease,
+    border-bottom-color 0.18s ease;
+}
+
+.mw-parser-output a:not(.new):hover {
+  color: var(--wy-link-hover) !important;
+  border-bottom-color: currentColor;
+}
+
+.mw-parser-output a.new {
+  color: var(--wy-link-new) !important;
+}
+
+.mw-parser-output a.new:hover {
+  filter: brightness(1.15);
+}
+
+
+/* ==========================================
+   7. 章节编辑按钮与铅笔图标
+   ========================================== */
+
+.mw-editsection,
+.mw-editsection a,
+.mw-editsection-bracket,
+.page-header__actions a,
+.page-header__actions button {
+  color: var(--wy-link) !important;
+}
+
+.mw-editsection a:hover,
+.page-header__actions a:hover,
+.page-header__actions button:hover {
+  color: var(--wy-link-hover) !important;
+}
+
+
+/* ==========================================
+   8. Portable Infobox 信息框
+   ========================================== */
+
+.portable-infobox {
+  float: right;
+
+  width: 300px !important;
+  margin: 0 0 20px 20px !important;
+
+  overflow: hidden;
+
+  color: var(--wy-text-main) !important;
+  background-color: var(--wy-bg-card) !important;
+
+  border: 1px solid var(--wy-border-color) !important;
+  border-radius: var(--wy-radius-lg) !important;
+
+  box-shadow: var(--wy-shadow-md) !important;
+}
+
+
+/* 信息框主标题 */
+
+.portable-infobox .pi-title {
+  padding: 12px 8px !important;
+
+  color: #ffffff !important;
+  background:
+    linear-gradient(
+      135deg,
+      #0f172a,
+      #1e3a8a
+    ) !important;
+
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px;
+  text-align: center !important;
+}
+
+
+/* 信息框分组标题 */
+
+.portable-infobox .pi-header {
+  padding: 7px 12px !important;
+
+  color: var(--wy-heading-3) !important;
+  background-color: var(--wy-bg-soft) !important;
+
+  border-top: 1px solid var(--wy-border-color);
+  border-bottom: 1px solid var(--wy-border-color);
+
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px;
+}
+
+
+/* 信息框图片区域 */
+
+.portable-infobox .pi-image-collection,
+.portable-infobox .pi-image {
+  padding: 8px;
+
+  background-color: var(--wy-bg-subtle) !important;
+  text-align: center;
+}
+
+.portable-infobox img {
+  max-width: 100%;
+  height: auto;
+
+  border-radius: var(--wy-radius-sm);
+}
+
+
+/* 信息框数据行 */
+
+.portable-infobox .pi-data {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding: 8px 14px !important;
+
+  color: var(--wy-text-main) !important;
+  background-color: var(--wy-bg-card) !important;
+
+  border-bottom: 1px solid var(--wy-border-color) !important;
+
+  font-size: 13px !important;
+}
+
+.portable-infobox .pi-data-label {
+  width: 40%;
+
+  color: var(--wy-text-muted) !important;
+  font-weight: 600 !important;
+}
+
+.portable-infobox .pi-data-value {
+  width: 60%;
+
+  color: var(--wy-text-main) !important;
+  text-align: right;
+}
+
+
+/* ==========================================
+   9. Wikitable 表格
+   ========================================== */
+
+.mw-parser-output table.wikitable {
+  width: 100%;
+  margin: 20px 0;
+
+  overflow: hidden;
+
+  border: 1px solid var(--wy-border-color);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: var(--wy-radius-md);
+
+  box-shadow: var(--wy-shadow-sm);
+}
+
+
+/* 表头 */
+
+.mw-parser-output table.wikitable > tr > th,
+.mw-parser-output table.wikitable > * > tr > th {
+  padding: 10px 14px;
+
+  color: var(--wy-heading-2) !important;
+  background-color: var(--wy-bg-soft) !important;
+
+  border-right: 1px solid var(--wy-border-color);
+  border-bottom: 2px solid var(--wy-border-strong);
+
+  font-weight: 700;
+  text-align: left;
+}
+
+
+/* 表格数据 */
+
+.mw-parser-output table.wikitable > tr > td,
+.mw-parser-output table.wikitable > * > tr > td {
+  padding: 10px 14px;
+
+  color: var(--wy-text-main) !important;
+  background-color: var(--wy-bg-card) !important;
+
+  border-right: 1px solid var(--wy-border-color);
+  border-bottom: 1px solid var(--wy-border-color);
+}
+
+
+/* 隔行背景 */
+
+.mw-parser-output table.wikitable > * > tr:nth-child(even) > td {
+  background-color: var(--wy-bg-soft) !important;
+}
+
+
+/* 悬停背景 */
+
+.mw-parser-output table.wikitable > * > tr:hover > td {
+  background-color: var(--wy-bg-hover) !important;
+}
+
+
+/* ==========================================
+   10. 目录 TOC
+   ========================================== */
+
+#toc,
+.toc {
+  display: inline-block;
+
+  margin: 20px 0;
+  padding: 16px 26px 18px !important;
+
+  color: var(--wy-text-main) !important;
+  background-color: var(--wy-bg-soft) !important;
+
+  border: 1px solid var(--wy-border-color) !important;
+  border-radius: var(--wy-radius-lg) !important;
+
+  box-shadow: var(--wy-shadow-sm) !important;
+}
+
+
+/* 目录顶部标题行 */
+
+#toc .toctitle,
+.toc .toctitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid var(--wy-border-color);
+}
+
+
+/*
+ * “目录”两个字。
+ * 原版隐身的主要原因就是这里继承了深色的 --wy-secondary。
+ */
+
+#toc .toctitle h2,
+.toc .toctitle h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: var(--wy-heading-1) !important;
+  border: 0 !important;
+
+  font-size: 17px !important;
+  font-weight: 750 !important;
+  line-height: 1.4;
+}
+
+
+/* 禁止正文 h2 的蓝色竖条出现在目录标题前面 */
+
+#toc .toctitle h2::before,
+.toc .toctitle h2::before {
+  display: none !important;
+  content: none !important;
+}
+
+
+/* “隐藏 / 显示”按钮 */
+
+#toc .toctoggle,
+#toc .toctogglelabel,
+#toc .toctogglecheckbox + .toctitle .toctogglelabel,
+.toc .toctoggle,
+.toc .toctogglelabel {
+  color: var(--wy-link) !important;
+}
+
+#toc .toctoggle:hover,
+#toc .toctogglelabel:hover,
+.toc .toctoggle:hover,
+.toc .toctogglelabel:hover {
+  color: var(--wy-link-hover) !important;
+}
+
+
+/* 目录列表 */
+
+#toc ul,
+.toc ul {
+  margin-top: 10px;
+}
+
+#toc li,
+.toc li {
+  color: var(--wy-text-main) !important;
+}
+
+
+/* 目录编号 */
+
+#toc .tocnumber,
+.toc .tocnumber {
+  color: var(--wy-text-muted) !important;
+}
+
+
+/* 目录链接 */
+
+#toc a,
+.toc a {
+  color: var(--wy-text-main) !important;
+  border-bottom: 0 !important;
+}
+
+#toc a:hover,
+.toc a:hover {
+  color: var(--wy-link-hover) !important;
+}
+
+
+/* ==========================================
+   11. 深色模式额外保险
+   ========================================== */
+
+body[data-theme="dark"] .page-header__title,
+body[data-theme="dark"] .page-header__title-wrapper,
+body[data-theme="dark"] #firstHeading,
+body[data-theme="dark"] .firstHeading {
+  color: #f4f7ff !important;
+}
+
+body[data-theme="dark"] #toc .toctitle h2,
+body[data-theme="dark"] .toc .toctitle h2 {
+  color: #f4f7ff !important;
+}
+
+body[data-theme="dark"] .mw-parser-output h2 {
+  color: #dce8ff !important;
+}
+
+body[data-theme="dark"] .mw-parser-output h3 {
+  color: #abc6ff !important;
+}
+
+
+/* ==========================================
+   12. 较窄桌面窗口兼容
+   ========================================== */
+
+@media screen and (max-width: 800px) {
+  .portable-infobox {
+    float: none;
+
+    width: 100% !important;
+    max-width: 420px;
+
+    margin: 0 auto 20px !important;
+  }
+
+  #toc,
+  .toc {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}

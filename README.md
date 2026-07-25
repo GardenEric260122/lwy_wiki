@@ -4,7 +4,7 @@
 > Wiki 站点的 Custom CSS / JS 与相关静态资源。
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue.svg)
-![CSS Version](https://img.shields.io/badge/wiki2.css-v1.0.0-brightgreen.svg)
+![CSS Version](https://img.shields.io/badge/wiki2.css-v2.0.0-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Fandom%20%2F%20MediaWiki-orange.svg)
 
 ---
@@ -26,7 +26,8 @@ lwy_wiki/
 ├── README.md                 ← 本文件
 ├── .gitignore                ← Git 忽略规则
 └── 李文亚Wiki/
-    └── wiki2.css             ← 桌面端全局基础样式表 (v1.0.0)
+    ├── wiki2-v2.0.0.css      ← 桌面端全局样式表 (当前版本 v2.0.0)
+    └── wiki2-v1.0.0.css      ← 桌面端全局样式表 (历史归档 v1.0.0)
 ```
 
 > 后续会陆续加入：
@@ -53,7 +54,7 @@ git clone https://github.com/GardenEric260122/lwy_wiki.git
 cd lwy_wiki
 
 # 使用任意编辑器打开 CSS 文件
-code 李文亚Wiki/wiki2.css
+code 李文亚Wiki/wiki2-v2.0.0.css
 ```
 
 ### 3. 快速核对线上版本号
@@ -62,21 +63,22 @@ code 李文亚Wiki/wiki2.css
 
 ```js
 getComputedStyle(document.documentElement).getPropertyValue('--wy-css-version')
-// → "1.0.0"
+// → "2.0.0"
 ```
 
 ---
 
-## 🎨 样式覆盖范围（`wiki2.css` v1.0.0）
+## 🎨 样式覆盖范围（`wiki2` v2.0.0）
 
 | 模块 | 说明 |
 |------|------|
-| **Design Tokens** | 统一色板 / 圆角 / 阴影变量 |
-| **全局排版** | 正文字体、行高、H2/H3 标题装饰 |
+| **Design Tokens** | 统一浅色 / 深色双主题色板、圆角、阴影变量 |
+| **全局排版** | 正文字体、行高、H1/H2/H3 标题装饰 |
+| **深色模式适配** | 修复标题、链接、目录在深色模式下不可见问题 |
 | **链接交互** | 悬停下划线动画 |
 | **Portable Infobox** | Fandom 信息框重构（渐变标题 + 卡片阴影）|
 | **Wikitable** | 表格美化、隔行变色、悬停高亮 |
-| **Table of Contents** | 目录栏卡片化样式 |
+| **Table of Contents** | 目录栏卡片化样式、修复“目录”标题过暗与白色闪光 |
 
 ---
 
@@ -87,6 +89,7 @@ getComputedStyle(document.documentElement).getPropertyValue('--wy-css-version')
 
 | 版本 | 日期 | 摘要 |
 |------|------|------|
+| **v2.0.0** | 2026-07-25 | 统一浅/深色令牌，修复深色模式可见性、目录闪光、写死背景色 |
 | **v1.0.0** | 2026-07-25 | 初始版本发布 — 全局排版 + Infobox + Wikitable + TOC |
 
 ---
