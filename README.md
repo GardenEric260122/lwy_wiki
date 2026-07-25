@@ -25,9 +25,13 @@
 lwy_wiki/
 ├── README.md                 ← 本文件
 ├── .gitignore                ← Git 忽略规则
-└── 李文亚Wiki/
-    ├── wiki2-v2.0.0.css      ← 桌面端全局样式表 (当前版本 v2.0.0)
-    └── wiki2-v1.0.0.css      ← 桌面端全局样式表 (历史归档 v1.0.0)
+├── user-config.py            ← Pywikibot 站点/账号配置
+├── 李文亚Wiki/
+│   ├── wiki2-v2.0.0.css      ← 桌面端全局样式表 (当前版本 v2.0.0)
+│   └── wiki2-v1.0.0.css      ← 桌面端全局样式表 (历史归档 v1.0.0)
+└── (被 .gitignore 忽略，不入库)
+    ├── user-password.py      ← BotPasswords 凭据（含明文密码）
+    └── throttle.ctrl         ← Pywikibot 运行时速率控制文件
 ```
 
 > 后续会陆续加入：
@@ -64,6 +68,39 @@ code 李文亚Wiki/wiki2-v2.0.0.css
 ```js
 getComputedStyle(document.documentElement).getPropertyValue('--wy-css-version')
 // → "2.0.0"
+```
+
+---
+
+---
+
+## 🤖 Pywikibot 自动化
+
+本仓库同时纳管使用 [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/zh)
+批量维护 Wiki 内容的配置。
+
+### 配置说明
+
+- **`user-config.py`**（已入库）—— 站点家族、语言、登录账号（`WenyaverseBot`）
+  与编辑速率限制（`minthrottle` / `maxthrottle`）。
+- **`user-password.py`**（**不入库**）—— BotPasswords 凭据，格式：
+
+  ```python
+  # ('Bot用户名', 'BotPasswords生成的名字', '系统给的高强度密码')
+  ('WenyaverseBot', 'Pywikibot', '<你的高强度密码>')
+  ```
+
+  在 Fandom **Special:BotPasswords** 页面生成密码后填入。该文件含明文密码，
+  已被 `.gitignore` 忽略，**切勿提交到仓库**。
+
+### 快速开始
+
+```bash
+# 安装 Pywikibot
+pip install pywikibot
+
+# 登录验证（读取 user-config.py / user-password.py）
+python -m pywikibot login
 ```
 
 ---
