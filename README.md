@@ -15,7 +15,7 @@
 自定义样式表、脚本以及相关设计资源。所有改动通过 Git 进行版本控制，
 确保样式表可回滚、可追溯、可协作维护。
 
-**在线 Wiki**：<https://wenya-universe.fandom.com>
+**在线 Wiki**：<https://wenyaverse.fandom.com>
 
 ---
 
