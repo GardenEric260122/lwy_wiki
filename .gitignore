@@ -49,3 +49,11 @@ user-password.py
 throttle.ctrl
 apicache*/
 *.lwp
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
