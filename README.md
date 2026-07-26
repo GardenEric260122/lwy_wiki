@@ -12,10 +12,10 @@
 ## 📖 项目简介
 
 本仓库用于集中管理 **文亚宇宙世界观 Wiki** 在 Fandom / MediaWiki 平台上的
-自定义样式表、脚本以及相关设计资源。所有改动通过 Git 进行版本控制，
-确保样式表可回滚、可追溯、可协作维护。
+自定义样式表、**Pywikibot 自动化脚本**、内容镜像备份与分析文档。所有改动
+通过 Git 进行版本控制，确保可回滚、可追溯、可协作维护。
 
-**在线 Wiki**：<https://wenyaverse.fandom.com>
+**在线 Wiki**：<https://wenyaverse.fandom.com/zh>
 
 ---
 
@@ -23,21 +23,36 @@
 
 ```text
 lwy_wiki/
-├── README.md                 ← 本文件
-├── .gitignore                ← Git 忽略规则
-├── user-config.py            ← Pywikibot 站点/账号配置
-├── 李文亚Wiki/
-│   ├── wiki2-v2.0.0.css      ← 桌面端全局样式表 (当前版本 v2.0.0)
-│   └── wiki2-v1.0.0.css      ← 桌面端全局样式表 (历史归档 v1.0.0)
+├── README.md                        ← 本文件
+├── .gitignore                       ← Git 忽略规则
+│
+├── 李文亚Wiki/                       ← 样式表
+│   ├── wiki2-v2.0.0.css            ← 桌面端全局样式表 (当前版本，已部署至线上 Common.css)
+│   └── wiki2-v1.0.0.css            ← 历史归档 v1.0.0
+│
+├── Pywikibot 配置
+│   ├── user-config.py              ← 站点/账号/代理配置
+│   └── fandom_family.py            ← 手写 family 文件 (scriptpath=/zh)
+│
+├── 自动化脚本
+│   ├── test_bot_connection.py      ← 登录与账号权限验证
+│   ├── test_sandbox_edit.py        ← 沙盒编辑测试 (可传页名参数)
+│   ├── fetch_wiki_content.py       ← 抓取全站内容到 wiki_dump/
+│   ├── create_redirects.py         ← 批量创建重定向 (dry-run/幂等)
+│   └── publish_announcement.py     ← 发布操作公告与讨论页
+│
+├── 文档
+│   ├── wiki内容与样式分析报告.md
+│   ├── 镜像快照问题分析与改进建议.md
+│   └── 公共沙盒页操作指南.md
+│
+├── wiki_dump/                       ← 线上内容镜像快照 (60 条目/91 模板/36 界面页)
+│
 └── (被 .gitignore 忽略，不入库)
-    ├── user-password.py      ← BotPasswords 凭据（含明文密码）
-    └── throttle.ctrl         ← Pywikibot 运行时速率控制文件
+    ├── user-password.py            ← BotPasswords 凭据（含明文密码）
+    ├── .venv/                      ← Python 虚拟环境
+    └── throttle.ctrl               ← Pywikibot 运行时速率控制文件
 ```
-
-> 后续会陆续加入：
-> - `wiki-mobile.css` —— 移动端样式
-> - `common.js` —— 站点级脚本增强
-> - `assets/` —— 图标、字体、SVG 素材
 
 ---
 
@@ -72,36 +87,59 @@ getComputedStyle(document.documentElement).getPropertyValue('--wy-css-version')
 
 ---
 
----
-
 ## 🤖 Pywikibot 自动化
 
-本仓库同时纳管使用 [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/zh)
-批量维护 Wiki 内容的配置。
+本仓库纳管使用 [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/zh)
+批量维护 Wiki 的完整配置与脚本，已实测可正常登录、编辑。
+
+### 环境准备
+
+```bash
+# 1) 创建虚拟环境并安装（系统 Python 为 externally-managed，需用 venv）
+python3 -m venv .venv
+.venv/bin/pip install pywikibot
+
+# 2) 确保代理开启（Fandom 需经代理访问；地址已写入 user-config.py）
+#    Clash Verge 系统代理：127.0.0.1:7897
+```
 
 ### 配置说明
 
-- **`user-config.py`**（已入库）—— 站点家族、语言、登录账号（`WenyaverseBot`）
-  与编辑速率限制（`minthrottle` / `maxthrottle`）。
-- **`user-password.py`**（**不入库**）—— BotPasswords 凭据，格式：
+- **`user-config.py`**（已入库）—— 指定 family/语言、注册 `fandom_family.py`、
+  登录账号、浏览器式 User-Agent、Clash 代理（`127.0.0.1:7897`）、编辑速率限制。
+- **`fandom_family.py`**（已入库）—— 手写 family 文件，`scriptpath` 指向 `/zh`
+  （本站 API 在 `/zh/api.php`），避免 Fandom 拦截自动探测（403）。
+- **`user-password.py`**（**不入库**）—— BotPasswords 凭据，Pywikibot 11 格式：
 
   ```python
-  # ('Bot用户名', 'BotPasswords生成的名字', '系统给的高强度密码')
-  ('WenyaverseBot', 'Pywikibot', '<你的高强度密码>')
+  # ('Bot主账号用户名', BotPassword('BotPasswords名字', '高强度密码'))
+  ('WenyaverseBot', BotPassword('WenyaverseBot', '<你的高强度密码>'))
   ```
 
-  在 Fandom **Special:BotPasswords** 页面生成密码后填入。该文件含明文密码，
-  已被 `.gitignore` 忽略，**切勿提交到仓库**。
+  在 Fandom **Special:BotPasswords** 生成密码后填入。含明文密码，已被
+  `.gitignore` 忽略，**切勿提交或外传**。
+
+### 脚本一览
+
+| 脚本 | 用途 |
+|------|------|
+| `test_bot_connection.py` | 验证登录状态与账号权限组 |
+| `test_sandbox_edit.py [页名]` | 沙盒页「写入→读回」测试，验证编辑权限 |
+| `fetch_wiki_content.py` | 抓取全站条目/模板/界面页/配置到 `wiki_dump/` |
+| `create_redirects.py [--execute] [--limit N]` | 批量创建重定向，默认 dry-run，幂等安全 |
+| `publish_announcement.py [--execute]` | 发布机器人操作公告与社区讨论页 |
 
 ### 快速开始
 
 ```bash
-# 安装 Pywikibot
-pip install pywikibot
-
-# 登录验证（读取 user-config.py / user-password.py）
-python -m pywikibot login
+# 验证登录（须开着代理，用 venv 的 python）
+.venv/bin/python test_bot_connection.py
 ```
+
+> ⚠️ 运行须知：
+> 1. **必须开启 Clash Verge 代理**（脚本读取 user-config.py 内置代理，但代理软件本身要运行）；
+> 2. **用 `.venv/bin/python`**，勿用系统 `python3`（未装 pywikibot）；
+> 3. 运行时出现的 `Sleeping for X seconds` 是正常限速保护，非卡死。
 
 ---
 
@@ -128,6 +166,20 @@ python -m pywikibot login
 |------|------|------|
 | **v2.0.0** | 2026-07-25 | 统一浅/深色令牌，修复深色模式可见性、目录闪光、写死背景色 |
 | **v1.0.0** | 2026-07-25 | 初始版本发布 — 全局排版 + Infobox + Wikitable + TOC |
+
+---
+
+## 🧹 Wiki 维护操作记录
+
+通过机器人对线上 Wiki 执行的自动化维护（详见线上
+[机器人操作日志](https://wenyaverse.fandom.com/zh/wiki/Project:机器人操作日志)）：
+
+| 日期 | 操作 | 说明 |
+|------|------|------|
+| 2026-07-27 | 重定向规范化 | 创建 6 个重定向消除「带/不带教授」分裂红链（孙笑川、卢初雪、卢德霜、侯国玉、关瑞生 → 各自「教授」页；李文亚教授 → 李文亚）|
+| 2026-07-27 | 发布公告/讨论页 | 创建机器人用户页、操作日志页、社区讨论页 |
+
+> 完整问题扫描与后续计划见 [`镜像快照问题分析与改进建议.md`](镜像快照问题分析与改进建议.md)。
 
 ---
 
