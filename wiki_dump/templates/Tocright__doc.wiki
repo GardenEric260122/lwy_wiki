@@ -1,0 +1,4 @@
+;Description
+{{t|tocright}} forces the auto-generated Table of Contents for an article to appear floated to the right side of the page, in order to improve article layout.
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

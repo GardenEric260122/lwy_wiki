@@ -1,0 +1,6 @@
+<inputbox>
+type=create
+bgcolor=#f3f3ff
+</inputbox><noinclude>
+[[Category:模板]]
+</noinclude>

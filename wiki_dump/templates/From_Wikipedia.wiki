@@ -1,0 +1,6 @@
+{| align="center" border="0" cellpadding="3" cellspacing="3" style="border:1px solid #E0E0E0; background-color:#F8F8F8; color:#000; margin:0.5em auto;"
+|- 
+| style="font-size:90%;" | 本文內容包括由中文維基百科的[[wikipedia:zh:{{{1|{{FULLPAGENAME}}}}}|{{{1|{{FULLPAGENAME}}}}}]]條目而來的CC BY-SA 3.0內容。（[http://zh.wikipedia.org/w/index.php?title={{urlencode:{{{1|{{FULLPAGENAMEE}}}}}}}&action=history 作者]）
+|}<noinclude>
+[[Category:模板]]
+</noinclude>

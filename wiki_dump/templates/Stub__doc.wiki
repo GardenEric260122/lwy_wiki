@@ -1,0 +1,5 @@
+
+;模板介紹
+:您可以將這個模板置於內容較少但仍有保留價值的頁面頂部，來告訴其他人這個頁面內容不完整並呼籲大家一起完善它。
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

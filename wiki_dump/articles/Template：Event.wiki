@@ -1,0 +1,28 @@
+<includeonly>
+<table class="wikitable" style="float:right; width:300px; margin-left:10px; font-size:90%;">
+<tr>
+<th colspan="2" style="text-align:center; background-color:#2a2a2a; color:white;">{{{name|事件}}}</th>
+</tr>
+{{#if:{{{image|}}}|
+<tr><td colspan="2" style="text-align:center;">{{{image}}}</td></tr>
+}}
+{{#if:{{{caption|}}}|
+<tr><td colspan="2" style="text-align:center; font-size:85%;">{{{caption}}}</td></tr>
+}}
+{{#if:{{{type|}}}|
+<tr><th>类型</th><td>{{{type}}}</td></tr>
+}}
+{{#if:{{{date|}}}|
+<tr><th>日期</th><td>{{{date}}}</td></tr>
+}}
+{{#if:{{{location|}}}|
+<tr><th>地点</th><td>{{{location}}}</td></tr>
+}}
+{{#if:{{{organizer|}}}|
+<tr><th>组织者</th><td>{{{organizer}}}</td></tr>
+}}
+{{#if:{{{outcome|}}}|
+<tr><th>结果</th><td>{{{outcome}}}</td></tr>
+}}
+</table>
+</includeonly>

@@ -1,0 +1,8 @@
+<noinclude><div style="display: none;"></noinclude><div style="border: 1px solid black;">
+<div style="background: #ddd; color: #111; padding: 1em; margin: 0em;">'''模板-{zh-hans:文档; zh-hant:文件;}-''' <span style="font-size: 85%;">{{#if:{{{content|}}}||[ [[{{#if:{{{1|}}}|{{{1|}}}|{{FULLPAGENAME}}/doc}}|模板-{zh-hans:文档; zh-hant:文件;}-]]頁面 ]}}（'''※提醒'''：此模板有時隱藏或不可見）</span></div><div style="padding: 1em; padding-bottom: 0em; margin: 0em;">
+{{#if:{{{content|}}}|{{{content|}}}|{{{{{1|{{FULLPAGENAME}}/doc}}}}}}}
+</div><br style="clear: both;" /><div style="background: #ddd; color: #111; padding: 0.5em; margin: 0em; font-size: 85%; text-align: right;">（[[Template:Documentation|這如何運作？]]）
+</div></div><noinclude>
+</div>{{Documentation}}
+[[Category:模板]]
+[[Category:模板文件|*]]</noinclude>

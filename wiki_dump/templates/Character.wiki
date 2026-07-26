@@ -1,0 +1,44 @@
+<infobox>
+  <title source="name">
+    <default>{{PAGENAME}}</default>
+  </title>
+
+  <image source="image">
+    <caption source="caption"/>
+  </image>
+
+  <group>
+    <header>基本信息</header>
+    <data source="foreign_name">
+      <label>外文名</label>
+    </data>
+    <data source="birth_date">
+      <label>出生日期</label>
+    </data>
+    <data source="birth_place">
+      <label>出生地</label>
+    </data>
+    <data source="occupation">
+      <label>职业/身份</label>
+    </data>
+  </group>
+
+  <group>
+    <header>任职与研究</header>
+    <data source="affiliation">
+      <label>所属机构</label>
+    </data>
+    <data source="position">
+      <label>主要职务</label>
+    </data>
+    <data source="colleagues">
+      <label>同僚</label>
+    </data>
+    <data source="fields">
+      <label>研究领域</label>
+    </data>
+    <data source="rival">
+      <label>主要争议对象</label>
+    </data>
+  </group>
+</infobox>

@@ -1,0 +1,9 @@
+此乃一個顯示模板使用方法之模板(含最多20個參數):
+
+用法:
+:{{t|t|參數1|參數2|參數3|參數4|...|參數20}} <!-- 自我示範最佳例子 -->
+
+例子:
+:請參閱討論區資訊
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

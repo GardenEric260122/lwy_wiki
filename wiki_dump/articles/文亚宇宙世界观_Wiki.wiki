@@ -1,0 +1,168 @@
+{| style="width:100%;"
+| style="width:68%;vertical-align:top;" |
+
+== 欢迎来到{{SITENAME}} ==
+
+欢迎来到{{SITENAME}}！<br>
+'''一个与现实无关、却拥有完整历史、机构、教授以及事件的学术世界观。'''<br>
+'''这里没有真实人物，也不存在现实中的大学与组织，一切内容属于虚构设定。'''
+
+<p style="margin-top:25px;">
+{{SITENAME}}由社区共同维护。<br>
+目前共有
+[[Special:Statistics|{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}} 名活跃编辑者]]
+共同维护
+[[Special:AllPages|{{formatnum:{{NUMBEROFARTICLES}}|R}} 个条目]]
+（共 {{formatnum:{{NUMBEROFPAGES}}|R}} 个页面），
+以及
+[[Special:文件列表|{{formatnum:{{NUMBEROFFILES}}|R}} 个文件]]。
+</p>
+
+| style="width:32%;text-align:center;vertical-align:middle;" |
+
+[[File:wywiki_logo.jpg|360px|link=]]
+
+|}
+
+== 浏览世界观 ==
+<div style="
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:16px;
+margin:20px 0;
+">
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Professor.svg|56px|link=教授列表]]
+<br><br>
+'''[[教授列表]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Institute.svg|56px|link=机构列表]]
+<br><br>
+'''[[机构列表]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:School.svg|56px|link=学校列表]]
+<br><br>
+'''[[学校列表]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Concept.svg|56px|link=概念列表]]
+<br><br>
+'''[[概念列表]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Event.svg|56px|link=事件]]
+<br><br>
+'''[[事件]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Tutorial.svg|56px|link=教程请看这里]]
+<br><br>
+'''[[教程请看这里|写作教程]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:Category.svg|56px|link=Special:Categories]]
+<br><br>
+'''[[Special:Categories|分类]]'''
+</div>
+
+<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+[[File:History.svg|56px|link=Special:RecentChanges]]
+<br><br>
+'''[[Special:RecentChanges|最近更改]]'''
+</div>
+
+</div>
+
+== 开始您的创作 ==
+
+<div style="
+background:#FBEFA0;
+border:1px solid #F1EDD5;
+border-radius:16px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+">
+
+<div style="
+background:#F1EDD5;
+padding:20px 25px;
+font-size:250%;
+font-weight:bolder;
+color:#000000;
+">
+开始您的创作
+</div>
+
+<div style="
+padding:24px 32px;
+font-size:110%;
+line-height:2;
+">
+
+<p>
+我们是一个合作性的网站，请自由编辑 Wiki 页面。
+点击上方的<b>编辑</b>按钮即可开始您的创作。
+</p>
+
+<ol>
+
+<li><b>请避开政治敏感内容和社会议题及色情内容的创作</b></li>
+
+<li><b>禁止宣传与本维基无关的内容。</b></li>
+
+<li><b>请不要套用著名人物或具有争议人物的真实姓名。</b></li>
+
+<li><b>请尊重所有人，包括李教授本人。</b></li>
+
+<li>
+<b>人物图像请使用 AI 生成，不要使用真人图像。</b><br>
+推荐使用 GPT-Image2 或其他 AI 绘图工具。
+</li>
+
+<li><b>严禁任何打广告行为。</b><br>
+
+<li>
+<b>允许创作李教授未读过的内容。</b><br>
+请明确标注为「事实争议」内容。
+</li>
+
+<li>
+<b>官方交流群</b><br>
+QQ群：<b style="font-size:120%;">640168366</b>
+</li>
+
+</ol>
+
+
+</div>
+
+</div>
+== 免责声明 ==
+该维基'''所有内容'''为'''虚构内容'''，'''全部与现实无关'''。指向现实、有冒犯性或者敏感的'''所有'''内容都会被删除。
+
+该维基中的'''所有教授'''在现实中'''并不存在'''，所有同名皆为巧合。
+
+== -{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}- ==
+{{Special:RecentChanges/5}}
+
+<mainpage-endcolumn />
+<mainpage-rightcolumn-start />
+
+-{zh-hans:视频; zh-cn:视频; zh-hant:影片; zh-tw:影片;}-和图片是最好的-{zh-hans:信息资源; zh-cn:信息资源; zh-hant:資訊來源; zh-tw:資訊來源;}-。您可以直接从您的电脑上传-{zh-hans:文件; zh-cn:文件; zh-hant:檔案; zh-tw:檔案;}-。
+
+<mainpage-endcolumn />
+
+__NOTOC__
+__NOEDITSECTION__
+
+[[Category:索引| ]]

@@ -1,0 +1,6 @@
+;Description
+:This template is used to mark images with the CC-BY-SA license.
+;Syntax
+:Type <code>{{t|CC BY-SA 3.0}}</code> on the image information page.
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

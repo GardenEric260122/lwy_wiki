@@ -1,0 +1,6 @@
+;模板介紹
+'''显示为''': <code><nowiki>{{</nowiki></code>
+
+這個模板是用來替換兩個開大弧號「'''{{'''」。
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

@@ -1,0 +1,25 @@
+本模板用於在模板頁面插入-{zh-hans:帮助文档; zh-hant:說明文件;}-。
+
+== 語法 ==
+=== 使用/doc頁面 ===
+<pre>
+&lt;noinclude>
+<br style="clear: both;" />
+{{Documentation}}
+
+[[Category:模板]]
+&lt;/noinclude>
+</nowiki></pre>
+
+=== 使用內聯-{zh-hans:文档; zh-hant:文件;}- ===
+<pre>-{}-
+{{Documentation
+| content = 
+
+<-{zh-hans:文档; zh-hant:文件;}-內容>
+
+}}
+</pre>
+<includeonly>[[Category:模板]]
+[[Category:模板文件|*]]</includeonly><noinclude>
+[[Category:模板文件]]</noinclude>

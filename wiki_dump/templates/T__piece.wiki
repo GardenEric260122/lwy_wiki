@@ -1,0 +1,3 @@
+{{#ifeq: {{{1|---}}}|---||&#124;<font color="gray">''&lt;{{{1}}}&gt;''</font>}}<noinclude>
+[[Category:模板]]
+</noinclude>

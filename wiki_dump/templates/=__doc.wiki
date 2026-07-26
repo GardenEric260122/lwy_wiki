@@ -1,0 +1,7 @@
+;Description
+:This template is used when escaping <code>=</code> when contained in [[w:Help:Parser functions|Parser functions]].
+;This template cannot be substituted.
+;Syntax
+:Insert this template using <code>{{t|{{=}}}}</code>
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

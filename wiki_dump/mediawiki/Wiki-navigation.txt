@@ -1,0 +1,10 @@
+* #|custom-fd-community-header-pages
+** #newlychanged#|custom-fd-community-header-newlychanged
+** Blog:Recent_posts|custom-fd-community-header-recentblogs
+* #|custom-fd-community-header-categories
+** #category1#
+** #category2#
+* #|custom-fd-community-header-community
+** Project:Community_Portal|custom-fd-community-header-communityportal
+** w:zh:|custom-fd-community-header-communitycentral
+** Help:Contents|custom-fd-community-header-help

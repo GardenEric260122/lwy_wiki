@@ -1,0 +1,6 @@
+;Description
+:This template is used for creating two pipes, in [[w:Help:Table|wikitables]] contained in [[w:Help:Parser functions|Parser functions]].
+;Syntax
+:Insert this template using <code>{{t|!!}}</code>
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

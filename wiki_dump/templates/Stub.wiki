@@ -1,0 +1,5 @@
+<div class="notice hatnote editing stub hidden">
+: 這是一個未完成的頁面，快幫我們[{{fullurl:{{FULLPAGENAMEE}}|action=edit}} 完善它]吧！{{#if:{{{1|}}}|<div>
+{{{1|}}}</div>}}</div><noinclude>
+<br style="clear: both" />
+{{Documentation}}</noinclude>

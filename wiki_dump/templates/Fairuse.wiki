@@ -1,0 +1,4 @@
+<div class="boilerplate" id="c-fairuse" style="width:90%; margin:0 auto; padding:10px; border:1px solid #A8ACA8; background:#FFFFCC; color:#000;">
+'''这个档案为版权所有，只能在符合美国著作权法的合理使用条件下使用'''</div><noinclude>
+{{Documentation}}
+</noinclude>

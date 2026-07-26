@@ -1,0 +1,2 @@
+{{LicenseBox|text=本档案以[https://creativecommons.org/licenses/by-sa/3.0/deed.zh CC BY-SA 3.0]发布。}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>[[Category:CC-BY-SA files]]</includeonly>}}<noinclude>
+{{Documentation}}</noinclude>

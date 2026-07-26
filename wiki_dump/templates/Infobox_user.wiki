@@ -1,0 +1,310 @@
+<infobox accent-color-source="color" accent-color-text-source="headerfontcolor" accent-color-default="#bfe6ef" accent-color-text-default="#3a3a3a">
+  <header><center><big>{{{title|{{PAGENAME}}}}}</big></center></header>
+  <header>{{#if:{{{status|}}}|<center><small>{{{status|}}}</small></center>}}</header>
+  <image source="image">
+    <caption source="caption">
+      <format><center>{{{caption|}}}</center></format>
+    </caption>
+  </image>
+  <data source="name">
+    <label>姓名</label>
+  </data>
+  <data source="nickname">
+    <label>暱稱</label>
+  </data>
+  <data source="nationality">
+    <label>國籍</label>
+  </data>
+  <data source="country">
+    <label>國家</label>
+  </data>
+  <data source="location">
+    <label>目前位置</label>
+  </data>
+  <data source="languages">
+    <label>語言</label>
+  </data>
+  <data source="timezone">
+    <label>時區</label>
+  </data>
+  <data source="current_time">
+    <label>-{zh:目前; zh-hans:当前; zh-hant:目前;}-時間</label>
+  </data>
+  <group>
+    <header><center>{{NoteTA|noindicator=true}}[[:Category:使用者語文|使用者語文水平]]</center></header>
+    <navigation>{{#if:{{{babel|}}}|<div style="margin: auto; width: min-content;">{{{babel|}}}</div><div style="clear: both;"></div>}}</navigation>
+  </group>
+  <group collapse="open">
+    <header><center>參與的wiki</center></header>
+    <navigation>{{#if:{{{wikis|}}}|<div class="plainlinks" style="margin: auto; width: min-content;">{{{wikis|}}}</div><div style="clear: both;"></div>}}</navigation>
+  </group>
+  <group>
+    <header><center>基本-{zh:資料; zh-hans:信息; zh-hant:資料;}-</center></header>
+    <data source="ethnicity">
+      <label>民族</label>
+    </data>
+    <data source="race">
+      <label>種族</label>
+    </data>
+    <data source="gender">
+      <label>性別</label>
+    </data>
+    <data source="height">
+      <label>身高</label>
+    </data>
+    <data source="weight">
+      <label>體重</label>
+    </data>
+    <data source="hair">
+      <label>髮色</label>
+    </data>
+    <data source="eyes">
+      <label>瞳色</label>
+    </data>
+    <data source="handedness">
+      <label>慣用手</label>
+    </data>
+    <data source="blood_type">
+      <label>血型</label>
+    </data>
+  </group>
+  <group>
+    <header><center>家人和朋友</center></header>
+    <data source="marital_status">
+      <label>婚姻狀況</label>
+    </data>
+    <data source="spouse">
+      <label>配偶</label>
+    </data>
+    <data source="girlfriend">
+      <label>女友</label>
+    </data>
+    <data source="boyfriend">
+      <label>男友</label>
+    </data>
+    <data source="children">
+      <label>兒女</label>
+    </data>
+    <data source="siblings">
+      <label>兄弟姐妹</label>
+    </data>
+    <data source="pets">
+      <label>寵物</label>
+    </data>
+  </group>
+  <group>
+    <header><center>教育和就業</center></header>
+    <data source="occupation">
+      <label>職業</label>
+    </data>
+    <data source="education">
+      <label>教育程度</label>
+    </data>
+    <data source="primaryschool">
+      <label>小學</label>
+    </data>
+    <data source="midschool">
+      <label>中學</label>
+    </data>
+    <data source="highschool">
+      <label>高中</label>
+    </data>
+    <data source="college">
+      <label>學院</label>
+    </data>
+    <data source="university">
+      <label>大學</label>
+    </data>
+  </group>
+  <group>
+    <header><center>愛好、喜愛和信仰</center></header>
+    <data source="hobbies">
+      <label>愛好</label>
+    </data>
+    <data source="religion">
+      <label>宗教信仰</label>
+    </data>
+    <data source="movies">
+      <label>電影</label>
+    </data>
+    <data source="shows">
+      <label>節目</label>
+    </data>
+    <data source="books">
+      <label>書籍</label>
+    </data>
+    <data source="games">
+      <label>遊戲</label>
+    </data>
+  </group>
+  <group>
+    <header><center>-{zh:聯絡; zh-hans:联系; zh-cn:联系; zh-hant:聯絡; zh-tw:聯絡;}-方式</center></header>
+    <data source="website">
+      <label>網站</label>
+    </data>
+    <data source="blog">
+      <label>-{zh:網誌; zh-hans:博客; zh-cn:博客; zh-hant:網誌; zh-tw:網誌; zh-hk:網誌;}-</label>
+    </data>
+    <data source="email">
+      <label>電子郵件</label>
+    </data>
+  </group>
+  <group>
+    <header><center>帳號統計</center></header>
+    <data source="account_creation">
+      <label>建立帳號</label>
+    </data>
+    <data source="joined_date">
+      <label>加入本wiki</label>
+    </data>
+    <data source="first_edit">
+      <label>首次編輯</label>
+    </data>
+    <data source="global_edit_count">
+      <label>全域編輯數</label>
+    </data>
+    <data source="edit_count">
+      <label>本wiki編輯數</label>
+    </data>
+    <data source="permissions">
+      <label>權限</label>
+    </data>
+    <data source="signature">
+      <label>簽名</label>
+    </data>
+  </group>
+  <group collapse="open">
+    <header><center>用戶框</center></header>
+    <navigation>{{#if:{{{userboxes|}}}|<div style="margin: auto; width: min-content;">{{{userboxes|}}}</div><div style="clear: both;"></div>}}</navigation>
+  </group>
+  <header>{{#if:{{{custom_header|}}}|<center>{{{custom_header|}}}</center>}}</header>
+  <navigation>{{{custom_data|}}}</navigation>
+  <data source="custom_data1">
+    <label>{{{custom_label1|}}}</label>
+  </data>
+  <data source="custom_data2">
+    <label>{{{custom_label2|}}}</label>
+  </data>
+  <data source="custom_data3">
+    <label>{{{custom_label3|}}}</label>
+  </data>
+  <data source="custom_data4">
+    <label>{{{custom_label4|}}}</label>
+  </data>
+  <data source="custom_data5">
+    <label>{{{custom_label5|}}}</label>
+  </data>
+  <data source="custom_data6">
+    <label>{{{custom_label6|}}}</label>
+  </data>
+  <data source="custom_data7">
+    <label>{{{custom_label7|}}}</label>
+  </data>
+  <data source="custom_data8">
+    <label>{{{custom_label8|}}}</label>
+  </data>
+  <data source="custom_data9">
+    <label>{{{custom_label9|}}}</label>
+  </data>
+</infobox><noinclude>
+<br style="clear: both" />
+{{Documentation
+| content   = 
+
+; 語法
+<pre>
+{{Infobox user
+| color             = 
+| headerfontcolor   = 
+
+| title             = 
+| status            = 
+| image             = 
+| caption           = 
+| name              = 
+| nickname          = 
+| nationality       = 
+| country           = 
+| location          = 
+| languages         = 
+| timezone          = 
+| current_time      = <!-- {{Current time|}} -->
+
+| babel             = 
+
+| wikis             = 
+
+| ethnicity         = 
+| race              = 
+| gender            = 
+| height            = 
+| weight            = 
+| hair              = 
+| eyes              = 
+| handedness        = 
+| blood_type        = 
+
+| marital_status    = 
+| spouse            = 
+| girlfriend        = 
+| boyfriend         = 
+| children          = 
+| siblings          = 
+| pets              = 
+
+| occupation        = 
+| education         = 
+| primaryschool     = 
+| midschool         = 
+| highschool        = 
+| college           = 
+| university        = 
+
+| hobbies           = 
+| religion          = 
+| movies            = 
+| shows             = 
+| books             = 
+| games             = 
+
+| website           = 
+| blog              = 
+| email             = 
+
+| account_creation  = 
+| joined_date       = 
+| first_edit        = 
+| global_edit_count = 
+| edit_count        = 
+| permissions       = 
+| signature         = 
+
+| userboxes         = 
+
+| custom_header     = 
+| custom_data       = 
+| custom_label1     = 
+| custom_data1      = 
+| custom_label2     = 
+| custom_data2      = 
+| custom_label3     = 
+| custom_data3      = 
+| custom_label4     = 
+| custom_data4      = 
+| custom_label5     = 
+| custom_data5      = 
+| custom_label6     = 
+| custom_data6      = 
+| custom_label7     = 
+| custom_data7      = 
+| custom_label8     = 
+| custom_data8      = 
+| custom_label9     = 
+| custom_data9      = 
+}}
+</pre>
+
+}}
+
+[[Category:模板]]
+</noinclude>

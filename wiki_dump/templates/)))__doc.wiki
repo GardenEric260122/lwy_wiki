@@ -1,0 +1,6 @@
+;Description
+'''Result''': <code><nowiki>}}}</nowiki></code>
+
+This template returns a set of three ''ending curly braces''.
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

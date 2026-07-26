@@ -1,0 +1,6 @@
+;Description
+:This template is used to mark pages for deletion, categorizing them in [[:Category:Candidates for deletion]].
+;Syntax
+:Type <code>{{t|delete}}</code> on the page to be deleted.'''
+
+<includeonly>[[Category:模板]]</includeonly><noinclude>[[Category:模板文件]]</noinclude>

@@ -1,0 +1,5 @@
+<onlyinclude>{{#time:H:i|{{#expr:{{{1|0}}} * 60 + {{{2|0}}} round 0}} minutes}}</onlyinclude><noinclude>
+<br style="clear: both" />
+
+[[Category:模板]]
+</noinclude>
