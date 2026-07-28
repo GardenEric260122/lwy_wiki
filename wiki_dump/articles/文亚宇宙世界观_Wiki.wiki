@@ -63,9 +63,9 @@ margin:20px 0;
 </div>
 
 <div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
-[[File:Tutorial.svg|56px|link=教程请看这里]]
+[[File:Tutorial.svg|56px|link=文亚宇宙世界观写作指南]]
 <br><br>
-'''[[教程请看这里|写作教程]]'''
+'''[[文亚宇宙世界观写作指南|写作指南]]'''
 </div>
 
 <div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">

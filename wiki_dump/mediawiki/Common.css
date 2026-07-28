@@ -575,3 +575,57 @@ body[data-theme="dark"] .mw-parser-output h3 {
     max-width: 100%;
   }
 }
+
+/* ===========================
+   Maintenance box
+   =========================== */
+
+.wy-maintenance{
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:14px;
+
+    margin:18px 0;
+
+    padding:16px;
+
+    border:1px solid #d7d7d7;
+
+    border-left:8px solid #d97706;
+
+    border-radius:8px;
+
+    background:#fff9eb;
+
+    box-shadow:0 1px 3px rgba(0,0,0,.08);
+}
+
+.wy-maintenance-icon{
+
+    font-size:30px;
+
+    line-height:1;
+}
+
+.wy-maintenance-content{
+
+    flex:1;
+}
+
+.wy-maintenance-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#b45309;
+
+    margin-bottom:6px;
+}
+
+.wy-maintenance-text{
+
+    line-height:1.7;
+}

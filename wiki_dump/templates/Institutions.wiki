@@ -1,0 +1,96 @@
+<infobox>
+  <title source="name">
+    <default>{{PAGENAME}}</default>
+  </title>
+
+  <image source="image">
+    <caption source="caption"/>
+  </image>
+
+  <group>
+    <header>基本信息</header>
+
+    <data source="foreign_name">
+      <label>外文名</label>
+    </data>
+
+    <data source="type">
+      <label>机构类型</label>
+    </data>
+
+    <data source="founded">
+      <label>成立时间</label>
+    </data>
+
+    <data source="founder">
+      <label>创立者</label>
+    </data>
+
+    <data source="location">
+      <label>所在地</label>
+    </data>
+
+    <data source="status">
+      <label>现状</label>
+    </data>
+  </group>
+
+
+  <group>
+    <header>组织信息</header>
+
+    <data source="director">
+      <label>负责人</label>
+    </data>
+
+    <data source="members">
+      <label>人员规模</label>
+    </data>
+
+    <data source="departments">
+      <label>下属部门</label>
+    </data>
+
+    <data source="affiliation">
+      <label>所属体系</label>
+    </data>
+
+  </group>
+
+
+  <group>
+    <header>研究与活动</header>
+
+    <data source="fields">
+      <label>研究领域</label>
+    </data>
+
+    <data source="projects">
+      <label>主要项目</label>
+    </data>
+
+    <data source="achievements">
+      <label>代表成果</label>
+    </data>
+
+  </group>
+
+
+  <group>
+    <header>历史评价</header>
+
+    <data source="history">
+      <label>发展历程</label>
+    </data>
+
+    <data source="controversy">
+      <label>主要争议</label>
+    </data>
+
+    <data source="evaluation">
+      <label>机构评价</label>
+    </data>
+
+  </group>
+
+</infobox>

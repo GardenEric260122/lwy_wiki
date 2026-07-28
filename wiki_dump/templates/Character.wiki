@@ -31,9 +31,6 @@
     <data source="position">
       <label>主要职务</label>
     </data>
-    <data source="colleagues">
-      <label>同僚</label>
-    </data>
     <data source="fields">
       <label>研究领域</label>
     </data>

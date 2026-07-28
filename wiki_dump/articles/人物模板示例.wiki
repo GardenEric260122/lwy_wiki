@@ -1,0 +1,149 @@
+__NOTOC__
+__NOEDITSECTION__
+
+<div style="
+background:#E8E2B5;
+border:1px solid #C7BD8A;
+border-radius:16px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+">
+
+<div style="
+background:#C8C19A;
+padding:16px 24px;
+font-size:180%;
+font-weight:bold;
+color:#333;
+">
+人物信息框模板使用指南
+</div>
+
+<div style="
+padding:25px 35px;
+font-size:110%;
+line-height:2;
+">
+
+本页面用于说明如何使用人物信息框模板。
+
+创建人物条目时，可以通过人物信息框快速添加人物基本信息。
+
+</div>
+
+</div>
+
+
+== 基本用法 ==
+
+在人物页面顶部加入：
+
+<pre>
+{{Character
+|name=
+|image=
+|caption=
+|foreign_name=
+|birth_date=
+|birth_place=
+|occupation=
+|affiliation=
+|position=
+|fields=
+|rival=
+}}
+</pre>
+如果某个参数没有则不显示
+
+== 参数说明 ==
+
+
+{| class="wikitable" style="width:100%;"
+! 参数 !! 用途 !! 示例
+|-
+| name
+| 人物姓名，一般自动读取页面名称
+| 李文亚
+|-
+| image
+| 人物图片文件名
+| Li Wenya.png
+|-
+| caption
+| 图片说明
+| 李文亚教授形象图
+|-
+| foreign_name
+| 外文名或其他语言名称
+| Lin Wenya
+|-
+| birth_date
+| 出生日期
+| 1980年1月1日
+|-
+| birth_place
+| 出生地点
+| 文亚市
+|-
+| occupation
+| 职业或身份
+| 教授、研究员
+|-
+| affiliation
+| 所属机构
+| 文亚大学
+|-
+| position
+| 主要职务
+| 校长、研究员
+|-
+| fields
+| 研究领域
+| 理论物理、哲学
+|-
+| rival
+| 主要争议对象
+| 某教授
+|}
+
+
+== 完整示例 ==
+
+{{Character
+|name=林泽远教授
+|image=Lin_Zeyuan.png
+|caption=林泽远教授
+|foreign_name=Lin Zeyuan
+|birth_date=1985年4月12日
+|birth_place=文亚市
+|occupation=理论物理学家
+|affiliation=[[文亚基础科学研究院]]
+|position=高级研究员
+|fields=复杂系统理论、数学建模
+|rival=[[赵明教授]]
+}}
+
+<pre>
+{{Character
+|name=林泽远教授
+|image=Lin Zeyuan.png
+|caption=林泽远教授
+|foreign_name=Lin Zeyuan
+|birth_date=1985年4月12日
+|birth_place=文亚市
+|occupation=理论物理学家
+|affiliation=[[文亚基础科学研究院]]
+|position=高级研究员
+|fields=复杂系统理论、数学建模
+|rival=[[赵明教授]]
+}}
+</pre>
+
+
+显示效果：如右图➡️
+
+
+
+== 注意事项 ==
+* `image` 填写上传后的文件名，不需要添加 `File:`。

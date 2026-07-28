@@ -1,0 +1,11 @@
+<includeonly>
+<div class="wy-maintenance wy-maintenance-{{{category|注意}}}">
+  <div class="wy-maintenance-icon">{{{icon|⚠️}}}</div>
+  <div class="wy-maintenance-content">
+    <div class="wy-maintenance-title">{{{title|本页面需要维护}}}</div>
+    <div class="wy-maintenance-text">{{{text|请协助改善本页面。}}}</div>
+  </div>
+</div>
+</includeonly>
+
+<noinclude>
