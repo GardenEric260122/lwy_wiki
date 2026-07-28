@@ -21,7 +21,7 @@ import os
 
 import pywikibot
 
-DUMP_DIR = os.path.join(os.path.dirname(os.path.abspath('fetch_wiki_content.py')), 'wiki_dump')
+DUMP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'wiki_dump')
 
 
 def _safe_name(title):

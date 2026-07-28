@@ -1,0 +1,64 @@
+name: 每日备份 Wiki 内容
+
+# 触发方式：定时 + 手动
+on:
+  schedule:
+    # UTC 01:17 ≈ 北京时间 09:17（避开整点拥堵；实际可能有几分钟延迟）
+    - cron: '17 1 * * *'
+  workflow_dispatch:        # 允许在 Actions 页面手动触发
+
+# 授予工作流写权限，以便自动提交备份
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出仓库
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      # 2. 安装 Python
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. 安装 Pywikibot
+      - name: 安装依赖
+        run: pip install pywikibot
+
+      # 4. 用 Secret 生成凭据文件（不落入仓库）
+      - name: 生成凭据文件
+        env:
+          BOT_PASSWORD: ${{ secrets.BOT_PASSWORD }}
+        run: |
+          cat > user-password.py <<EOF
+          # 由 GitHub Actions 从 Secret 动态生成，运行后不会提交
+          ('WenyaverseBot', BotPassword('WenyaverseBot', '${BOT_PASSWORD}'))
+          EOF
+
+      # 5. 抓取全站内容到 wiki_dump/
+      #    CI=true 使 user-config.py 跳过本地代理，直连 Fandom
+      - name: 抓取 Wiki 内容
+        env:
+          CI: 'true'
+          PYWIKIBOT_DIR: ${{ github.workspace }}
+        run: python fetch_wiki_content.py
+
+      # 6. 仅当 wiki_dump/ 有变化时才提交推送
+      - name: 提交备份（仅有变化时）
+        run: |
+          # 确保凭据文件不会被提交
+          rm -f user-password.py
+          git config user.name  "WenyaverseBot (backup)"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain wiki_dump/)" ]; then
+            git add wiki_dump/
+            git commit -m "chore(backup): 每日 Wiki 内容备份 [skip ci]"
+            git push
+            echo "✅ 检测到内容变化，已提交备份"
+          else
+            echo "ℹ️ 内容无变化，跳过提交"
+          fi
