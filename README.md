@@ -1,6 +1,6 @@
-# 李文亚 Wiki (lwy_wiki)
+# 文亚宇宙世界观 Wiki
 
-> 李文亚教授 Fandom Wiki 的样式与资源仓库 —— 用于版本化管理
+> 文亚宇宙世界观 在Fandom上的 Wiki 的样式与资源仓库 —— 用于版本化管理
 > Wiki 站点的 Custom CSS / JS 与相关静态资源。
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue.svg)
