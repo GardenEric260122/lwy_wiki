@@ -4,7 +4,7 @@
 > Wiki 站点的 Custom CSS / JS 与相关静态资源。
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue.svg)
-![CSS Version](https://img.shields.io/badge/wiki2.css-v2.1.0-brightgreen.svg)
+![CSS Version](https://img.shields.io/badge/common.css-v2.1.0-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Fandom%20%2F%20MediaWiki-orange.svg)
 
 ---
@@ -26,11 +26,11 @@ lwy_wiki/
 ├── README.md                        ← 本文件
 ├── .gitignore                       ← Git 忽略规则
 │
-├── 李文亚Wiki/                       ← 样式表
-│   ├── wiki2.css                   ← 唯一编辑入口（当前版本，发布时归档）
+├── styles/                          ← 样式表
+│   ├── common.css                  ← 唯一编辑入口（当前版本，发布时归档）
 │   └── archive/                    ← 历史版本快照
-│       ├── wiki2-v2.0.0.css
-│       └── wiki2-v1.0.0.css
+│       ├── common-v2.0.0.css
+│       └── common-v1.0.0.css
 │
 ├── Pywikibot 配置
 │   ├── user-config.py              ← 站点/账号/代理配置
@@ -76,7 +76,7 @@ git clone https://github.com/GardenEric260122/lwy_wiki.git
 cd lwy_wiki
 
 # 使用任意编辑器打开 CSS 文件
-code 李文亚Wiki/wiki2.css
+code styles/common.css
 ```
 
 ### 3. 快速核对线上版本号
@@ -146,7 +146,7 @@ python3 -m venv .venv
 
 ---
 
-## 🎨 样式覆盖范围（`wiki2` v2.0.0）
+## 🎨 样式覆盖范围（`common.css` v2.0.0+）
 
 | 模块 | 说明 |
 |------|------|
@@ -207,7 +207,7 @@ python3 -m venv .venv
 CSS 版本发布由脚本 `bump_css_version.py` 辅助，避免漏改版本号：
 
 ```bash
-# 0) 平时只编辑 李文亚Wiki/wiki2.css
+# 0) 平时只编辑 styles/common.css
 
 # 1) 预览版本建议（脚本分析 git diff，建议 major/minor/patch）
 .venv/bin/python bump_css_version.py
@@ -215,16 +215,16 @@ CSS 版本发布由脚本 `bump_css_version.py` 辅助，避免漏改版本号�
 # 2) 确认级别并写入（自动更新 3 处版本号 + 归档到 archive/）
 .venv/bin/python bump_css_version.py --level <major|minor|patch> --execute
 
-# 3) 在 wiki2.css 顶部补写本版 Changelog 条目，然后提交并打 tag
-git add 李文亚Wiki/
-git commit -m "feat(css): release wiki2 vX.Y.Z"
+# 3) 在 common.css 顶部补写本版 Changelog 条目，然后提交并打 tag
+git add styles/
+git commit -m "feat(css): release common vX.Y.Z"
 git tag -a vX.Y.Z -m "Release vX.Y.Z"
 git push && git push --tags
 
-# 4) 将 wiki2.css 内容粘贴回线上 MediaWiki:Common.css，保持同步
+# 4) 同步线上：.venv/bin/python sync_css_to_wiki.py --execute
 ```
 
-> **CI 校验**：`.github/workflows/css-version-check.yml` 会在 `wiki2.css`
+> **CI 校验**：`.github/workflows/css-version-check.yml` 会在 `common.css`
 > 改动却未升版本号时让检查失败，提醒你先运行上面的脚本。
 
 **版本级别判定（SemVer）：**

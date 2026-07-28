@@ -1,14 +1,14 @@
 name: CSS 版本号校验
 
-# 当 wiki2.css 有改动时，校验其版本号是否已递增。
+# 当 common.css 有改动时，校验其版本号是否已递增。
 # 若 CSS 内容变了但 --wy-css-version 没变 → 失败，提醒运行 bump_css_version.py。
 on:
   push:
     paths:
-      - '李文亚Wiki/wiki2.css'
+      - 'styles/common.css'
   pull_request:
     paths:
-      - '李文亚Wiki/wiki2.css'
+      - 'styles/common.css'
 
 jobs:
   check-version:
@@ -21,11 +21,11 @@ jobs:
 
       - name: 校验版本号是否递增
         run: |
-          CSS="李文亚Wiki/wiki2.css"
+          CSS="styles/common.css"
 
           # 取当前版本号
           cur=$(grep -oE '\-\-wy-css-version:\s*"[0-9.]+"' "$CSS" | grep -oE '[0-9.]+')
-          echo "当前 wiki2.css 版本：$cur"
+          echo "当前 common.css 版本：$cur"
 
           # 找 diff 的基准提交：PR 用 base，push 用前一提交
           if [ "${{ github.event_name }}" = "pull_request" ]; then
@@ -42,13 +42,13 @@ jobs:
 
           # 基准中该文件不存在（新文件）→ 跳过
           if ! git cat-file -e "$base:$CSS" 2>/dev/null; then
-            echo "ℹ️ 基准中无 wiki2.css（新文件），跳过校验"
+            echo "ℹ️ 基准中无 common.css（新文件），跳过校验"
             exit 0
           fi
 
           # 比较内容与版本号
           if git diff --quiet "$base" HEAD -- "$CSS"; then
-            echo "ℹ️ wiki2.css 无实际改动，通过"
+            echo "ℹ️ common.css 无实际改动，通过"
             exit 0
           fi
 
@@ -56,7 +56,7 @@ jobs:
           echo "基准版本：$old  →  当前版本：$cur"
 
           if [ "$old" = "$cur" ]; then
-            echo "::error::wiki2.css 内容已改动，但版本号仍为 $cur 未递增。"
+            echo "::error::common.css 内容已改动，但版本号仍为 $cur 未递增。"
             echo "::error::请运行 python bump_css_version.py --level <major|minor|patch> --execute 更新版本号。"
             exit 1
           fi

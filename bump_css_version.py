@@ -1,10 +1,10 @@
 """CSS 语义化版本发布脚本
 
-用于 李文亚Wiki/wiki2.css 的版本管理：
+用于 styles/common.css 的版本管理：
   1. 读取当前版本号；
   2. 分析 git diff，**建议** major/minor/patch 升级级别（非强制）；
   3. 由你确认或指定级别，自动更新三处版本号（Banner、--wy-css-version、Changelog）；
-  4. 归档为 archive/wiki2-vX.Y.Z.css；
+  4. 归档为 styles/archive/common-vX.Y.Z.css；
   5. 打印后续 git commit + tag 命令（不自动 push）。
 
 SemVer 判定规则（基于 diff）：
@@ -25,8 +25,8 @@ import re
 import shutil
 import subprocess
 
-CSS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '李文亚Wiki')
-CSS_FILE = os.path.join(CSS_DIR, 'wiki2.css')
+CSS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'styles')
+CSS_FILE = os.path.join(CSS_DIR, 'common.css')
 ARCHIVE_DIR = os.path.join(CSS_DIR, 'archive')
 
 
@@ -45,7 +45,7 @@ def bump(version, level):
 
 
 def git_diff():
-    """返回 wiki2.css 相对 HEAD 的 diff 文本（未提交改动）。"""
+    """返回 common.css 相对 HEAD 的 diff 文本（未提交改动）。"""
     try:
         return subprocess.run(
             ['git', 'diff', 'HEAD', '--', CSS_FILE],
@@ -117,19 +117,19 @@ def main():
     new_text = update_versions(text, new_version)
     with open(CSS_FILE, 'w', encoding='utf-8') as f:
         f.write(new_text)
-    print(f"✅ 已更新 wiki2.css 版本号 → {new_version}")
+    print(f"✅ 已更新 common.css 版本号 → {new_version}")
 
     # 归档
     os.makedirs(ARCHIVE_DIR, exist_ok=True)
-    archive_path = os.path.join(ARCHIVE_DIR, f'wiki2-v{new_version}.css')
+    archive_path = os.path.join(ARCHIVE_DIR, f'common-v{new_version}.css')
     shutil.copy2(CSS_FILE, archive_path)
-    print(f"✅ 已归档 → archive/wiki2-v{new_version}.css")
+    print(f"✅ 已归档 → archive/common-v{new_version}.css")
 
     print("\n下一步（请手动执行，确认无误后再 push）：")
-    print("  1) 在 wiki2.css 顶部补写本版 Changelog 条目")
-    print(f"  2) git add 李文亚Wiki/ && git commit -m 'feat(css): release wiki2 v{new_version}'")
+    print("  1) 在 common.css 顶部补写本版 Changelog 条目")
+    print(f"  2) git add styles/ && git commit -m 'feat(css): release common v{new_version}'")
     print(f"  3) git tag -a v{new_version} -m 'Release v{new_version}' && git push && git push --tags")
-    print(f"  4) 将 wiki2.css 内容粘贴回线上 MediaWiki:Common.css，保持同步")
+    print(f"  4) 同步线上：.venv/bin/python sync_css_to_wiki.py --execute")
 
 
 if __name__ == "__main__":
