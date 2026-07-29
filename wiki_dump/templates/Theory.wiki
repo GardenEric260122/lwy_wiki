@@ -1,0 +1,44 @@
+<infobox>
+  <title source="name">
+    <default>{{PAGENAME}}</default>
+  </title>
+
+  <image source="image">
+    <caption source="caption"/>
+  </image>
+
+  <group>
+    <header>基本信息</header>
+    <data source="foreign_name">
+      <label>外文名</label>
+    </data>
+    <data source="proposer">
+      <label>提出者</label>
+    </data>
+    <data source="proposed_date">
+      <label>提出时间</label>
+    </data>
+    <data source="field">
+      <label>所属领域</label>
+    </data>
+  </group>
+
+  <group>
+    <header>理论内容</header>
+    <data source="core_claim">
+      <label>核心主张</label>
+    </data>
+    <data source="key_concepts">
+      <label>关键概念</label>
+    </data>
+    <data source="related_theories">
+      <label>相关理论</label>
+    </data>
+    <data source="status">
+      <label>学术地位</label>
+    </data>
+  </group>
+</infobox><noinclude>
+{{Documentation}}
+[[分类:模板]]
+</noinclude>

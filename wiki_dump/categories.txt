@@ -1,6 +1,7 @@
 Category:114514研究所
 Category:Dev modules
 Category:Module documentation
+Category:X
 Category:事件
 Category:卢关大学
 Category:含有受损文件链接的页面
@@ -12,6 +13,7 @@ Category:日本理论物理学家
 Category:机器人
 Category:李文亚宇宙人物
 Category:李文亚宇宙机构
+Category:李文亚宇宙理论
 Category:科学管理学者
 Category:博客帖子
 Category:模板
