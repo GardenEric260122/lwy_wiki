@@ -44,6 +44,18 @@
 type/fields/departments/projects/achievements/controversy/evaluation/status/members…）。
 骨架：机构概况 → 发展历程 → 主要争议 → 评价 → 相关条目。分类 `[[分类:李文亚宇宙机构]]`。
 
+### 理论/学说条目
+用 `{{Theory|...}}` 信息框（字段：foreign_name/proposer/proposed_date/field/
+core_claim/key_concepts/related_theories/status）。
+骨架：加粗定义句 → 内容 → 相关条目。分类 `[[分类:李文亚宇宙理论]]`。
+```
+{{Theory|name=…|proposer=[[李文亚]]|field=…|core_claim=…|status=争议理论}}
+'''理论名'''是[[李文亚]]提出的……。
+== 内容 ==
+== 相关条目 ==
+[[分类:李文亚宇宙理论]]
+```
+
 ### 通用规则
 - **开篇必有加粗定义句**：`'''条目名'''（外文名，…），…`（仿维基百科体例）。
 - **命名一致**：人物条目统一用「XX教授」形式；引用时保持写法一致（避免分裂红链，
@@ -53,10 +65,16 @@ type/fields/departments/projects/achievements/controversy/evaluation/status/memb
 - **语气**：百科式中立叙述外壳（「据称」「支持者认为」），题材为围绕「李文亚」的戏仿叙事。
 - 大量内部链接 `[[…]]` 构成条目互联网络。
 
-### 可用模板（wiki_dump/templates/）
-- 信息框：`{{Character}}`（人物）、`{{Institutions}}`（机构）、`{{Event}}`（事件）
+### 可用模板
+条目里实际用得最多的是信息框；大量实用模板存在但曾长期未被使用，撰写时应主动用起来。
+- 信息框：`{{Character}}`（人物）、`{{Institutions}}`（机构）、`{{Theory}}`（理论）、`{{Event}}`（事件）
 - 维护提示：`{{维护提示|title=…|text=…|icon=⚠️}}` —— 对应 `common.css` 的 `.wy-maintenance` 样式
-- 常用：`{{Main}}`、`{{See_also}}`、`{{Hatnote}}`、`{{Quote}}`、`{{Cite_web}}`、`{{Stub}}`、`{{Delete}}`、`{{Disambiguation}}`
+- 小作品：`{{Stub}}` —— 内容简短、结构不全的条目挂在页尾
+- 导航/引用：`{{Main|主条目}}`、`{{See_also|…}}`、`{{Further|…}}`、`{{Hatnote|…}}`、`{{Quote|…}}`、`{{Cite_web|…}}`
+- 管理：`{{Delete}}`（提请删除）、`{{Disambiguation}}`（消歧义）
+
+> 新模板源码放 `wiki_templates/`，用 `.venv/bin/python upload_templates.py <名> --execute` 上传。
+> 给残缺条目挂 Stub：`.venv/bin/python tag_stubs.py --execute`。
 
 ## 🎨 CSS 版本管理
 
@@ -77,6 +95,8 @@ type/fields/departments/projects/achievements/controversy/evaluation/status/memb
 | `publish_announcement.py [--execute]` | 发布操作公告/讨论页 |
 | `bump_css_version.py [--level X --execute]` | CSS 版本发布 |
 | `sync_css_to_wiki.py [--execute]` | 同步 common.css 到线上 |
+| `upload_templates.py [名] [--execute]` | 上传 `wiki_templates/` 下模板到线上 |
+| `tag_stubs.py [--execute]` | 给残缺条目挂 `{{Stub}}` |
 
 ## 🗂 关键路径
 
