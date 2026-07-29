@@ -2,9 +2,12 @@
  * =================================================================
  * 文亚宇宙世界观 Wiki - 桌面端全局样式表
  * 适配平台：Fandom Desktop / MediaWiki
- * 版本：2.0.0
+ * 版本：2.1.0
  *
- * 重构内容：
+ * v2.1.0 变更：
+ *   - 新增维护提示框样式（.wy-maintenance*），收编线上已部署的样式
+ *
+ * v2.0.0 重构内容：
  *   - 统一浅色与深色设计令牌
  *   - 修复一级标题、章节标题和链接在深色模式下不可见
  *   - 修复目录标题“目录”颜色过暗
@@ -19,7 +22,7 @@
    ========================================== */
 
 :root {
-  --wy-css-version: "2.0.0";
+  --wy-css-version: "2.1.0";
 
   /* 品牌色 */
   --wy-primary: #1e3a8a;
@@ -576,56 +579,41 @@ body[data-theme="dark"] .mw-parser-output h3 {
   }
 }
 
-/* ===========================
-   Maintenance box
-   =========================== */
+/* ==========================================
+   维护提示框（v2.1.0 收编自线上部署）
+   用法：<div class="wy-maintenance">…</div>
+   TODO：后续可将硬编码色值改用 --wy-* 设计令牌
+   ========================================== */
 
-.wy-maintenance{
-    display:flex;
-
-    align-items:flex-start;
-
-    gap:14px;
-
-    margin:18px 0;
-
-    padding:16px;
-
-    border:1px solid #d7d7d7;
-
-    border-left:8px solid #d97706;
-
-    border-radius:8px;
-
-    background:#fff9eb;
-
-    box-shadow:0 1px 3px rgba(0,0,0,.08);
+.wy-maintenance {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid #d7d7d7;
+  border-left: 8px solid #d97706;
+  border-radius: 8px;
+  background: #fff9eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
 }
 
-.wy-maintenance-icon{
-
-    font-size:30px;
-
-    line-height:1;
+.wy-maintenance-icon {
+  font-size: 30px;
+  line-height: 1;
 }
 
-.wy-maintenance-content{
-
-    flex:1;
+.wy-maintenance-content {
+  flex: 1;
 }
 
-.wy-maintenance-title{
-
-    font-size:18px;
-
-    font-weight:700;
-
-    color:#b45309;
-
-    margin-bottom:6px;
+.wy-maintenance-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #b45309;
+  margin-bottom: 6px;
 }
 
-.wy-maintenance-text{
-
-    line-height:1.7;
+.wy-maintenance-text {
+  line-height: 1.7;
 }

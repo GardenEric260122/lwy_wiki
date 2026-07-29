@@ -1,0 +1,237 @@
+__NOTOC__
+__NOEDITSECTION__
+
+<div style="
+background:#E8E2B5;
+border:1px solid #C7BD8A;
+border-radius:16px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+">
+
+<div style="
+background:#C8C19A;
+padding:16px 24px;
+font-size:180%;
+font-weight:bold;
+color:#333;
+">
+机构信息框模板使用指南
+</div>
+
+<div style="
+padding:25px 35px;
+font-size:110%;
+line-height:2;
+">
+
+本页面用于说明如何使用机构信息框模板。
+
+创建机构条目时，可以通过机构信息框快速添加机构基本信息。
+
+</div>
+
+</div>
+
+
+== 基本用法 ==
+
+在机构页面顶部加入：
+
+<pre>
+{{Institutions
+|name=
+|image=
+|caption=
+|foreign_name=
+|type=
+|founded=
+|founder=
+|location=
+|status=
+|director=
+|members=
+|departments=
+|affiliation=
+|fields=
+|projects=
+|achievements=
+|history=
+|controversy=
+|evaluation=
+}}
+</pre>
+
+如果某个参数没有内容，可以留空，该项目不会显示。
+
+
+== 参数说明 ==
+
+
+{| class="wikitable" style="width:100%;"
+! 参数 !! 用途 !! 示例
+|-
+| name
+| 机构名称，一般自动读取页面名称
+| 114514研究所
+|-
+| image
+| 机构标志或图片文件名
+| 114514研究所标志.jpg
+|-
+| caption
+| 图片说明
+| 114514研究所标志
+|-
+| foreign_name
+| 外文名或其他语言名称
+| 114514 Institute
+|-
+| type
+| 机构类型
+| 科研机构、大学、协会
+|-
+| founded
+| 成立时间
+| 2018年
+|-
+| founder
+| 创立者
+| [[孙笑川教授]]
+|-
+| location
+| 所在地
+| 文亚市
+|-
+| status
+| 当前状态
+| 运营中、解散、争议中
+|-
+| director
+| 负责人或主要领导
+| [[孙笑川教授]]
+|-
+| members
+| 人员规模
+| 专职研究人员300余人
+|-
+| departments
+| 下属部门
+| 基础数理研究室、新型材料研发室
+|-
+| affiliation
+| 所属体系或上级组织
+| 文亚科研体系
+|-
+| fields
+| 研究领域
+| 材料科学、生物工程、能源应用
+|-
+| projects
+| 主要项目
+| 节能材料研究计划
+|-
+| achievements
+| 代表成果
+| 轻型复合材料技术
+|-
+| history
+| 发展历程概述
+| 2018年成立，2026年进入调整阶段
+|-
+| controversy
+| 主要争议事件
+| 科研成果归属争议
+|-
+| evaluation
+| 外界评价
+| 被认为是科研诚信争议案例
+|}
+
+
+== 完整示例 ==
+
+
+{{Institutions
+|name=114514研究所
+|image=114514研究所标志.jpg
+|caption=114514研究所标志
+|foreign_name=114514 Institute
+|type=综合性科研机构
+|founded=2018年
+|founder=[[孙笑川教授]]
+|location=文亚市
+|status=争议中
+
+|director=[[孙笑川教授]]
+
+|members=专职科研人员300余人
+
+|departments=
+*基础数理研究室
+*新型材料研发室
+*生物适配技术室
+*能源转化实验室
+
+|affiliation=独立科研机构
+
+|fields=
+材料科学、生物工程、能源应用、数理建模
+
+|projects=
+轻型复合材料研究
+小型节能设备研发
+
+|achievements=
+轻工业技术改良项目
+
+|history=
+2018年成立；
+2023年后陷入科研诚信争议。
+
+|controversy=
+科研成果归属争议；
+学术诚信问题。
+
+|evaluation=
+支持者认为其早期拥有一定技术贡献；
+批评者认为其长期存在科研诚信问题。
+}}
+
+
+<pre>
+{{Institutions
+|name=114514研究所
+|image=114514研究所标志.jpg
+|caption=114514研究所标志
+|foreign_name=114514 Institute
+|type=综合性科研机构
+|founded=2018年
+|founder=[[孙笑川教授]]
+|location=文亚市
+|status=争议中
+|director=[[孙笑川教授]]
+|members=专职科研人员300余人
+|departments=
+*基础数理研究室
+*新型材料研发室
+*生物适配技术室
+*能源转化实验室
+|affiliation=独立科研机构
+|fields=材料科学、生物工程、能源应用、数理建模
+|projects=轻型复合材料研究
+|achievements=轻工业技术改良项目
+|history=2018年成立；2023年后陷入科研诚信争议。
+|controversy=科研成果归属争议；学术诚信问题。
+|evaluation=支持者认为其早期拥有一定技术贡献；批评者认为其长期存在科研诚信问题。
+}}
+</pre>
+
+
+显示效果：如右图➡️
+
+
+
+== 注意事项 ==
+* `image` 填写上传后的文件名，不需要添加 `File:`。

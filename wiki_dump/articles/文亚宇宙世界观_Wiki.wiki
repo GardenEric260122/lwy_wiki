@@ -8,14 +8,16 @@
 '''这里没有真实人物，也不存在现实中的大学与组织，一切内容属于虚构设定。'''
 
 <p style="margin-top:25px;">
-{{SITENAME}}由社区共同维护。<br>
+{{SITENAME}}由社区共同维护，也欢迎每一位对这个世界感兴趣的朋友加入我们。<br>
 目前共有
 [[Special:Statistics|{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}} 名活跃编辑者]]
 共同维护
 [[Special:AllPages|{{formatnum:{{NUMBEROFARTICLES}}|R}} 个条目]]
 （共 {{formatnum:{{NUMBEROFPAGES}}|R}} 个页面），
 以及
-[[Special:文件列表|{{formatnum:{{NUMBEROFFILES}}|R}} 个文件]]。
+[[Special:文件列表|{{formatnum:{{NUMBEROFFILES}}|R}} 个文件]]。<br>
+'''偷偷说一句：我们缺人手（真的很缺！）<br>
+快来加入官方QQ交流群，一起把这个世界越写越大：640168366'''
 </p>
 
 | style="width:32%;text-align:center;vertical-align:middle;" |
@@ -111,7 +113,7 @@ line-height:2;
 
 <p>
 我们是一个合作性的网站，请自由编辑 Wiki 页面。
-点击上方的<b>编辑</b>按钮即可开始您的创作。
+点击上方的<b>编辑</b>按钮即可开始您的创作。写作前请先阅读[[文亚宇宙世界观写作指南|写作指南]]
 </p>
 
 <ol>

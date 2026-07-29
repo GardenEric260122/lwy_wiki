@@ -1,12 +1,16 @@
-[[File:2cea1cb60d28378382f63d436372b504.jpg|thumb|张精盈教授]]
+{{Character|name=张精盈|image=2cea1cb60d28378382f63d436372b504.jpg|foreign_name=張本 精一（はりもと せいいち / Harimoto Seiichi）|birth_date=7月8日|birth_place=日本东京都新宿区歌舞伎町|occupation=教师、医生|affiliation=中央扬威学院、中央扬威学院附属第91国民医院|positon=f学术委员会主席、博士生导师、主任医师、金牌技师|fields=变态心理学、性教育学、性学}}
 文亚宇宙世界观 Wiki的管理员之一。
 == 身份 ==
-自称是扬威学院张精盈教授。
+中央扬威学院客座教授，博士生导师、学术委员会主席。<br>
+中央扬威学院附属第91国民医院主任医师、金牌技师。
 == 贡献 ==
 * 添加并维护桌面版的CSS文件。
 * 设计了Wiki的主题，包括Logo、Icon和背景图。整体色调是蓝紫+暗黄色调，对比度较高。
+* 创建了机器人用户，并创建自动化任务自动备份Wiki条目与配置文件至GitHub仓库。
 == 相关条目 ==
 [[孙笑川教授]]
 == 与我联系 ==
-Fandom[[留言墙:EricGarden260723|张精盈教授]]
-B站[https://space.bilibili.com/34966405 半步道长]
+Fandom[[留言墙:EricGarden260723|张精盈教授]]<br>
+B站[https://space.bilibili.com/34966405 半步道长]<br>
+Blog[https://zyf070814.cyou 逸風Ventus]<br>
+E-mail: jmxw0814@gmail.com
