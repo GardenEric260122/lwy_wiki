@@ -32,23 +32,60 @@ _WIKI_API: str = os.environ.get(
     "FANDOM_WIKI_API",
     "https://wenyaverse.fandom.com/zh/api.php",
 )
+# 默认不带裸链接推送：QQ 对短时间内连发外部链接风控敏感，尤其是同一域名连发多条。
+# 需要链接时改为 true（自担风控风险）。
+_INCLUDE_LINKS: bool = os.environ.get("FANDOM_INCLUDE_LINKS", "false").lower() == "true"
 
 # 启动时用当前时间初始化，避免把历史记录全量推送
 _last_ts: str = datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+# 离线状态标记，避免每轮都刷同一句日志；仅在状态变化时输出一次
+_was_offline: bool = False
+
+
+def _mark_offline(reason: str) -> None:
+    global _was_offline
+    if not _was_offline:
+        logger.warning(f"[fandom_notify] 检测到离线，暂停推送直至恢复：{reason}")
+        _was_offline = True
+    else:
+        logger.debug(f"[fandom_notify] 仍处于离线，跳过本轮：{reason}")
+
+
+def _mark_online() -> None:
+    global _was_offline
+    if _was_offline:
+        logger.info("[fandom_notify] 已恢复在线，继续推送")
+        _was_offline = False
 
 
 def _rc_url(title: str) -> str:
     return f"https://wenyaverse.fandom.com/zh/wiki/{title.replace(' ', '_')}"
 
 
+def _dedup_by_title(changes: list[dict]) -> list[dict]:
+    """同一页面短时间内被连续编辑多次时，只保留最新一条，避免同一链接连发。"""
+    latest_by_title: dict[str, dict] = {}
+    order: list[str] = []
+    for rc in changes:
+        title = rc.get("title", "?")
+        if title not in latest_by_title:
+            order.append(title)
+        latest_by_title[title] = rc  # 保留该标题最新一次
+    return [latest_by_title[t] for t in order]
+
+
 def _format_change(rc: dict) -> str:
-    """把一条 recentchanges 条目转成推送文本。"""
+    """把一条 recentchanges 条目转成推送文本。默认不带裸链接，防止连续发链接触发风控。"""
     title = rc.get("title", "?")
     user = rc.get("user", "?")
     comment = rc.get("comment", "").strip()
     tag = "新建" if rc.get("type") == "new" else "编辑"
     comment_part = f"（{comment}）" if comment else ""
-    return f"[{tag}] 《{title}》← {user}{comment_part}\n{_rc_url(title)}"
+    line = f"[{tag}] 《{title}》← {user}{comment_part}"
+    if _INCLUDE_LINKS:
+        line += f"\n{_rc_url(title)}"
+    return line
 
 
 @scheduler.scheduled_job("interval", seconds=_POLL_INTERVAL, id="fandom_rc_poll")
@@ -57,11 +94,25 @@ async def _poll_fandom_rc() -> None:
     if not _NOTIFY_GROUPS:
         return  # 未配置推送群，静默跳过
 
-    # 离线感知：没有在线 bot 就跳过本轮，避免掉线后刷 Timeout 报错
+    # 离线感知：先看有没有 WS 会话，再用 get_status 确认 QQ 账号真的在线
+    # （NapCat↔NoneBot 的 WS 连接存在，不代表 QQ 账号没被腾讯踢下线）
     from nonebot import get_bots
-    if not get_bots():
-        logger.debug("[fandom_notify] 无在线 bot，跳过本轮推送")
+    bots = get_bots()
+    if not bots:
+        _mark_offline("无在线 bot（WS 会话都不存在）")
         return
+
+    bot_for_check = next(iter(bots.values()))
+    try:
+        status = await bot_for_check.get_status()
+    except Exception as e:  # noqa: BLE001
+        _mark_offline(f"get_status 调用失败：{e}")
+        return
+    if not status.get("online", False):
+        _mark_offline("QQ 账号已离线（get_status.online=False）")
+        return
+
+    _mark_online()
 
     params = {
         "action": "query",
@@ -95,9 +146,12 @@ async def _poll_fandom_rc() -> None:
         _last_ts = changes[-1]["timestamp"]
         return
 
+    # 同一页面短时间内连续编辑多次时合并为一条，避免重复内容连发
+    deduped = _dedup_by_title(fresh)
+
     # 最多推 5 条，防刷屏
-    to_push = fresh[-5:]
-    omitted = len(fresh) - len(to_push)
+    to_push = deduped[-5:]
+    omitted = len(deduped) - len(to_push)
 
     lines = [f"{i + 1}. {_format_change(c)}" for i, c in enumerate(to_push)]
     header = "📖 又有人动我的世界观 Wiki！哪个单位的？！"
