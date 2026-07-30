@@ -1,4 +1,4 @@
-"""liwenya_chat · 李文亚风格对话插件
+"""liwenya_chat · 文亚Bot 群聊/私聊对话插件
 
 触发方式：
 - 群聊：@机器人 + 内容
@@ -7,7 +7,7 @@
 
 会话隔离：每个群、每个私聊各自独立多轮上下文。
 控成本：只在被 @ / 私聊时调用；限上下文轮数；同会话冷却。
-退出角色：消息含"退出/切回正常/不用演了"时，会话清空并回正常口吻提示。
+清空上下文：消息含"退出/切回正常/不用演了"或发送"重置"命令时清空当前会话历史。
 
 配置全部走环境变量（见 .env.example），密钥不写进代码。
 """
@@ -46,7 +46,7 @@ _PERSONA_FILE = os.path.join(
     "liwenya_persona.txt",
 )
 
-_EXIT_WORDS = ("退出", "切回正常", "不用演了", "退出角色")
+_RESET_WORDS = ("退出", "切回正常", "不用演了", "退出角色")
 
 
 def _load_persona() -> str:
@@ -126,10 +126,10 @@ async def _handle_chat(bot: Bot, event: MessageEvent, matcher: Matcher):
 
     session = _session_id(event)
 
-    # 退出角色：清空上下文，跳出戏仿
-    if any(w in user_text for w in _EXIT_WORDS):
+    # 兼容旧口令：清空当前会话上下文
+    if any(w in user_text for w in _RESET_WORDS):
         _histories.pop(session, None)
-        await matcher.finish("好的，已退出角色扮演，恢复正常口吻。有需要随时再叫我。")
+        await matcher.finish("（好的，上下文已清空。）")
 
     # 冷却：同一会话短时间内重复触发直接忽略，防刷控成本
     now = time.time()

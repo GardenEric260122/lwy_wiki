@@ -179,8 +179,8 @@ QQ ↔ NapCat（OneBot v11）↔ 反向 WebSocket ↔ NoneBot2 ↔ Claude 中转
 
 | 插件 | 触发 | 作用 |
 |------|------|------|
-| `liwenya_chat` | 群里 `@机器人` 或私聊 | 以李文亚口吻多轮对话；`@机器人 重置` 清空上下文；含「退出/不用演了」则跳出角色 |
-| `fandom_notify` | 定时轮询（默认 5 分钟）| 把 Wiki `Special:RecentChanges` 的新变更用李文亚口吻推到指定群 |
+| `liwenya_chat` | 群里 `@机器人` 或私聊 | 「文亚Bot」多轮问答/群聊辅助；`@机器人 重置` 或含「退出/不用演了」清空上下文 |
+| `fandom_notify` | 定时轮询（默认 5 分钟）| 把 Wiki `Special:RecentChanges` 的新变更推到指定群 |
 
 普通群消息不触发，仅 @ / 私聊才调 API，配合冷却与上下文轮数限制控成本。
 

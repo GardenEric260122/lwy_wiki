@@ -1,7 +1,7 @@
 """fandom_notify · Fandom Wiki 最近变更提醒插件
 
 每隔 FANDOM_POLL_INTERVAL 秒轮询 Special:RecentChanges，
-把新变更用李文亚口吻推送到指定群。不需要登录，直接调公开 MediaWiki API。
+把新变更推送到指定群。不需要登录，直接调公开 MediaWiki API。
 
 配置（在 .env 里追加）：
     FANDOM_NOTIFY_GROUPS=["群号1","群号2"]   必填，接收通知的群 QQ 号列表
@@ -154,7 +154,7 @@ async def _poll_fandom_rc() -> None:
     omitted = len(deduped) - len(to_push)
 
     lines = [f"{i + 1}. {_format_change(c)}" for i, c in enumerate(to_push)]
-    header = "📖 又有人动我的世界观 Wiki！哪个单位的？！"
+    header = "📖 Wiki 有新变更："
     footer = f"\n……还有 {omitted} 条，进 Wiki 自己看。" if omitted > 0 else ""
     msg = header + "\n\n" + "\n\n".join(lines) + footer
 
