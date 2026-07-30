@@ -57,6 +57,12 @@ async def _poll_fandom_rc() -> None:
     if not _NOTIFY_GROUPS:
         return  # 未配置推送群，静默跳过
 
+    # 离线感知：没有在线 bot 就跳过本轮，避免掉线后刷 Timeout 报错
+    from nonebot import get_bots
+    if not get_bots():
+        logger.debug("[fandom_notify] 无在线 bot，跳过本轮推送")
+        return
+
     params = {
         "action": "query",
         "list": "recentchanges",
@@ -83,9 +89,10 @@ async def _poll_fandom_rc() -> None:
 
     # 只推比 _last_ts 更新的条目（API 返回时间升序，用字符串比较 ISO 8601 安全）
     fresh = [c for c in changes if c["timestamp"] > _last_ts]
-    _last_ts = changes[-1]["timestamp"]  # 滑动到最新，不管有没有 fresh
 
     if not fresh:
+        # 没有新变更，但也要滑动时间戳到最新，避免下次重复拉旧的
+        _last_ts = changes[-1]["timestamp"]
         return
 
     # 最多推 5 条，防刷屏
@@ -103,3 +110,7 @@ async def _poll_fandom_rc() -> None:
             await bot.send_group_msg(group_id=int(group_id), message=msg)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[fandom_notify] 推送消息失败：{e}")
+        return  # 推送失败，不滑动时间戳，下轮重试
+
+    # 推送成功，滑动到最新时间戳
+    _last_ts = fresh[-1]["timestamp"]
