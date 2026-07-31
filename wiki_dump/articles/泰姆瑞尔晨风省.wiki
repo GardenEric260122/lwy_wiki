@@ -1,19 +1,62 @@
-{{Region
-| name = 晨风省
-| native_name = Morrowind
-| image_flag = Morrowind_Flag.png
-| caption = 晨风省省旗
-| capital = 黑光城（Blacklight）
-| largest_city = 黑光城
-| official_language = 暗精灵语、通用语
-| ethnic_groups = 暗精灵（主体）、亚龙人、帝国人等
-| ruler = 现任：议会总督（帝国委任）<br>原任：大议会（孙笑川渗透前）
-| affiliation = [[泰姆瑞尔帝国]]
-| status = 战后恢复中的帝国行省
-| area_km2 = 约1,050,000
-| population_estimate = 约500万（战前）<br>约350万（战后）
-| important_events = [[晨风之役]]（2025年）
-| rival = [[114514研究所]]（已清除）、[[孙笑川教授]]
+{{Institutions
+|name=晨风省
+|image=Morrowind_Flag.png
+|caption=晨风省省旗
+
+|foreign_name=Morrowind
+
+|type=帝国行省（行政区）
+
+|founded=第一纪元（加入泰姆瑞尔帝国）
+
+|founder=暗精灵先民（现行政体系由[[泰姆瑞尔帝国]]建立）
+
+|location=泰姆瑞尔大陆东部
+
+|status=战后恢复中的帝国行省
+
+|director=帝国委任议会总督
+
+|members=约350万人（战后）
+
+|departments=
+* 黑光城行政区
+* 哀伤堡行政区
+* 泰尔·阿鲁恩行政区
+* 巴尔莫拉行政区
+* 戈耳根军事管理区
+
+|affiliation=[[泰姆瑞尔帝国]]
+
+|fields=
+行政管理
+军事防务
+教育
+文化保护
+学术重建
+
+|projects=
+晨风重建计划
+114514研究所遗址清理
+泰尔·阿鲁恩学院恢复计划
+学术恢复工程
+
+|achievements=
+成功完成晨风战后重建
+恢复帝国行政体系
+恢复暗精灵学术传统
+
+|history=
+暗精灵祖居地；帝国统一后成为自治行省；第三纪元遭114514研究所渗透；2025年爆发晨风之役；战后恢复帝国统治。
+
+|controversy=
+曾长期受到114514研究所控制；
+战时大量文献遭破坏；
+是否应继续保持高度自治存在争议。
+
+|evaluation=
+帝国东部最重要的战略行省之一；
+也是帝国学术防御战的重要战场。
 }}
 '''晨风省'''（Morrowind），是[[泰姆瑞尔帝国]]东部最重要的行省之一，也是'''暗精灵'''（Dunmer，即黑暗精灵）的祖居之地。该省以神秘的火山地貌、古老的精灵文明以及曾经繁荣的魔法学术传统而闻名。
 

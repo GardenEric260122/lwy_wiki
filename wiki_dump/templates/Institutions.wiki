@@ -1,4 +1,5 @@
 <infobox>
+
   <title source="name">
     <default>{{PAGENAME}}</default>
   </title>
@@ -7,15 +8,15 @@
     <caption source="caption"/>
   </image>
 
+  <!-- 基本信息 -->
+
   <group>
     <header>基本信息</header>
 
+    <!-- ===== 原模板 ===== -->
+
     <data source="foreign_name">
       <label>外文名</label>
-    </data>
-
-    <data source="type">
-      <label>机构类型</label>
     </data>
 
     <data source="founded">
@@ -26,22 +27,63 @@
       <label>创立者</label>
     </data>
 
+    <data source="director">
+      <label>负责人</label>
+    </data>
+
     <data source="location">
       <label>所在地</label>
+    </data>
+
+    <data source="fields">
+      <label>研究领域</label>
+    </data>
+
+    <data source="evaluation">
+      <label>机构评价</label>
+    </data>
+
+    <!-- ===== 新增 ===== -->
+
+    <data source="type">
+      <label>机构类型</label>
     </data>
 
     <data source="status">
       <label>现状</label>
     </data>
+
+    <data source="capital">
+      <label>首府</label>
+    </data>
+
+    <data source="largest_city">
+      <label>最大城市</label>
+    </data>
+
+    <data source="official_language">
+      <label>官方语言</label>
+    </data>
+
+    <data source="ethnic_groups">
+      <label>主要族群</label>
+    </data>
+
+    <data source="population_estimate">
+      <label>人口</label>
+    </data>
+
+    <data source="area_km2">
+      <label>面积</label>
+    </data>
+
   </group>
 
 
+  <!-- 组织 -->
+
   <group>
     <header>组织信息</header>
-
-    <data source="director">
-      <label>负责人</label>
-    </data>
 
     <data source="members">
       <label>人员规模</label>
@@ -55,16 +97,6 @@
       <label>所属体系</label>
     </data>
 
-  </group>
-
-
-  <group>
-    <header>研究与活动</header>
-
-    <data source="fields">
-      <label>研究领域</label>
-    </data>
-
     <data source="projects">
       <label>主要项目</label>
     </data>
@@ -73,11 +105,21 @@
       <label>代表成果</label>
     </data>
 
+    <data source="important_persons">
+      <label>重要人物</label>
+    </data>
+
+    <data source="ruler">
+      <label>负责人／统治者</label>
+    </data>
+
   </group>
 
 
+  <!-- 历史 -->
+
   <group>
-    <header>历史评价</header>
+    <header>历史与评价</header>
 
     <data source="history">
       <label>发展历程</label>
@@ -87,10 +129,20 @@
       <label>主要争议</label>
     </data>
 
+    <!-- 旧模板已有 -->
     <data source="evaluation">
       <label>机构评价</label>
+    </data>
+
+    <data source="rival">
+      <label>主要对立方</label>
     </data>
 
   </group>
 
 </infobox>
+
+<noinclude>
+{{Documentation}}
+[[分类:模板]]
+</noinclude>

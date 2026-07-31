@@ -1,35 +1,61 @@
+{{Institutions
+|name=泰姆瑞尔帝国
+|image=TamrielEmpireFlag.png
+|caption=泰姆瑞尔帝国国旗
 
-[[File:TamrielEmpireFlag.png|400px]]{{Country
-| name = 泰姆瑞尔帝国
-| native_name = Tamriel Empire
-| image_flag = [[File:TamrielEmpireFlag.png|400px]]TamrielEmpireFlag.png
-| image_coat = Tamriel_Empire_Emblem.png
-| caption = 帝国国徽
-| motto = "团结于真理，强大于学术"
-| anthem = 《帝国学术进行曲》
-| capital = 帝都（Imperial City）
-| largest_city = 帝都
-| official_language = 通用语（Tamrielic）
-| ethnic_groups = 诺德人、帝国人、暗精灵、高精灵、虎人、亚龙人等
-| government_type = 议会君主制（学术-军事联合治理）
-| emperor = 泰伯·塞普汀三世
-| important_persons = [[童子军大王博士]]（学术-军事联络官）
-| legislature = 帝国学术议会、帝国国防委员会
-| establishment = 第一纪元（学术统一战争）
-| area_km2 = 约15,000,000（含所有行省）
-| population_estimate = 约1.2亿
-| population_year = 2026年
-| currency = 帝国金币（Septim）
-| time_zone = UTC+1（行政中心时区）
-| iso_code = TE
-| cctld = .te
-| calling_code = +801
-| affiliation = [[联合国]]、[[反孙笑川学术联盟]]
-| status = 独立国家
-| predecessor = 第一帝国、第二帝国
-| rival = [[孙笑川教授]]及[[114514研究所]]
-| allies = [[李文亚]]
+|foreign_name=Tamriel Empire
+
+|type=国家、帝国
+
+|founded=第一纪元（学术统一战争）
+
+|founder=阿莱西亚
+
+|location=泰姆瑞尔大陆
+
+|status=存续中
+
+|director=皇帝：泰伯·塞普汀三世
+
+|members=约1.2亿人口
+
+|departments=
+* 帝国学术议会
+* 帝国国防委员会
+* 帝国战略导弹部队
+* 泰姆瑞尔国立大学
+
+|affiliation=
+[[联合国]]<br>
+[[反孙笑川学术联盟]]
+
+|fields=
+国家治理<br>
+科学研究<br>
+军事防御<br>
+教育体系
+
+|projects=
+晨风之役<br>
+学术防御战<br>
+天际省平叛<br>
+帝国清算行动
+
+|achievements=
+统一泰姆瑞尔大陆<br>
+建立学术—军事联合治理体系<br>
+击溃114514研究所势力
+
+|history=
+第一纪元建立第一帝国；第二纪元建立学术议会制度；第三纪元击退孙笑川势力并完成晨风之役。
+
+|controversy=
+长期坚持李文亚理论官方地位，被部分学者认为存在学术立场偏向。
+
+|evaluation=
+泰姆瑞尔大陆最强大的政治与学术共同体，也是文亚宇宙的重要国家势力。
 }}
+
 '''泰姆瑞尔帝国'''（Tamriel Empire），全称'''泰姆瑞尔学术与军事联合帝国'''，是泰姆瑞尔大陆上最强大、历史最悠久的国家实体。帝国以其独特的'''学术-军事二元治理体系'''闻名于世，既是科学研究的前沿阵地，也是维护大陆秩序的核心力量。
 
 == 国名与象征 ==

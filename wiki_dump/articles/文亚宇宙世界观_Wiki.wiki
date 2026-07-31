@@ -67,7 +67,7 @@ margin:20px 0;
 <div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Tutorial.svg|56px|link=文亚宇宙世界观写作指南]]
 <br><br>
-'''[[文亚宇宙世界观写作指南|写作指南]]'''
+'''[[文亚宇宙世界观写作指南|写作指南与模板]]'''
 </div>
 
 <div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">

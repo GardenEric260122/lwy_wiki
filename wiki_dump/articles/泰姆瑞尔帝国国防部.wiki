@@ -1,24 +1,60 @@
-[[File:Tamriel_Defense_Emblem.png|400px]]{{Organization
-| name = 泰姆瑞尔帝国国防部
-| native_name = Tamriel Imperial Ministry of Defense
-| image = [[File:Tamriel_Defense_Emblem.png|400px]]Tamriel_Defense_Emblem.png
-| caption = 国防部部徽
-| motto = "以学术铸剑，以真理卫国"
-| established = 第二纪元156年
-| type = 政府军事部门
-| affiliation = [[泰姆瑞尔帝国]]
-| headquarters = [[泰姆瑞尔帝国]][[帝都行省]]，帝都，国防部大楼
-| leader_title = 国防大臣
-| leader_name = 雷曼·西罗迪尔元帅
-| key_personnel = [[童子军大王博士]]（学术-军事联络官、荣誉中士）
-| parent_organization = [[泰姆瑞尔帝国国防委员会]]
-| sub_units = 帝国常备军、皇家舰队、战略导弹部队、学术护卫队、情报与反渗透局
-| budget = 约60亿帝国金币（2026年）
-| staff = 约18万人（含文职与科研人员）
-| status = 现役
-| notable_operations = [[晨风之役]]（2025年）、天际省平叛（2025-2026年）、学术封锁行动（2026年）
-| rival = [[114514研究所]]、[[孙笑川教授]]及其代理人
-| allies = [[泰姆瑞尔国立大学]]、[[联合国]]反孙笑川联盟
+{{Institutions
+|name=泰姆瑞尔帝国国防部
+|image=Tamriel_Defense_Emblem.png
+|caption=国防部部徽
+
+|foreign_name=Tamriel Imperial Ministry of Defense
+
+|type=政府军事部门
+
+|founded=第二纪元156年
+
+|founder=雷曼·西罗迪尔一世
+
+|location=[[泰姆瑞尔帝国]][[帝都行省]] 帝都 国防部大楼
+
+|status=现役
+
+|director=雷曼·西罗迪尔元帅（国防大臣）
+
+|members=约18万人（含文职与科研人员）
+
+|departments=
+* 帝国常备军
+* 皇家舰队
+* 战略导弹部队
+* 学术护卫队
+* 情报与反渗透局
+* 学术安全审查委员会
+
+|affiliation=
+[[泰姆瑞尔帝国]]<br>
+[[泰姆瑞尔帝国国防委员会]]
+
+|fields=
+国防安全<br>
+军事行动<br>
+学术安全<br>
+反学术渗透
+
+|projects=
+[[晨风之役]]（2025年）<br>
+天际省平叛（2025–2026年）<br>
+学术封锁行动（2026年）
+
+|achievements=
+建立帝国学术防御体系<br>
+成功摧毁114514研究所晨风分支<br>
+维护帝国学术安全
+
+|history=
+第二纪元建立；第三纪元完成学术—军事融合改革；2025年执行晨风之役；2026年开展学术封锁行动。
+
+|controversy=
+因高度军事化学术管理而受到部分国际学者批评；晨风之役的军事行动亦引发争议。
+
+|evaluation=
+泰姆瑞尔帝国最高军事行政机构，也是帝国学术—军事联合治理体系的重要执行机关。
 }}
 '''泰姆瑞尔帝国国防部'''（Tamriel Imperial Ministry of Defense，缩写'''TIMD'''），是[[泰姆瑞尔帝国]]最高军事行政机构，负责帝国的国防安全、军事行动指挥、学术安全防御以及反学术渗透作战。国防部与泰姆瑞尔帝国国防委员会（决策机构）密切协作，是帝国'''学术-军事二元治理体系'''中的核心执行力量。
 

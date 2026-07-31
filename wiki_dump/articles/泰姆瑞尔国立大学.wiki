@@ -1,22 +1,76 @@
-[[File:Tamrie.png|400px]]{{University
-| name = 泰姆瑞尔国立大学
-| native_name = Tamriel National University
-| image = Tamriel_National_University_Seal.png
-| caption = 大学校徽
-| motto = "真理即武，学术即盾"
-| established = 第二纪元89年
-| type = 公立研究型大学
-| affiliation = [[泰姆瑞尔帝国]]
-| chancellor = 赛兰迪尔·白金塔教授
-| location = [[泰姆瑞尔帝国]][[帝都行省]]，帝都
-| campus = 都市型（主校区占地1200英亩）
-| colors = 紫与金
-| mascot = 帝国狮鹫
-| nickname = TNU
-| website = www.tnu.te
-| notable_faculty = [[童子军大王博士]]（神秘学系、军事联络官）
-| notable_alumni = 多名帝国国防委员会现任成员
-| research_centers = 神秘学研究所、天体物理中心、黑体生物实验室
+{{Institutions
+|name=泰姆瑞尔国立大学
+
+|image=Tamrie.png
+|caption=大学校徽
+
+|foreign_name=Tamriel National University
+
+|type=公立研究型大学
+
+|founded=第二纪元89年
+
+|founder=雷曼·西罗迪尔一世
+
+|location=[[泰姆瑞尔帝国]][[帝都行省]]，帝都
+
+|status=正常办学
+
+|director=赛兰迪尔·白金塔教授（校长）
+
+|members=
+著名教师：
+* [[童子军大王博士]]（神秘学系、学术-军事联络官）
+
+|departments=
+* 神秘学系
+* 天体物理系
+* 生物医学系
+* 军事战略系
+* 魔法理论与应用系
+* 工程与导弹技术系
+* 历史与考古系
+* 哲学与伦理系
+* 医学系
+* 法学系
+* 语言学系
+* 经济与贸易系
+
+|affiliation=[[泰姆瑞尔帝国]]
+
+|fields=
+神秘学
+天体物理
+医学
+军事战略
+魔法理论
+工程技术
+历史考古
+法学
+语言学
+经济学
+
+|projects=
+学术-军事融合计划
+李文亚理论研究计划
+黑体生物研究
+帝国战略武器研究
+晨风学术恢复计划
+
+|achievements=
+帝国最高学府
+培养大量帝国军政人才
+举办第一届李文亚思想交流大会
+建立帝国学术-军事融合体系
+
+|history=
+第二纪元89年建校；第三纪元建立学术-军事联络体系；成功抵御114514研究所学术渗透；2025年正式引入李文亚理论；2026年举办第一届李文亚思想交流大会。
+
+|controversy=
+因全面支持李文亚理论而受到部分国际学界批评；拒绝孙笑川及114514研究所相关学术活动；被部分学者认为学术立场过于官方化。
+
+|evaluation=
+泰姆瑞尔帝国规模最大、学术地位最高的综合性研究型大学，也是帝国学术与军事融合体系的核心机构。
 }}
 '''泰姆瑞尔国立大学'''（Tamriel National University，缩写'''TNU'''），是[[泰姆瑞尔帝国]]历史最悠久、规模最大、学术地位最高的公立研究型大学，位于帝都。该校以'''学术-军事融合'''的办学理念闻名，是帝国培养高级学者、军事战略家和学术-军事复合型人才的核心基地。
 

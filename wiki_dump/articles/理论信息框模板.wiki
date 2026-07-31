@@ -1,0 +1,156 @@
+__NOTOC__
+__NOEDITSECTION__
+
+<div style="
+background:#E8E2B5;
+border:1px solid #C7BD8A;
+border-radius:16px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+">
+
+<div style="
+background:#C8C19A;
+padding:16px 24px;
+font-size:180%;
+font-weight:bold;
+color:#333;
+">
+理论信息框模板使用指南
+</div>
+
+<div style="
+padding:25px 35px;
+font-size:110%;
+line-height:2;
+">
+
+本页面用于说明如何使用'''理论信息框模板'''。
+
+创建理论、学说、模型、定律等条目时，可以通过理论信息框快速填写理论的基本信息。
+
+</div>
+
+</div>
+
+== 基本用法 ==
+
+在理论页面顶部加入：
+
+<pre>
+{{Theory
+|name=
+|image=
+|caption=
+|foreign_name=
+|proposer=
+|proposed_date=
+|field=
+|core_claim=
+|key_concepts=
+|related_theories=
+|status=
+}}
+</pre>
+
+如果某个参数没有，则无需填写，对应项目不会显示。
+
+== 参数说明 ==
+
+{| class="wikitable" style="width:100%;"
+! 参数 !! 用途 !! 示例
+|-
+| name
+| 理论名称，一般自动读取页面名称
+| 黑体生物理论
+|-
+| image
+| 理论示意图或相关图片
+| BlackBodyTheory.png
+|-
+| caption
+| 图片说明
+| 黑体生物理论示意图
+|-
+| foreign_name
+| 外文名称
+| Black Body Biology Theory
+|-
+| proposer
+| 提出者
+| [[李文亚]]
+|-
+| proposed_date
+| 提出时间
+| 2025年
+|-
+| field
+| 所属领域
+| 天文学、生物学
+|-
+| core_claim
+| 核心观点
+| 黑体具有生命特征
+|-
+| key_concepts
+| 关键概念
+| 黑体、生物、引力
+|-
+| related_theories
+| 相关理论
+| [[星球三重引力范围]]
+|-
+| status
+| 学术地位
+| 存在争议
+|}
+
+== 完整示例 ==
+
+{{Theory
+|name=黑体生物理论
+|image=BlackBodyTheory.png
+|caption=黑体生物理论示意图
+|foreign_name=Black Body Biology Theory
+|proposer=[[李文亚]]
+|proposed_date=2025年
+|field=天文学、生物学
+|core_claim=黑体具有生命特征
+|key_concepts=黑体、生物、引力
+|related_theories=[[星球三重引力范围]]
+|status=存在争议
+}}
+
+<pre>
+{{Theory
+|name=黑体生物理论
+|image=BlackBodyTheory.png
+|caption=黑体生物理论示意图
+|foreign_name=Black Body Biology Theory
+|proposer=[[李文亚]]
+|proposed_date=2025年
+|field=天文学、生物学
+|core_claim=黑体具有生命特征
+|key_concepts=黑体、生物、引力
+|related_theories=[[星球三重引力范围]]
+|status=存在争议
+}}
+</pre>
+
+显示效果：如右图➡️
+
+== 参数建议 ==
+
+* '''name''' 一般不用填写，会自动读取页面名称。
+* '''image''' 填写上传后的图片文件名，不需要添加 <code>File:</code>。
+* '''proposer''' 建议使用 Wiki 内部链接，例如 <code>[[李文亚]]</code>。
+* '''related_theories''' 可以填写多个理论，建议使用 Wiki 链接并使用中文顿号（、）或换行分隔。
+* '''status''' 建议填写如「已提出」「存在争议」「已证实」「已废弃」「研究中」等状态。
+
+== 注意事项 ==
+
+* 信息框仅填写理论的基本信息，不要填写详细介绍。
+* 理论的发展历程、论证过程、争议、评价等内容应写在正文中。
+* 不需要填写不存在或未知的参数，模板会自动隐藏为空的项目。
+* 建议所有理论条目统一使用本模板，以保持页面风格一致。
