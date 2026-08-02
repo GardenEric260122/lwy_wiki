@@ -1,24 +1,22 @@
-"""bilibili_notify · B站UP主最新视频提醒插件（RSSHub版）
+"""bilibili_notify · B站UP主最新视频提醒插件（动态流版）
 
-通过本地 RSSHub 实例获取 B站 UP 主最新投稿，无需 WBI 签名和 Cookie。
-RSSHub 部署：docker run -d --name rsshub --restart always -p 1200:1200 diygod/rsshub
+使用 x/polymer/web-dynamic/v1/feed/space 接口，无需 WBI 签名。
+国内服务器 + Cookie 设备指纹（buvid3/buvid4/b_nut）可有效避免 -352 风控。
 
 配置（在 .env 里追加）：
     BILI_NOTIFY_GROUPS=["群号1","群号2"]    必填
     BILI_UIDS=["UID1","UID2"]               必填
     BILI_UID=xxxxxxx                         兼容旧配置（BILI_UIDS 优先）
     BILI_POLL_INTERVAL=300                   可选，轮询间隔秒，默认 300
-    RSSHUB_BASE_URL=http://127.0.0.1:1200    可选，RSSHub 地址
+    BILI_COOKIE=buvid3=...;buvid4=...       可选，但强烈建议填写（设备指纹，无需登录态）
 """
 import json
 import os
-import re
 from pathlib import Path
-from xml.etree import ElementTree as ET
 
 from dotenv import load_dotenv
 import httpx
-from nonebot import get_bot, get_bots, logger, require
+from nonebot import get_bots, logger, require
 
 load_dotenv(Path(__file__).parent.parent / ".env", override=False)
 
@@ -35,7 +33,18 @@ else:
     _UIDS = [_single] if _single else []
 
 _POLL_INTERVAL: int = int(os.environ.get("BILI_POLL_INTERVAL", "300"))
-_RSSHUB_BASE: str = os.environ.get("RSSHUB_BASE_URL", "http://127.0.0.1:1200").rstrip("/")
+_BILI_COOKIE: str = os.environ.get("BILI_COOKIE", "")
+
+_DYNAMIC_API = "https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space"
+_BASE_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Origin": "https://space.bilibili.com",
+}
 
 _last_bvids: dict[str, str] = {}
 _was_offline: bool = False
@@ -55,29 +64,56 @@ def _mark_online() -> None:
         _was_offline = False
 
 
-async def _fetch_rss(client: httpx.AsyncClient, uid: str) -> tuple[str, list[dict]]:
-    """返回 (author, [{bvid, title}, ...])，最多取前5条。"""
-    resp = await client.get(f"{_RSSHUB_BASE}/bilibili/user/video/{uid}", timeout=20)
-    resp.raise_for_status()
-    root = ET.fromstring(resp.text)
-    channel = root.find("channel")
-    if channel is None:
-        return uid, []
+async def _fetch_videos(client: httpx.AsyncClient, uid: str) -> tuple[str, list[dict]]:
+    """返回 (author_name, [{bvid, title}, ...])，只取视频动态，最多 5 条。"""
+    headers = {
+        **_BASE_HEADERS,
+        "Referer": f"https://space.bilibili.com/{uid}/video",
+    }
+    if _BILI_COOKIE:
+        headers["Cookie"] = _BILI_COOKIE
 
-    author = channel.findtext("title", default=uid)
-    items = []
-    for item in channel.findall("item")[:5]:
-        title = item.findtext("title", default="?")
-        link = item.findtext("link", default="")
-        m = re.search(r"(BV[a-zA-Z0-9]+)", link)
-        if m:
-            items.append({"bvid": m.group(1), "title": title})
-    return author, items
+    resp = await client.get(
+        _DYNAMIC_API,
+        params={"host_mid": uid},
+        headers=headers,
+        timeout=20,
+    )
+    resp.raise_for_status()
+    payload = resp.json()
+
+    code = payload.get("code", -1)
+    if code != 0:
+        raise RuntimeError(
+            f"B站接口 code={code} message={payload.get('message', '')}"
+        )
+
+    items = payload.get("data", {}).get("items", [])
+    author = uid
+    videos: list[dict] = []
+
+    for item in items:
+        if item.get("type") != "DYNAMIC_TYPE_AV":
+            continue
+        modules = item.get("modules", {})
+        if author == uid:
+            author = modules.get("module_author", {}).get("name", uid)
+        archive = (
+            modules.get("module_dynamic", {}).get("major", {}).get("archive", {})
+        )
+        bvid = archive.get("bvid", "")
+        title = archive.get("title", "?")
+        if bvid:
+            videos.append({"bvid": bvid, "title": title})
+        if len(videos) >= 5:
+            break
+
+    return author, videos
 
 
 async def _check_uid(client: httpx.AsyncClient, uid: str) -> str | None:
     try:
-        author, videos = await _fetch_rss(client, uid)
+        author, videos = await _fetch_videos(client, uid)
     except Exception as e:  # noqa: BLE001
         logger.warning(f"[bilibili_notify] UID {uid} 拉取失败：{e}")
         return None
@@ -108,7 +144,10 @@ async def _check_uid(client: httpx.AsyncClient, uid: str) -> str | None:
 
     _last_bvids[uid] = latest_bvid
     header = f"📺 {author} 发新视频了："
-    lines = [f"《{v['title']}》\nhttps://www.bilibili.com/video/{v['bvid']}" for v in new_videos]
+    lines = [
+        f"《{v['title']}》\nhttps://www.bilibili.com/video/{v['bvid']}"
+        for v in new_videos
+    ]
     return header + "\n\n" + "\n\n".join(lines)
 
 
@@ -122,8 +161,9 @@ async def _poll_bilibili() -> None:
         _mark_offline("无在线 bot")
         return
 
+    bot = next(iter(bots.values()))
     try:
-        status = await next(iter(bots.values())).get_status()
+        status = await bot.get_status()
     except Exception as e:  # noqa: BLE001
         _mark_offline(f"get_status 失败：{e}")
         return
@@ -144,7 +184,6 @@ async def _poll_bilibili() -> None:
         return
 
     try:
-        bot = get_bot()
         for group_id in _NOTIFY_GROUPS:
             for msg in messages:
                 await bot.send_group_msg(group_id=int(group_id), message=msg)
