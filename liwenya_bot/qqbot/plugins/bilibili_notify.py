@@ -9,6 +9,7 @@
     BILI_UID=xxxxxxx                         兼容旧配置（BILI_UIDS 优先）
     BILI_POLL_INTERVAL=300                   可选，轮询间隔秒，默认 300
     BILI_COOKIE=buvid3=...;buvid4=...       可选，但强烈建议填写（设备指纹，无需登录态）
+    BILI_PROXY=http://127.0.0.1:7890        可选，HTTP/SOCKS5 代理，国内服务器 IP 被封时必填
 """
 import json
 import os
@@ -34,6 +35,7 @@ else:
 
 _POLL_INTERVAL: int = int(os.environ.get("BILI_POLL_INTERVAL", "300"))
 _BILI_COOKIE: str = os.environ.get("BILI_COOKIE", "")
+_BILI_PROXY: str = os.environ.get("BILI_PROXY", "")
 
 _DYNAMIC_API = "https://api.bilibili.com/x/polymer/web-dynamic/v1/feed/space"
 _BASE_HEADERS = {
@@ -174,7 +176,8 @@ async def _poll_bilibili() -> None:
     _mark_online()
 
     messages: list[str] = []
-    async with httpx.AsyncClient() as client:
+    proxy = _BILI_PROXY or None
+    async with httpx.AsyncClient(proxy=proxy) as client:
         for uid in _UIDS:
             msg = await _check_uid(client, uid)
             if msg:
