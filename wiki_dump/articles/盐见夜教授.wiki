@@ -1,5 +1,5 @@
 {{Character
-|name=盐见夜
+|name=盐见夜教授
 |image=盐见夜.png
 |foreign_name=Shiomi Yoru / 严建业
 |birth_date=1962年

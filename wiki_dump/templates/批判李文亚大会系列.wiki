@@ -1,0 +1,95 @@
+<includeonly>
+<div style="margin:1.25em 0; border:1px solid #c8ccd1; border-radius:8px; overflow:hidden; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.08); font-size:90%;">
+
+<!-- 标题 -->
+<div style="padding:12px 16px; background:linear-gradient(135deg,#26384a,#3f5870); color:#fff; text-align:center; font-size:115%; font-weight:bold; letter-spacing:.05em;">
+[[批判李文亚大会|<span style="color:#fff;">批判李文亚伪科学大会系列</span>]]
+</div>
+
+<!-- 大会 -->
+<div style="display:flex; flex-wrap:wrap;">
+
+<!-- 国内大会 -->
+<div style="box-sizing:border-box; flex:1 1 420px; min-width:0; padding:12px; border-right:1px solid #eaecf0;">
+<div style="margin-bottom:10px; padding:6px 10px; border-radius:4px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+国内大会
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:center;">
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第一次批判李文亚伪科学大会|1]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第二次批判李文亚伪科学大会|2]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第三次批判李文亚伪科学大会|3]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第四次批判李文亚伪科学大会|4]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第五次批判李文亚伪科学大会|5]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第六次批判李文亚伪科学大会|6]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第七次批判李文亚伪科学大会|7]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第八次批判李文亚伪科学大会|8]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第九次批判李文亚伪科学大会|9]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十次批判李文亚伪科学大会|10]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十一次批判李文亚伪科学大会|11]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十二次批判李文亚伪科学大会|12]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十三次批判李文亚伪科学大会|13]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十四次批判李文亚伪科学大会|14]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十五次批判李文亚伪科学大会|15]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十六次批判李文亚伪科学大会|16]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十七次批判李文亚伪科学大会|17]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第十八次批判李文亚伪科学大会|18]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda; text-align:center;">[[第十九次批判李文亚伪科学大会|19]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda; text-align:center;">[[第二十次批判李文亚伪科学大会|20]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第二十一次批判李文亚伪科学大会|21]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda; text-align:center;">[[第二十二次批判李文亚伪科学大会|22]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第二十三次批判李文亚伪科学大会|23]]</span>
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa; text-align:center;">[[第二十四次批判李文亚伪科学大会|24]]</span>
+</div>
+</div>
+
+<!-- 全球大会 -->
+<div style="box-sizing:border-box; flex:1 1 260px; min-width:0; padding:12px;">
+<div style="margin-bottom:10px; padding:6px 10px; border-radius:4px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+全球大会
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:center;">
+<span style="display:inline-block; padding:4px 10px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa;">[[第一届全球批判李文亚大会|第一届]]</span>
+<span style="display:inline-block; padding:4px 10px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa;">[[第二届全球批判李文亚大会|第二届]]</span>
+<span style="display:inline-block; padding:4px 10px; border:1px solid #c8ccd1; border-radius:4px; background:#f8f9fa;">[[第三届全球批判李文亚大会|第三届]]</span>
+</div>
+</div>
+</div>
+
+<!-- 核心人物 -->
+<div style="border-top:1px solid #c8ccd1;">
+<div style="padding:7px 12px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+核心人物
+</div>
+<div style="padding:11px 16px; line-height:1.9; text-align:center;">
+[[李文亚教授|李文亚]] · [[孙笑川教授|孙笑川]] · [[唐振钦教授|唐振钦]] · [[陈人杰教授|陈人杰]] · [[王楚淇教授|王楚淇]] · [[侯国玉教授|侯国玉]] · [[王伟恒]] · [[明日香教授|明日香]] · [[尼玛莱格贝德·杰克逊]] · [[蜜桃乌龙]] · [[盐见夜教授|盐见夜]] · [[冈·交丁·炎珍霜教授|冈交丁·炎珍霜]]
+</div>
+</div>
+
+<!-- 相关条目 -->
+<div style="border-top:1px solid #c8ccd1;">
+<div style="padding:7px 12px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+相关条目
+</div>
+<div style="padding:11px 16px; line-height:1.9; text-align:center;">
+[[114514研究所]] · [[诺贝尔奖委员会]] · [[黑体生物]] · [[白体生物]] · [[地球翻滚运动]] · [[文亚四定律]] · [[李文亚（清醒人格）]] · [[批判李文亚大会 总纲]]
+</div>
+</div>
+
+</div>
+</includeonly><noinclude>
+
+== 用法 ==
+在批判大会系列页面底部添加：
+<pre>
+{{批判李文亚大会系列}}
+</pre>
+
+== 说明 ==
+* 绿色背景（#d4edda）标记已有页面的届次（第19、20、22次）
+* 其余为红链，等待创建
+* 核心人物和相关条目使用 · 分隔
+
+[[Category:事件模板]]
+</noinclude>
