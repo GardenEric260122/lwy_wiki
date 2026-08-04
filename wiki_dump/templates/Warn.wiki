@@ -1,0 +1,65 @@
+<includeonly>
+<div style="margin:1em 0; border:1px solid #B80000; border-radius:8px; overflow:hidden;">
+
+<!-- 标题 -->
+<div style="
+background:#B80000;
+color:#fff;
+font-weight:bold;
+font-size:20px;
+padding:2px 16px;
+line-height:1;
+min-height:26px;
+display:flex;
+align-items:center;
+">
+{{{title|警告}}}
+</div>
+
+<!-- 内容 -->
+<div style="
+background:#F8B3B3;
+padding:16px;
+line-height:1.8;
+">
+{{{1|}}}
+</div>
+
+</div>
+</includeonly><noinclude>
+
+== 用法 ==
+
+<pre>
+{{Warn
+|title=警告
+|本条目属于李文亚宇宙世界观设定，与现实无关，请勿与现实人物或机构混淆。
+}}
+</pre>
+
+== 模板参数 ==
+
+{| class="wikitable"
+! 参数
+! 必填
+! 说明
+! 默认值
+|-
+| <code>title</code>
+| 否
+| 标题栏显示的文字。
+| <code>警告</code>
+|-
+| <code>1</code>
+| 是
+| 提示框正文内容，支持 Wiki 语法。
+| 无
+|}
+
+== 示例 ==
+{{Warn
+|title=警告
+|本条目属于李文亚宇宙世界观设定，与现实无关，请勿与现实人物或机构混淆。
+}}
+
+[[Category:信息模板]]

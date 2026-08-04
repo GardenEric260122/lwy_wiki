@@ -62,11 +62,11 @@
 
 李文亚后来根据研究对象受到作用后的颜色变化，开始使用“黑体”名称。他把对象描述为许多微小单位组成的群体：较活跃或被驱赶到体表时可以呈红色，持续受到作用并失去生命后逐渐变黑。“黑体”一名由此产生。
 
-<div style="max-width:760px; margin:1em auto; padding:1em 1.2em; background:#f2ead8; border:1px solid #b7a98c; border-left:7px solid #242424; box-shadow:2px 3px 0 #d0c4aa; font-family:KaiTi,'STKaiti',serif; transform:rotate(-0.25deg);">
-<span style="font-family:sans-serif; font-size:85%; color:#6f6250; letter-spacing:0.08em;">研究讲述节选｜命名与分类阶段</span><br />
-“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
-<div style="text-align:right; font-family:sans-serif; font-size:85%; color:#6f6250;">——李文亚</div>
-</div>
+{{引言
+|title=研究讲述节选｜命名与分类阶段
+|text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
+|author=李文亚
+}}
 
 理论随后把该生物进入人体的时间提前到胎儿期。李文亚认为，母体环境中已经存在黑体单位，胎儿可能在发育过程中受到侵入；出生以后，空气、食物和生活环境又会持续带来新的个体。儿童时期可能只出现红点、皮肤敏感或短暂疙瘩，青壮年时期则以潜伏和缓慢扩增为主，进入老年后才形成明显的全身影响。
 
@@ -108,10 +108,11 @@
 === 命名争论和优先权抢夺 ===
 随着所谓[[诺贝尔奖委员会]]及其他研究者声称从人体内提取出乳白色物质，“黑体”名称遭到挑战。诺奖委员会部分研究者据称主张将其改称“白体生物”，理由是离体物质呈乳白色或接近无色。
 
-<div style="max-width:760px; margin:1em auto; padding:0.9em 1.1em; background:#f4eddb; border:1px solid #b9aa8b; border-right:7px solid #8b1e2d; box-shadow:-2px 3px 0 #d2c6ac; font-family:KaiTi,'STKaiti',serif; transform:rotate(0.2deg);">
-<span style="font-family:sans-serif; font-size:85%; color:#6f6250;">来函节选｜署名真实性有争议</span><br />
-“我们委员会五百六十名科学家一致认为，应该改成白体生物这个名称。”
-</div>
+{{来函
+|title=来函节选｜署名真实性有争议
+|text=“我们委员会五百六十名科学家一致认为，应该改成白体生物这个名称。”
+|author=某委员会来函
+}}
 
 李文亚承认人体内活体可能无色或呈乳白色，但仍坚持“黑体”名称具有历史和形态依据：研究对象受损或死亡后会变黑，植物果实中的相关现象也经常呈现为黑斑。后期研究逐渐把“黑体”与“白体”理解为同一生物在不同生命状态、含水量或观察条件下的名称，而不是已经确认的两个物种。
 
