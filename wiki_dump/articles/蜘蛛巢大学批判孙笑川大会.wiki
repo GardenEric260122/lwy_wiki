@@ -1,5 +1,11 @@
 = 蜘蛛巢大学批判孙笑川大会 =
 
+<div style="background:#f8f9fa; border:1px solid #a2a9b1; padding:6px 12px; margin-bottom:16px; text-align:center; border-radius:4px; font-size:14px;">
+[[批判孙笑川大会 目录|◀ 返回目录]] &nbsp;|&nbsp; 
+[[联合国批判孙笑川大会|联合国批判孙笑川大会（6月2日） ▶]] &nbsp;|&nbsp;
+'''蜘蛛巢大会'''
+</div>
+
 {{Event
 | name         = 蜘蛛巢大学批判孙笑川大会
 | image        =
@@ -112,5 +118,8 @@
 == 参考 ==
 * [[二阶堂希罗]]私信《蜘蛛巢大学批判孙笑川大会》（据大会视频内容相关文件改编）
 * [https://www.bilibili.com/video/BV1rVVr6QEZL 蜘蛛巢大学召开孙笑川批判大会]
+{{批判孙笑川大会系列}}
+
 
 [[Category:事件]]
+[[Category:批判孙笑川大会]]
