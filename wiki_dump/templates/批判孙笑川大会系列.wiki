@@ -1,0 +1,72 @@
+<includeonly>
+<div style="margin:1.25em 0; border:1px solid #c8ccd1; border-radius:8px; overflow:hidden; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.08); font-size:90%;">
+
+<!-- 标题 -->
+<div style="padding:12px 16px; background:linear-gradient(135deg,#26384a,#3f5870); color:#fff; text-align:center; font-size:115%; font-weight:bold; letter-spacing:.05em;">
+[[批判孙笑川大会|<span style="color:#fff;">批判孙笑川大会系列</span>]]
+</div>
+
+<!-- 大会 -->
+<div style="display:flex; flex-wrap:wrap;">
+
+<!-- 国内大会 -->
+<div style="box-sizing:border-box; flex:1 1 420px; min-width:0; padding:12px; border-right:1px solid #eaecf0;">
+<div style="margin-bottom:10px; padding:6px 10px; border-radius:4px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+国内大会（先进科学研究会主办）
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:center;">
+<span style="display:inline-block; min-width:24px; padding:4px 7px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda; text-align:center;">[[第一届孙笑川批判大会|1]]</span>
+</div>
+</div>
+
+<!-- 境外与国际组织大会 -->
+<div style="box-sizing:border-box; flex:1 1 260px; min-width:0; padding:12px;">
+<div style="margin-bottom:10px; padding:6px 10px; border-radius:4px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+境外 · 国际组织大会
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:center;">
+<span style="display:inline-block; padding:4px 10px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda;">[[蜘蛛巢大学批判孙笑川大会|蜘蛛巢大学]]</span>
+<span style="display:inline-block; padding:4px 10px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda;">[[联合国批判孙笑川大会|联合国]]</span>
+</div>
+</div>
+</div>
+
+<!-- 核心人物 -->
+<div style="border-top:1px solid #c8ccd1;">
+<div style="padding:7px 12px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+核心人物
+</div>
+<div style="padding:11px 16px; line-height:1.9; text-align:center;">
+[[李文亚教授]] · [[孙笑川教授]] · [[马嘉祺会长]] · [[来清德院长]] · [[孙国祥副院长]] · [[赫尔墨斯校长]] · [[瓦伦西乐教授]] · [[二阶堂希罗教授]] · [[耐隆教授]] · [[明学昌医生]] · [[百所成教授]] · [[刘阿宝秘书]]
+</div>
+</div>
+
+<!-- 相关条目 -->
+<div style="border-top:1px solid #c8ccd1;">
+<div style="padding:7px 12px; background:#eaf0f6; color:#25364a; text-align:center; font-weight:bold;">
+相关条目
+</div>
+<div style="padding:11px 16px; line-height:1.9; text-align:center;">
+[[114514研究所]] · [[先进科学研究会]] · [[联合国科学研究院]] · [[蜘蛛巢大学]] · [[黑体生物理论]] · [[白体生物]] · [[维护科研环境共同倡议书]] · [[批判孙笑川大会 目录]]
+</div>
+</div>
+
+</div>
+</includeonly><noinclude>
+
+== 用法 ==
+在批判孙笑川大会系列页面底部添加：
+<pre>
+{{批判孙笑川大会系列}}
+</pre>
+
+== 说明 ==
+* 绿色背景（#d4edda）标记已有页面的场次（蜘蛛巢大学批判孙笑川大会）
+* 其余为红链，等待创建（国内大会第2、3届为预留届次，系列仍在陆续召开）
+* 人物链接一律保留头衔（会长/院长/校长/教授/医生/秘书），与全站命名规则一致
+* 核心人物和相关条目使用 · 分隔
+
+[[Category:事件模板]]
+</noinclude>

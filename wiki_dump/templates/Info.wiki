@@ -1,0 +1,59 @@
+<includeonly>
+<div style="margin:1em 0; border:1px solid #C9BBA0; border-radius:4px; overflow:hidden;">
+<!-- 标题 -->
+<div style="
+background:#1B2A41;
+color:#EDE4D3;
+font-weight:bold;
+font-size:15px;
+letter-spacing:0.5px;
+padding:2px 16px;
+line-height:1;
+min-height:26px;
+display:flex;
+align-items:center;
+border-bottom:2px solid #B08D57;
+">
+{{{title|提示}}}
+</div>
+<!-- 内容 -->
+<div style="
+background:#F7F1E4;
+color:#2B2621;
+padding:16px;
+line-height:1.8;
+">
+{{{1|}}}
+</div>
+</div>
+</includeonly><noinclude>
+== 用法 ==
+<pre>
+{{Info
+|title=提示
+|这是一个提醒示例。
+}}
+</pre>
+== 模板参数 ==
+{| class="wikitable"
+! 参数
+! 必填
+! 说明
+! 默认值
+|-
+| <code>title</code>
+| 否
+| 标题栏显示的文字。
+| <code>提示</code>
+|-
+| <code>1</code>
+| 是
+| 提示框正文内容，支持 Wiki 语法。
+| 无
+|}
+== 示例 ==
+{{Info
+|title=提示
+|这是一个提醒示例。
+}}
+[[Category:信息模板]]

@@ -40,18 +40,27 @@ COOLDOWN = float(os.environ.get("LIWENYA_COOLDOWN", "3"))
 TEMPERATURE = float(os.environ.get("LIWENYA_TEMPERATURE", "0.9"))
 MAX_TOKENS = int(os.environ.get("LIWENYA_MAX_TOKENS", "800"))
 
-# persona 文件在上一层 liwenya_bot/ 里，复用命令行那份，避免两处维护
-_PERSONA_FILE = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "liwenya_persona.txt",
+# persona 文件复用命令行那份，避免两处维护。
+# 部署目录结构有两种（qqbot/ 下、或上一层 liwenya_bot/ 下），按顺序找第一个存在的，
+# 否则换部署目录后这里会在 import 阶段就 FileNotFoundError，整个插件加载失败。
+_PLUGIN_DIR = os.path.dirname(os.path.abspath(__file__))
+_QQBOT_DIR = os.path.dirname(_PLUGIN_DIR)
+_PERSONA_CANDIDATES = (
+    os.path.join(_QQBOT_DIR, "liwenya_persona.txt"),
+    os.path.join(os.path.dirname(_QQBOT_DIR), "liwenya_persona.txt"),
 )
 
 _RESET_WORDS = ("退出", "切回正常", "不用演了", "退出角色")
 
 
 def _load_persona() -> str:
-    with open(_PERSONA_FILE, encoding="utf-8") as f:
-        return f.read()
+    for path in _PERSONA_CANDIDATES:
+        if os.path.isfile(path):
+            with open(path, encoding="utf-8") as f:
+                return f.read()
+    raise FileNotFoundError(
+        "找不到 liwenya_persona.txt，已尝试：" + "、".join(_PERSONA_CANDIDATES)
+    )
 
 
 SYSTEM_PROMPT = _load_persona()

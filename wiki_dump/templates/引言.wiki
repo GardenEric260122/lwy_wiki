@@ -1,0 +1,68 @@
+<includeonly>
+<div style="max-width:760px; margin:1em auto; padding:1em 1.2em; background:#f2ead8; border:1px solid #b7a98c; border-left:7px solid #242424; box-shadow:2px 3px 0 #d0c4aa; font-family:KaiTi,'STKaiti',serif; transform:rotate(-0.25deg);">
+
+{{#if:{{{title|}}}|
+<span style="font-family:sans-serif; font-size:85%; color:#6f6250; letter-spacing:0.08em;">
+{{{title}}}
+</span><br />
+}}
+
+{{{text|}}}
+
+{{#if:{{{author|}}}|
+<div style="text-align:right; font-family:sans-serif; font-size:85%; color:#6f6250;">
+——{{{author}}}
+</div>
+}}
+
+</div>
+</includeonly><noinclude>
+
+== 用法 ==
+
+基础用法：
+
+<pre>
+{{引言
+|text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
+|author=李文亚
+}}
+</pre>
+
+完整用法：
+
+<pre>
+{{引言
+|title=研究讲述节选｜命名与分类阶段
+|text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
+|author=李文亚
+}}
+</pre>
+
+== 参数 ==
+
+{| class="wikitable"
+! 参数
+! 说明
+|-
+| title
+| 标题（可选）
+|-
+| text
+| 引言正文（必填）
+|-
+| author
+| 来源、人物或署名（可选）
+|}
+
+== 示例 ==
+
+{{引言
+|title=研究讲述节选｜命名与分类阶段
+|text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
+|author=李文亚
+}}
+
+[[Category:引用模板]]
+
+</noinclude>
