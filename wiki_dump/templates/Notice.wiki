@@ -1,44 +1,40 @@
 <includeonly>
-<div style="margin:1em 0; border:1px solid #FFCC33; border-radius:8px; overflow:hidden;">
-
+<div style="margin:1em 0; border:1px solid #C9BBA0; border-radius:4px; overflow:hidden;">
 <!-- 标题 -->
 <div style="
-background:#FFCC33;
-color:#fff;
+background:#8C6D3F;
+color:#EDE4D3;
 font-weight:bold;
-font-size:20px;
+font-size:15px;
+letter-spacing:0.5px;
 padding:2px 16px;
 line-height:1;
 min-height:26px;
 display:flex;
 align-items:center;
+border-bottom:2px solid #B08D57;
 ">
 {{{title|提醒}}}
 </div>
-
 <!-- 内容 -->
 <div style="
-background:#FFECB3;
+background:#F7F1E4;
+color:#2B2621;
 padding:16px;
 line-height:1.8;
 ">
 {{{1|}}}
 </div>
-
 </div>
 </includeonly><noinclude>
-
 == 用法 ==
-
 <pre>
 {{Notice
 |title=提醒
 |本条目属于李文亚宇宙世界观设定，与现实无关，请勿与现实人物或机构混淆。
 }}
 </pre>
-
 == 模板参数 ==
-
 {| class="wikitable"
 ! 参数
 ! 必填
@@ -55,11 +51,9 @@ line-height:1.8;
 | 提示框正文内容，支持 Wiki 语法。
 | 无
 |}
-
 == 示例 ==
 {{Notice
 |title=提醒
 |本条目属于李文亚宇宙世界观设定，与现实无关，请勿与现实人物或机构混淆。
 }}
-
 [[Category:信息模板]]

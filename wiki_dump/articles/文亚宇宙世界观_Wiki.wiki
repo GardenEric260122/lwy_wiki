@@ -34,49 +34,49 @@ gap:16px;
 margin:20px 0;
 ">
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Professor.svg|56px|link=教授列表]]
 <br><br>
 '''[[教授列表]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Institute.svg|56px|link=机构列表]]
 <br><br>
 '''[[机构列表]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:School.svg|56px|link=学校列表]]
 <br><br>
 '''[[学校列表]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Concept.svg|56px|link=概念列表]]
 <br><br>
 '''[[概念列表]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Event.svg|56px|link=事件]]
 <br><br>
 '''[[事件]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Tutorial.svg|56px|link=文亚宇宙世界观写作指南]]
 <br><br>
 '''[[文亚宇宙世界观写作指南|写作指南与模板]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:Category.svg|56px|link=Special:Categories]]
 <br><br>
 '''[[Special:Categories|分类]]'''
 </div>
 
-<div style="background:#E1E7F4;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
+<div style="background:#EDE4D3;border:1px solid #C9D3E8;border-radius:14px;padding:22px;text-align:center;">
 [[File:History.svg|56px|link=Special:RecentChanges]]
 <br><br>
 '''[[Special:RecentChanges|最近更改]]'''
@@ -87,7 +87,7 @@ margin:20px 0;
 == 开始您的创作 ==
 
 <div style="
-background:#FBEFA0;
+background:#EDE4D3;
 border:1px solid #F1EDD5;
 border-radius:16px;
 overflow:hidden;
@@ -96,7 +96,7 @@ box-shadow:0 2px 6px rgba(0,0,0,.15);
 ">
 
 <div style="
-background:#F1EDD5;
+background:#C9BBA0;
 padding:20px 25px;
 font-size:250%;
 font-weight:bolder;
@@ -118,13 +118,21 @@ line-height:2;
 
 <ol>
 
-<li><b>请避开政治敏感内容和社会议题及色情内容的创作</b></li>
+<li><b>请避开政治敏感内容和社会议题及涉黄、涉恐、色情、过度血腥暴力等具有不良影响内容的创作</b></li>
 
 <li><b>禁止宣传与本维基无关的内容。</b></li>
 
 <li><b>请不要套用著名人物或具有争议人物的真实姓名。</b></li>
 
-<li><b>请尊重所有人，包括李教授本人。</b></li>
+<li><b>请尊重所有人，包括李教授本人。严禁对他人进行任何形式的骚扰、辱骂、诽谤等表示不尊重的行为！</b></li>
+
+<li><b>对他人作品拥有一定的包容度，对新人的作品可以适当的提出建议抑或是严厉却有建设性的批评。禁止直接辱骂、贬低(即便提出了建议也不应参杂这些)!</b></li>
+
+<li><b>禁止禁行破坏性编辑，例如:在页面中添加无意义内容或无理由删除内容,进行编辑战</b></li>
+
+<li><b>请尊重并遵守CC-BY-SA许可协议</b></li>
+
+<li><b>在进进行创作时，请尽量保持客观中立,尽量避免个人立场倾向</b></li>
 
 <li>
 <b>人物图像请使用 AI 生成，不要使用真人图像。</b><br>

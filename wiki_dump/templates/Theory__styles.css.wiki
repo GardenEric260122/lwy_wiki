@@ -1,0 +1,59 @@
+/* 容器 */
+.portable-infobox {
+  border: 1px solid #C9BBA0 !important;
+  border-radius: 4px;
+  background: #F7F1E4 !important;
+  overflow: hidden;
+}
+
+.portable-infobox .pi-title {
+  background: #1B2A41 !important;
+  color: #EDE4D3 !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-left: 4px solid #B08D57 !important;
+  margin: 0;
+}
+
+.portable-infobox .pi-header {
+  background: #EDE4D3 !important;
+  color: #1B2A41 !important;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border-left: 4px solid #B08D57 !important;
+  border-top: 1px solid #C9BBA0 !important;
+  border-bottom: 1px solid #C9BBA0 !important;
+}
+
+/* 数据行：标签靠左、值靠右分布 */
+.portable-infobox .pi-data {
+  display: flex;
+  padding: 12px 16px;
+  border-bottom: 1px solid #EDE4D3 !important;
+}
+.portable-infobox .pi-item:last-child .pi-data {
+  border-bottom: none;
+}
+.portable-infobox .pi-data-label {
+  flex: 0 0 110px;
+  color: #2B2621 !important;
+  font-weight: bold;
+  font-size: 13px;
+}
+.portable-infobox .pi-data-value {
+  flex: 1;
+  color: #2B2621 !important;
+  font-size: 13px;
+}
+
+/* 图片说明文字（若以后加图） */
+.portable-infobox .pi-caption {
+  background: #EDE4D3 !important;
+  color: #6b5f4f !important;
+  font-size: 11px;
+  padding: 6px 10px;
+  text-align: center;
+}
