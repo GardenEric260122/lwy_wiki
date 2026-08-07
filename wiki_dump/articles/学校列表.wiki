@@ -1,120 +1,178 @@
+<div style="
+background:#F7F1E4;
+padding:30px;
+margin:-20px;
+min-height:100vh;
+box-sizing:border-box;
+">
+
+__NOTOC__
+
+<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
 [[File:学校列表.jpg|700px]]
-=== A ===
+</div>
 
-=== B ===
-[[贝利亚大学]]
+<!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:10px;
+padding:12px 18px;
+margin-bottom:24px;
+display:flex;
+flex-wrap:wrap;
+gap:6px 14px;
+font-size:13px;
+">
+<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · [[#letterF|F]] · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · <span style="color:#9c8f78;">Q</span> · <span style="color:#9c8f78;">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
+</div>
 
-=== C ===
+<!-- B -->
+<span id="letterB"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">B</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[贝利亚大学]]
+</div>
 
-=== D ===
-[[德玛西亚/诺克萨斯]]
+<!-- D -->
+<span id="letterD"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[德玛西亚/诺克萨斯]]
+</div>
 
-=== E ===
+<!-- F -->
+<span id="letterF"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">F</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[枫丹研究院]]
+* [[福建大学（FKING U）]]
+</div>
 
-=== F ===
-[[枫丹研究院]]
+<!-- H -->
+<span id="letterH"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">H</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[幻想乡♂大学]]
+* [[花园初中]]
+* [[穗织中学]]
+* [[霍格沃茨]]
+</div>
 
-[[福建大学（FKING U）]]
+<!-- J -->
+<span id="letterJ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[剑桥鲁管智学院]]
+* [[九一大学]]
+</div>
 
-=== G ===
+<!-- K -->
+<span id="letterK"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">K</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[卡塞尔学院]]
+* [[开原棋牌学院]]
+</div>
 
-=== H ===
-[[幻想乡♂大学]]
+<!-- L -->
+<span id="letterL"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[卢关大学]]
+* [[卢管高中]]
+* [[鲁管科技大学]]
+* [[鲁管智学院]]
+* [[罗德岛大学]]
+</div>
 
-[[花园初中]]
+<!-- M -->
+<span id="letterM"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[美国导管子理工学院]]
+* [[魔女岛大学]]
+* [[麻豆大学]]
+</div>
 
-[[穗织中学]]
+<!-- N -->
+<span id="letterN"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[尼基塔大学]]
+* [[南京大学]]
+</div>
 
-[[霍格沃茨]]
+<!-- S -->
+<span id="letterS"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">S</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[桑德斯大学]]
+* [[圣安地列斯大学]]
+* [[恕瑞玛大学]]
+* [[斯玛·黎雯娅大学]]
+</div>
 
-=== I ===
+<!-- T -->
+<span id="letterT"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[特雷森学院]]
+* [[棠芯学府]]
+* [[泰姆瑞尔国立大学]]
+</div>
 
-=== J ===
-[[剑桥鲁管智学院]]
+<!-- W -->
+<span id="letterW"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[下北泽大学]]
+* [[下北泽国立大学]]
+* [[希尔维大学]]
+* [[新日暮里大学]]
+* [[悉尼大学]]
+</div>
 
-[[九一大学]]
+<!-- X -->
+<span id="letterX"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[香港中文大学（深圳）]]
+</div>
 
-=== K ===
-[[卡塞尔学院]]
+<!-- Y -->
+<span id="letterY"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Y</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[英国挑担大学]]
+* [[牛国英津大学]]
+* [[圆蛤镇]]
+</div>
 
-[[开原棋牌学院]]
+<!-- Z -->
+<span id="letterZ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[蜘蛛巢大学]]
+* 祖安大学
+* [[中国科学技术大学]]
+</div>
 
-=== L ===
-[[卢关大学]]
+</div>
 
-[[卢管高中]]
-
-[[鲁管科技大学]]
-
-[[鲁管智学院]]
-
-[[罗德岛大学]]
-
-=== M ===
-[[美国导管子理工学院]]
-
-[[魔女岛大学]]
-
-[[麻豆大学]]
-
-=== N ===
-[[尼基塔大学]]
-
-[[南京大学]]
-
-=== O ===
-
-=== P ===
-
-=== Q ===
-=== R ===
-
-=== S ===
-[[桑德斯大学]]
-
-[[圣安地列斯大学]]
-
-[[恕瑞玛大学]]
-
-[[斯玛·黎雯娅大学]]
-
-=== T ===
-[[特雷森学院]]
-
-[[棠芯学府]]
-
-[[泰姆瑞尔国立大学]]
-
-=== U ===
-
-=== V ===
-
-=== W ===
-[[下北泽大学]]
-
-[[下北泽国立大学]]
-
-[[希尔维大学]]
-
-[[新日暮里大学]]
-
-[[悉尼大学]]
-
-=== X ===
-[[香港中文大学（深圳）]]
-
-=== Y ===
-[[英国挑担大学]]
-
-[[牛国英津大学]]
-
-[[圆蛤镇]]
-
-=== Z ===
-[[蜘蛛巢大学]]
-
-祖安大学
-
-[[中国科学技术大学]]
-
-=== # ===
+[[Category:X]]

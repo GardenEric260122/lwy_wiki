@@ -1,259 +1,381 @@
+<div style="
+background:#F7F1E4;
+padding:30px;
+margin:-20px;
+min-height:100vh;
+box-sizing:border-box;
+">
+
+__NOTOC__
+
+<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
 [[File:教授列表.jpg|700px]]
+</div>
+
+<!-- 字母跳转导航 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:10px;
+padding:12px 18px;
+margin-bottom:24px;
+display:flex;
+flex-wrap:wrap;
+gap:6px 14px;
+font-size:13px;
+">
+[[#letterA|A]] · [[#letterB|B]] · [[#letterC|C]] · [[#letterD|D]] · [[#letterE|E]] · [[#letterF|F]] · [[#letterG|G]] · [[#letterH|H]] · [[#letterI|I]] · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · [[#letterO|O]] · [[#letterP|P]] · [[#letterQ|Q]] · [[#letterR|R]] · [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · [[#letterV|V]] · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]] · [[#letterHash|#]]
+</div>
+
+<!-- A -->
+<span id="letterA"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">A</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[爱吃鱼的猫]]
+* 爱本邻久博士
+* [[艾路迪克教授]]
+* [[爱因斯坦算命先生]]
+</div>
+</div>
+
+<!-- B -->
+<span id="letterB"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">B</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[巴巴托斯]]
+* [[布尔波特]]
+* [[比格·迪克·查斯利·温雅教授]]
+* [[博丽灵梦]]
+* [[布雷斯维特夫人]]
+* [[贝利亚大帝]]
+* [[白锁成教授]]
+* [[白露江風教授]]
+* [[碧桑驾dell教授]]
+</div>
+</div>
+
+<!-- C -->
+<span id="letterC"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">C</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[蔡虚坤]]
+* [[陈人杰教授]]
+* [[陈星宇教授]]
+* [[崔佛·菲利普教授]]
+* 崔祐齐教授
+* [[陈振宇教授]]
+</div>
+</div>
+
+<!-- D -->
+<span id="letterD"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[豆包]]
+* [[达·基巴教授]]
+* [[大卫·戴·里昂兹]]
+* [[东雪莲（孙笑川妻子）]]
+* [[丁真]]
+* [[党延川教授]]
+</div>
+</div>
+
+<!-- E -->
+<span id="letterE"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">E</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[二阶堂希罗教授]]
+* [[二向箔的投放者]]
+</div>
+</div>
+
+<!-- F -->
+<span id="letterF"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">F</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[丰川祥子]]
+* [[芙宁娜·德·枫丹]]
+* [[范小勤]]
+* [[法医索迪克]]
+</div>
+</div>
+
+<!-- G -->
+<span id="letterG"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">G</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[冈·交丁·炎珍霜教授]]
+* [[冈·交利文·亚皮严教授]]
+* [[棍母（隐形人）]]
+* [[关瑞生教授]]
+* [[港塞]]
+* [[高盛德教授]]
+</div>
+</div>
+
+<!-- H -->
+<span id="letterH"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">H</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[侯国玉教授]]
+* [[哈基米院士]]
+* [[洪伟炳教授]]
+* 黄仁行教授
+</div>
+</div>
+
+<!-- I -->
+<span id="letterI"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">I</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+<!-- J -->
+<span id="letterJ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[季伯常教授（91大神）]]
+* 姜灿荣教授
+* 姜承錄教授
+* 金基仁教授
+* 金修奂教授
+* [[焦利问刚教授]]
+</div>
+</div>
+
+<!-- K -->
+<span id="letterK"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">K</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[卡利斯托教授]]
+* [[康申凯博勒教授]]
+* [[美国重力学生物学双科教授柯毕·稻温雅·冠紫|柯毕·稻温雅·冠紫]]
+</div>
+</div>
+
+<!-- L -->
+<span id="letterL"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[刘浩文教授]]
+* [[刘建龙教授]]
+* [[来清德]]
+* [[李天燕教授]]
+* 李珉炯教授
+* [[绫波丽]]
+* 李汭璨教授
+* 李相赫教授
+* [[卢伟本]]
+* [[卢初雪教授]]
+* [[卢德霜教授]]
+* [[李文亚]]
+* [[李文亚（清醒人格）]]
+* [[李占良教授]]
+* 柳岷析教授
+* 柳智敏教授
+</div>
+</div>
+
+<!-- M -->
+<span id="letterM"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[马丁·马德拉索教授]]
+* [[墨芳·达莎·比]]
+* [[魔理沙]]
+* [[梅玛]]
+* [[明日香]]
+* [[马斯勒]]
+* [[蜜桃乌龙]]
+* [[马嘉琪教授]]
+</div>
+</div>
+
+<!-- N -->
+<span id="letterN"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[牛顿]]
+* [[奶龙教授]]
+* [[尼玛莱格贝德·杰克逊教授]]
+* [[南秋教授]]
+* [[牛子豪]]
+</div>
+</div>
+
+<!-- O -->
+<span id="letterO"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">O</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+<!-- P -->
+<span id="letterP"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">P</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* 朴载赫教授
+* [[皮特安卓人]]
+</div>
+</div>
+
+<!-- Q -->
+<span id="letterQ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Q</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[千手扉间教授「秽土转生」]]
+* [[千早爱音]]
+* [[乔治·W·布希教授]]
+</div>
+</div>
+
+<!-- R -->
+<span id="letterR"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">R</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+<!-- S -->
+<span id="letterS"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">S</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[撒贝宁]]
+* [[孙笑川教授]]
+* [[史育宁教授]]
+</div>
+</div>
+
+<!-- T -->
+<span id="letterT"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[唐振钦教授]]
+* [[田所浩二]]
+* [[特罗菲姆·李森科院士]]
+* [[童子军大王博士]]
+</div>
+</div>
+
+<!-- U -->
+<span id="letterU"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">U</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+<!-- V -->
+<span id="letterV"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">V</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+<!-- W -->
+<span id="letterW"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[王楚淇教授]]
+* [[温国凯教授]]
+* [[汪鸿汶教授]]
+* [[王静伟教授]]
+* [[王书涵]]
+* [[王伟恒教授]]
+* [[乌弗瑞克]]
+* 文炫竣教授
+</div>
+</div>
+
+<!-- X -->
+<span id="letterX"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[肖际霸教授]]
+* [[肖基薄教授]]
+* 小鸟游六花教授
+* 许秀教授
+* [[许昊龙教授]]
+* 徐进赫教授
+</div>
+</div>
+
+<!-- Y -->
+<span id="letterY"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Y</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[御坂美琴]]
+* [[永雏塔菲教授]]
+* [[伊德格拉米教授]]
+* [[盐见夜教授]]
+* [[噫噫呜呜]]
+</div>
+</div>
+
+<!-- Z -->
+<span id="letterZ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
+<div style="column-width:180px;column-gap:24px;line-height:2;">
+* [[张雪峰教授]]
+* 郑明成教授
+</div>
+</div>
+
+<!-- # -->
+<span id="letterHash"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">#</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
+</div>
+
+</div>
 
-=== A ===
-[[爱吃鱼的猫]]
-
-爱本邻久博士
-
-[[艾路迪克教授]]
-
-[[爱因斯坦算命先生]]
-
-=== B ===
-[[巴巴托斯]]
-
-[[布尔波特]]
-
-[[比格·迪克·查斯利·温雅教授]]
-
-[[博丽灵梦]]
-
-[[布雷斯维特夫人]]
-
-[[贝利亚大帝]]
-
-[[白锁成教授]]
-
-[[白露江風教授]]
-
-[[碧桑驾dell教授]]
-
-=== C ===
-[[蔡虚坤]]
-
-[[陈人杰教授]]
-
-[[陈星宇教授]]
-
-[[崔佛·菲利普教授]]
-
-崔祐齐教授
-
-[[陈振宇教授]]
-
-=== D ===
-[[豆包]]
-
-[[达·基巴教授]]
-
-[[大卫·戴·里昂兹]]
-
-[[东雪莲（孙笑川妻子）]]
-
-[[丁真]]
-
-[[党延川教授]]
-
-=== E ===
-[[二阶堂希罗教授]]
-
-[[二向箔的投放者]]
-
-=== F ===
-[[丰川祥子]]
-
-[[芙宁娜·德·枫丹]]
-
-[[范小勤]]
-
-[[法医索迪克]]
-
-=== G ===
-[[冈·交丁·炎珍霜教授]]
-
-[[冈·交利文·亚皮严教授]]
-
-[[棍母（隐形人）]]
-
-[[关瑞生教授]]
-
-[[港塞]]
-
-[[高盛德教授]]
-
-=== H ===
-[[侯国玉教授]]
-
-[[哈基米院士]]
-
-[[洪伟炳教授]]
-
-黄仁行教授
-
-=== I ===
-
-=== J ===
-[[季伯常教授（91大神）]]
-
-姜灿荣教授
-
-姜承錄教授
-
-金基仁教授
-
-金修奂教授
-
-[[焦利问刚教授]]
-
-=== K ===
-[[卡利斯托教授]]
-
-[[康申凯博勒教授]]
-
-[[美国重力学生物学双科教授柯毕·稻温雅·冠紫|柯毕·稻温雅·冠紫]]
-
-=== L ===
-[[刘浩文教授]]
-
-[[刘建龙教授]]
-
-[[来清德]]
-
-[[李天燕教授]]
-
-李珉炯教授
-
-[[绫波丽]]
-
-李汭璨教授
-
-李相赫教授
-
-[[卢伟本]]
-
-[[卢初雪教授]]
-
-[[卢德霜教授]]
-
-[[李文亚]]
-
-[[李文亚（清醒人格）]]
-
-[[李占良教授]]
-
-柳岷析教授
-
-柳智敏教授
-
-=== M ===
-[[马丁·马德拉索教授]]
-
-[[墨芳·达莎·比]]
-
-[[魔理沙]]
-
-[[梅玛]]
-
-[[明日香]]
-
-[[马斯勒]]
-
-[[蜜桃乌龙]]
-
-[[马嘉琪教授]]
-
-=== N ===
-[[牛顿]]
-
-[[奶龙教授]]
-
-[[尼玛莱格贝德·杰克逊教授]]
-
-[[南秋教授]]
-
-[[牛子豪]]
-
-=== O ===
-
-=== P ===
-朴载赫教授
-
-[[皮特安卓人]]
-
-=== Q ===
-[[千手扉间教授「秽土转生」]]
-
-[[千早爱音]]
-
-[[乔治·W·布希教授]]
-
-=== R ===
-
-=== S ===
-[[撒贝宁]]
-
-[[孙笑川教授]]
-
-[[史育宁教授]]
-
-=== T ===
-[[唐振钦教授]]
-
-[[田所浩二]]
-
-[[特罗菲姆·李森科院士]]
-
-[[童子军大王博士]]
-
-=== U ===
-
-=== V ===
-
-=== W ===
-[[王楚淇教授]]
-
-[[温国凯教授]]
-
-[[汪鸿汶教授]]
-
-[[王静伟教授]]
-
-[[王书涵]]
-
-[[王伟恒教授]]
-
-[[乌弗瑞克]]
-
-文炫竣教授
-
-=== X ===
-[[肖际霸教授]]
-
-[[肖基薄教授]]
-
-小鸟游六花教授
-
-许秀教授
-
-[[许昊龙教授]]
-
-徐进赫教授
-
-=== Y ===
-[[御坂美琴]]
-
-[[永雏塔菲教授]]
-
-[[伊德格拉米教授]]
-
-[[盐见夜教授]]
-
-[[噫噫呜呜]]
-
-=== Z ===
-[[张雪峰教授]]
-
-郑明成教授
-
-=== # ===
 [[Category:X]]

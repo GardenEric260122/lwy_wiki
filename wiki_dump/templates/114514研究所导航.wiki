@@ -1,0 +1,110 @@
+<noinclude>
+本模板用于在页面底部显示114514研究所导航框。
+
+使用方法：在页面底部添加 <code><nowiki>{{114514研究所导航}}</nowiki></code>
+
+</noinclude><includeonly>
+<div class="navbox" style="border:1px solid #a2a9b1; margin:1em 0; padding:0; width:100%; background:#f8f9fa; box-sizing:border-box;">
+<div style="background:#c8c19a; padding:8px 12px; font-size:120%; font-weight:bold; text-align:center;">
+[[114514研究所]]
+</div>
+<div style="padding:6px 12px;">
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">创立者</span>
+[[孙笑川教授]]
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">所长</span>
+[[孙笑川教授]]（现任） · 乔曼（前任） · 药师兜（自称）
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">副手</span>
+孙笑川副手（114514研究所副主任）
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">研究员</span>
+[[侯国玉教授]] · [[刘建龙教授]]
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">前成员</span>
+刀哥（孙笑川前助手） · 114514研究所软件开发工程师（未具名） · 114514研究所技术顾问（未具名） · 墨芳·达莎·比
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">实验对象</span>
+周振鹏（士兵男孩）
+</div>
+
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">拥护者</span>
+郭伟
+</div>
+
+<div style="border-top:1px solid #c8c19a; margin:6px 0; padding-top:4px;">
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">下属机构</span>
+[[6324研究所]]（隶属于114514研究所）
+</div>
+<div style="margin:4px 0; padding-left:80px;">
+6324研究所副所长：李占良 · 郭老师
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;"></span>
+114514研究所日本分所 · 114514研究所葡萄牙分所 · 114514研究所西班牙分所
+</div>
+<div style="margin:4px 0; padding-left:80px;">
+日本分所成员：五条悟教授
+</div>
+<div style="margin:4px 0; padding-left:80px;">
+西班牙分所成员：爱莉希雅
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;"></span>
+114514犯罪集团北美分部 · 114514军
+</div>
+<div style="margin:4px 0; padding-left:80px;">
+北美分部成员：崔佛·菲利普 · 麦克·迪圣他
+</div>
+<div style="margin:4px 0; padding-left:80px;">
+114514军成员：张顺飞（被逼迫加入）
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;"></span>
+350234研究所（借尸还魂产物）
+</div>
+</div>
+
+<div style="border-top:1px solid #c8c19a; margin:6px 0; padding-top:4px;">
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">设施</span>
+114514研究所地下室
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">设备</span>
+[[曼德尔超算系统]]
+</div>
+</div>
+
+<div style="border-top:1px solid #c8c19a; margin:6px 0; padding-top:4px;">
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">相关概念</span>
+[[枪毙]] · [[司法制裁]] · [[批判李文亚大会]] · [[滚木算法]]
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">相关事件</span>
+[[诺贝尔奖窃案]] · [[全球学术围剿]] · [[U盘失窃事件]]
+</div>
+<div style="margin:4px 0;">
+<span style="font-weight:bold; display:inline-block; width:80px;">主要对手</span>
+[[李文亚]]
+</div>
+</div>
+
+</div>
+</div>
+</includeonly>

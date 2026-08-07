@@ -2,12 +2,10 @@ Category:114514研究所
 Category:Dev modules
 Category:Module documentation
 Category:X
-Category:争议理论
 Category:事件
 Category:事件模板
 Category:人物
 Category:信息模板
-Category:医学理论
 Category:南京大学
 Category:卢关大学
 Category:反对李文亚势力
@@ -29,14 +27,12 @@ Category:李文亚宇宙机构
 Category:李文亚宇宙模板
 Category:李文亚宇宙理论
 Category:李文亚的主张
-Category:李文亚的理论
 Category:枪毙名单
+Category:概念
 Category:江南大学
-Category:生命科学理论
 Category:目录
 Category:科学管理学者
 Category:诺奖与民科研究交流协会
-Category:黑体生物
 Category:博客帖子
 Category:模板
 Category:模板文件
