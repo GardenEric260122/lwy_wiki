@@ -1,36 +1,40 @@
 <includeonly>
-<div style="max-width:760px; margin:1em auto; padding:1em 1.2em; background:#f2ead8; border:1px solid #b7a98c; border-left:7px solid #242424; box-shadow:2px 3px 0 #d0c4aa; font-family:KaiTi,'STKaiti',serif; transform:rotate(-0.25deg);">
-
+<div style="
+max-width:760px;
+margin:1.4em auto;
+padding:20px 28px;
+background:#F7F1E4;
+border:1px solid #C9BBA0;
+border-left:4px solid #B08D57;
+border-radius:4px;
+font-family:Georgia,'Songti SC','STSong',serif;
+color:#2B2621;
+line-height:1.9;
+">
 {{#if:{{{title|}}}|
-<span style="font-family:sans-serif; font-size:85%; color:#6f6250; letter-spacing:0.08em;">
+<div style="font-size:12px;color:#8C6D3F;letter-spacing:2px;margin-bottom:8px;">
 {{{title}}}
-</span><br />
+</div>
 }}
-
+<div style="font-size:105%;font-style:italic;">
 {{{text|}}}
-
+</div>
 {{#if:{{{author|}}}|
-<div style="text-align:right; font-family:sans-serif; font-size:85%; color:#6f6250;">
+<div style="text-align:right;margin-top:10px;font-size:13px;color:#1B2A41;font-weight:bold;font-style:normal;">
 ——{{{author}}}
 </div>
 }}
-
 </div>
 </includeonly><noinclude>
-
 == 用法 ==
-
 基础用法：
-
 <pre>
 {{引言
 |text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
 |author=李文亚
 }}
 </pre>
-
 完整用法：
-
 <pre>
 {{引言
 |title=研究讲述节选｜命名与分类阶段
@@ -38,9 +42,7 @@
 |author=李文亚
 }}
 </pre>
-
 == 参数 ==
-
 {| class="wikitable"
 ! 参数
 ! 说明
@@ -54,15 +56,11 @@
 | author
 | 来源、人物或署名（可选）
 |}
-
 == 示例 ==
-
 {{引言
 |title=研究讲述节选｜命名与分类阶段
 |text=“我把它命名为黑体。我认为它既不属于微生物，也不属于动物。”
 |author=李文亚
 }}
-
 [[Category:引用模板]]
-
 </noinclude>

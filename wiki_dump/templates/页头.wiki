@@ -1,0 +1,62 @@
+<includeonly>
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:16px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 2px 6px rgba(27,42,65,.10);
+">
+<div style="
+background:#1B2A41;
+padding:18px 28px;
+font-size:26px;
+font-weight:bold;
+color:#EDE4D3;
+border-bottom:3px solid #B08D57;
+">
+{{{title|{{PAGENAME}}}}}
+</div>
+<div style="
+padding:25px 35px;
+font-size:105%;
+line-height:2;
+color:#2B2621;
+">
+{{{1|}}}
+</div>
+</div>
+</includeonly><noinclude>
+== 用法 ==
+<pre>
+{{页头
+|title=文亚宇宙世界观写作指南
+|欢迎来到本页面。本页面用于……
+}}
+</pre>
+== 模板参数 ==
+{| class="wikitable"
+! 参数
+! 必填
+! 说明
+! 默认值
+|-
+| <code>title</code>
+| 否
+| 标题栏显示的文字。
+| 当前页面标题（{{PAGENAME}}）
+|-
+| <code>1</code>
+| 是
+| 说明框正文内容，支持 Wiki 语法（列表、加粗、链接等）。
+| 无
+|}
+== 示例 ==
+{{页头
+|title=示例标题
+|这是一段示例说明文字，支持'''加粗'''、[[链接]]和列表：
+* 项目一
+* 项目二
+}}
+[[Category:信息模板]]
+</noinclude>

@@ -1,0 +1,158 @@
+<div style="
+background:#F7F1E4;
+padding:30px;
+margin:-20px;
+min-height:100vh;
+box-sizing:border-box;
+">
+
+__NOTOC__
+{{页头
+|title=Wiki 配色使用指南
+|{{SITENAME}}用的是"墨蓝 + 黄铜 + 羊皮纸"这一套配色，
+灵感来自档案馆和老学术机构的调性。<br>
+'''本页教你怎么在编辑条目时用上这套颜色''' —— 不用懂设计，
+照抄下面的代码，改成自己的文字就行。
+}}
+
+== <span style="color:#1B2A41;">六个常用颜色</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:20px 26px;margin-bottom:24px;">
+{| style="width:100%;border-collapse:collapse;"
+! style="text-align:left;padding:8px;width:60px;" | 色块
+! style="text-align:left;padding:8px;" | 名称
+! style="text-align:left;padding:8px;" | 代码（复制这个）
+! style="text-align:left;padding:8px;" | 用在哪
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#1B2A41;border-radius:4px;"></div>
+| style="padding:8px;" | 墨蓝
+| style="padding:8px;" | <code>#1B2A41</code>
+| style="padding:8px;" | 标题、标题栏背景
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#B08D57;border-radius:4px;"></div>
+| style="padding:8px;" | 黄铜
+| style="padding:8px;" | <code>#B08D57</code>
+| style="padding:8px;" | 分割线、强调、边框
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#EDE4D3;border:1px solid #C9BBA0;border-radius:4px;"></div>
+| style="padding:8px;" | 羊皮纸
+| style="padding:8px;" | <code>#EDE4D3</code>
+| style="padding:8px;" | 卡片背景、信息框
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#F7F1E4;border:1px solid #C9BBA0;border-radius:4px;"></div>
+| style="padding:8px;" | 纸白
+| style="padding:8px;" | <code>#F7F1E4</code>
+| style="padding:8px;" | 页面整体背景
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#6B2737;border-radius:4px;"></div>
+| style="padding:8px;" | 氧化红
+| style="padding:8px;" | <code>#6B2737</code>
+| style="padding:8px;" | 警告、限制访问标签
+|-
+| style="padding:8px;" | <div style="width:32px;height:32px;background:#4A5D45;border-radius:4px;"></div>
+| style="padding:8px;" | 苔绿
+| style="padding:8px;" | <code>#4A5D45</code>
+| style="padding:8px;" | 已验证 / 正常状态标签
+|}
+</div>
+
+<div style="border-left:3px solid #B08D57;padding:10px 16px;margin-bottom:24px;background:#EDE4D3;color:#2B2621;font-size:13px;">
+'''新手只要记住墨蓝和黄铜这两个就够了''' —— 标题用墨蓝，分割线/强调用黄铜，其余颜色是进阶用法。
+</div>
+
+== <span style="color:#1B2A41;">场景一：给标题上色</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+写条目时二级标题想变成墨蓝色，把 <code>==标题==</code> 换成：
+
+<pre>
+== <span style="color:#1B2A41;">你的标题</span> ==
+</pre>
+
+想在标题下加一条黄铜细线（其他页面都有的那种装饰线），标题下面再加一行：
+
+<pre>
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+</pre>
+
+== <span style="color:#1B2A41;">场景二：加一个提示框</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+不用自己写颜色代码，直接用现成的三个模板，改里面的文字就行：
+
+<pre>
+{{Info
+|title=提示
+|这里写你想说的内容。
+}}
+</pre>
+
+* 蓝色标题栏 → 用 <code>[[Template:Info]]</code>（一般告知）
+* 深黄铜标题栏 → 用 <code>[[Template:Notice]]</code>（需要注意）
+* 红色标题栏 → 用 <code>[[Template:Warn]]</code>（警告 / 重要提醒）
+
+详细用法看：[[Template:Info|提示模板]] · [[Template:Notice|提醒模板]] · [[Template:Warn|警告模板]]
+
+== <span style="color:#1B2A41;">场景三：做一张浅色卡片</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+想把一段内容装进一个圆角小卡片里（比如首页那种），复制这段，把中间文字换掉：
+
+<pre>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;">
+这里写你的内容。
+</div>
+</pre>
+
+== <span style="color:#1B2A41;">场景四：加一个状态标签</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+想在条目里加个小标签，比如"已验证"或"限制访问"：
+
+<pre>
+<span style="background:#4A5D45;color:#fff;font-size:10px;padding:2px 8px;border-radius:2px;">已验证</span>
+<span style="background:#6B2737;color:#fff;font-size:10px;padding:2px 8px;border-radius:2px;">限制访问</span>
+</pre>
+
+效果大概是这样：
+<span style="background:#4A5D45;color:#fff;font-size:10px;padding:2px 8px;border-radius:2px;">已验证</span>
+<span style="background:#6B2737;color:#fff;font-size:10px;padding:2px 8px;border-radius:2px;">限制访问</span>
+
+== <span style="color:#1B2A41;">场景五：给链接文字单独上色</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+'''注意：''' 直接给 <code>[[链接]]</code> 外面包颜色是没用的，链接自己的颜色会盖掉。
+要把颜色写在链接文字'''里面'''：
+
+<pre>
+[[条目名称|<span style="color:#1B2A41;">显示的文字</span>]]
+</pre>
+
+== <span style="color:#1B2A41;">不要用的颜色</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:18px 24px;line-height:2;color:#2B2621;">
+以下颜色跟整体风格不搭，编辑时请避免：
+* <span style="display:inline-block;width:14px;height:14px;background:#C9D3E8;border-radius:2px;vertical-align:middle;"></span> 浅蓝色边框（<code>#C9D3E8</code> 之类）—— 请用褪色棕 <code>#C9BBA0</code> 代替
+* <span style="display:inline-block;width:14px;height:14px;background:#FFCC33;border-radius:2px;vertical-align:middle;"></span> 亮黄色（<code>#FFCC33</code> 之类）—— 太跳脱，需要黄色调时用深黄铜 <code>#8C6D3F</code>
+* <span style="display:inline-block;width:14px;height:14px;background:#B80000;border-radius:2px;vertical-align:middle;"></span> 正红色（<code>#B80000</code> 之类）—— 请用氧化红 <code>#6B2737</code> 代替，更沉稳
+* 纯黑色大字标题 —— 标题请统一用墨蓝 <code>#1B2A41</code>
+</div>
+
+<div style="
+margin-top:30px;
+padding:18px 24px;
+background:#1B2A41;
+color:#EDE4D3;
+border-radius:12px;
+font-weight:bold;
+border-left:4px solid #B08D57;
+">
+不确定怎么配色？直接复制本页任意一段代码改文字即可，
+或者在编辑前先看看别的条目是怎么写的。有问题欢迎在讨论页或 QQ 群里问。
+</div>
+
+</div>
+
+[[Category:索引| ]]

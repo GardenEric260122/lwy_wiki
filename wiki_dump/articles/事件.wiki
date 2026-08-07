@@ -1,78 +1,128 @@
+<div style="
+background:#F7F1E4;
+padding:30px;
+margin:-20px;
+min-height:100vh;
+box-sizing:border-box;
+">
+
+__NOTOC__
+
+<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
 [[File:事件列表 .jpg|700px]]
-=== A ===
+</div>
 
-=== B ===
+<!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:10px;
+padding:12px 18px;
+margin-bottom:24px;
+display:flex;
+flex-wrap:wrap;
+gap:6px 14px;
+font-size:13px;
+">
+<span style="color:#9c8f78;">A</span> · <span style="color:#9c8f78;">B</span> · [[#letterC|C]] · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · <span style="color:#9c8f78;">F</span> · <span style="color:#9c8f78;">G</span> · <span style="color:#9c8f78;">H</span> · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · <span style="color:#9c8f78;">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · [[#letterQ|Q]] · <span style="color:#9c8f78;">R</span> · <span style="color:#9c8f78;">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span style="color:#9c8f78;">V</span> · <span style="color:#9c8f78;">W</span> · <span style="color:#9c8f78;">X</span> · <span style="color:#9c8f78;">Y</span> · [[#letterZ|Z]]
+</div>
 
-=== C ===
-[[晨风之役]]
+<!-- C -->
+<span id="letterC"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">C</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[晨风之役]]
+</div>
 
-=== D ===
-[[第十九次李文亚批判大会]]
+<!-- D -->
+<span id="letterD"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[第十九次李文亚批判大会]]
+* [[第二十次李文亚批判大会]]
+* [[第二十二次李文亚批判大会]]
+* [[第二十四次李文亚批判大会]]
+* [[第一届孙笑川批判大会]]
+</div>
 
-[[第二十次李文亚批判大会]]
+<!-- E -->
+<span id="letterE"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">E</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[二向箔伪政变闹剧]]
+</div>
 
-[[第二十二次李文亚批判大会]]
+<!-- J -->
+<span id="letterJ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[金坤奖]]
+</div>
 
-[[第二十四次李文亚批判大会]]
+<!-- L -->
+<span id="letterL"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[李文亚否定光合作用]]
+* [[李文亚健康风波]]
+* [[裸奔举报]]
+* [[联合国批判孙笑川大会]]
+</div>
 
-[[第一届孙笑川批判大会]]
+<!-- M -->
+<span id="letterM"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[诺贝尔奖窃案]]
+</div>
 
-=== E ===
+<!-- N -->
+<span id="letterN"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[诺奖与民科研究交流协会内乱]]
+</div>
 
-=== F ===
+<!-- Q -->
+<span id="letterQ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Q</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[全球学术围剿]]
+</div>
 
-=== G ===
+<!-- T -->
+<span id="letterT"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[天际省独立运动]]
+</div>
 
-=== H ===
+<!-- U -->
+<span id="letterU"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">U</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[U盘失窃事件]]
+</div>
 
-=== I ===
+<!-- Z -->
+<span id="letterZ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[紫金山天文台之争]]
+* [[蜘蛛巢大学批判孙笑川大会]]
+</div>
 
-=== J ===
-[[金坤奖]]
+</div>
 
-=== K ===
-
-
-=== L ===
-[[李文亚否定光合作用]]<br>
-[[李文亚健康风波]]<br>
-[[裸奔举报]]<br>
-[[联合国批判孙笑川大会]]
-
-=== M ===
-[[诺贝尔奖窃案]]
-
-=== N ===
-[[诺奖与民科研究交流协会内乱]]
-
-=== O ===
-
-=== P ===
-
-=== Q ===
-[[全球学术围剿]]
-
-=== R ===
-
-=== S ===
-
-=== T ===
-[[天际省独立运动]]
-
-=== U ===
-[[U盘失窃事件]]
-
-=== V ===
-
-=== W ===
-
-=== X ===
-
-=== Y ===
-
-=== Z ===
-[[紫金山天文台之争]]
-
-[[蜘蛛巢大学批判孙笑川大会]]
-
-=== # ===
+[[Category:X]]

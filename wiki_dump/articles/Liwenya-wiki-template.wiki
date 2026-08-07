@@ -1,0 +1,196 @@
+复制以下内容到liwenya-wiki-template.txt<syntaxhighlight lang="markdown">
+---
+name: liwenya-wiki-template
+description: 文亚宇宙世界观 Wiki 模板使用指导。提供 Character（人物）和 Institutions（机构）模板参数定义、页面推荐结构、编辑规则、命名规则及 AI Agent 工作流程。
+---
+
+# 文亚宇宙世界观 Wiki 模板使用指导
+
+## Template:Character 人物模板
+
+### 基本调用
+
+```wiki
+{{Character
+|name=
+|image=
+|caption=
+|foreign_name=
+|birth_date=
+|birth_place=
+|occupation=
+|affiliation=
+|position=
+|fields=
+|rival=
+}}
+```
+
+### 参数说明
+
+| 参数 | 说明 |
+|------|------|
+| name | 人物名称 |
+| image | 图片文件名（不填写 File:） |
+| caption | 图片说明 |
+| foreign_name | 外文名 |
+| birth_date | 出生日期 |
+| birth_place | 出生地 |
+| occupation | 职业或身份 |
+| affiliation | 所属机构 |
+| position | 主要职务 |
+| fields | 研究领域 |
+| rival | 主要争议对象 |
+
+### 示例
+
+```wiki
+{{Character
+|name=林泽远教授
+|image=Lin_Zeyuan.png
+|caption=林泽远教授
+|occupation=理论物理学家
+|affiliation=[[文亚基础科学研究院]]
+|position=高级研究员
+|fields=复杂系统理论
+}}
+```
+
+---
+
+## Template:Institutions 机构模板
+
+### 基本调用
+
+```wiki
+{{Institutions
+|name=
+|image=
+|caption=
+|director=
+|location=
+|established=
+|type=
+|fields=
+|evaluation=
+}}
+```
+
+### 参数说明
+
+| 参数 | 说明 |
+|------|------|
+| name | 机构名称 |
+| image | 机构图片或标志文件名 |
+| caption | 图片说明 |
+| director | 负责人 |
+| location | 所在地 |
+| established | 成立时间 |
+| type | 机构类型 |
+| fields | 研究领域 |
+| evaluation | 外界评价 |
+
+### 示例
+
+```wiki
+{{Institutions
+|name=114514研究所
+|image=114514研究所标志.jpg
+|caption=114514研究所标志
+|director=[[孙笑川教授]]
+|location=文亚共和国
+|established=2018年
+|type=综合科研机构
+|fields=材料科学、生物工程
+|evaluation=存在学术争议
+}}
+```
+
+---
+
+## 页面规范
+
+### 人物页面推荐结构
+
+```wiki
+{{Character}}
+
+== 简介 ==
+
+== 生平 ==
+
+=== 早年经历（如果有） ===
+
+=== 学术经历（如果有） ===
+
+== 学术贡献（主要理论） ==
+
+== 争议（如果有） ==
+
+== 荣誉与影响（如果有） ==
+
+== 评价 ==
+
+== 相关条目 ==
+```
+
+### 机构页面推荐结构
+
+```wiki
+{{Institutions}}
+
+== 概要 ==
+
+== 机构概况 ==
+
+== 历史 ==
+
+=== 创立 ===
+
+=== 发展 ===
+
+== 学术方向 ==
+
+== 争议 ==
+
+== 评价 ==
+
+== 相关条目 ==
+```
+
+---
+
+## 编辑规则
+
+- 所有内容必须符合虚构世界观
+- 不将虚构内容描述为现实事实
+- 不创建现实人物对应条目
+- 不使用真人照片，应使用 AI 生成图片
+- 相关条目不要写入模板
+- 创建页面后加入对应索引列表
+
+---
+
+## 命名规则
+
+- 普通人物：[[XXX教授]]
+- 特殊人物：[[李文亚]]（不添加教授后缀）
+
+---
+
+## AI Agent 工作流程
+
+1. 判断条目类型：
+   - 人物 → 使用 Character 模板
+   - 机构 → 使用 Institutions 模板
+2. 首先生成信息框模板
+3. 再生成正文
+4. 检查：
+   - Wiki 语法
+   - 内部链接
+   - 分类
+   - 世界观一致性
+   - 是否有用户输入数据支撑或网络切实内容支撑，避免胡编乱造
+5. 输出最终 MediaWiki 页面代码
+
+</syntaxhighlight>

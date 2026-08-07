@@ -622,8 +622,4 @@
 * [[批判李文亚大会]]
 * [[民间科学]]
 
-[[Category:生命科学理论]]
-[[Category:医学理论]]
-[[Category:李文亚的理论]]
-[[Category:争议理论]]
-[[Category:黑体生物]]
+[[Category:概念]]

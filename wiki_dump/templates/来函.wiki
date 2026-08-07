@@ -1,35 +1,39 @@
 <includeonly>
-<div style="max-width:760px; margin:1em auto; padding:0.9em 1.1em; background:#f4eddb; border:1px solid #b9aa8b; border-right:7px solid #8b1e2d; box-shadow:-2px 3px 0 #d2c6ac; font-family:KaiTi,'STKaiti',serif; transform:rotate(0.2deg);">
-
+<div style="
+max-width:760px;
+margin:1.4em auto;
+padding:20px 28px;
+background:#F7F1E4;
+border:1px solid #C9BBA0;
+border-right:4px solid #6B2737;
+border-radius:4px;
+font-family:Georgia,'Songti SC','STSong',serif;
+color:#2B2621;
+line-height:1.9;
+">
 {{#if:{{{title|}}}|
-<span style="font-family:sans-serif; font-size:85%; color:#6f6250;">
+<div style="font-size:12px;color:#6B2737;letter-spacing:2px;margin-bottom:8px;">
 {{{title}}}
-</span><br />
+</div>
 }}
-
+<div style="font-size:105%;font-style:italic;">
 {{{text|}}}
-
+</div>
 {{#if:{{{author|}}}|
-<div style="margin-top:.5em; text-align:right; font-family:sans-serif; font-size:85%; color:#6f6250;">
+<div style="text-align:right;margin-top:10px;font-size:13px;color:#1B2A41;font-weight:bold;font-style:normal;">
 ——{{{author}}}
 </div>
 }}
-
 </div>
 </includeonly><noinclude>
-
 == 用法 ==
-
 基础用法：
-
 <pre>
 {{来函
 |text=“我们委员会五百六十名科学家一致认为，应该改成白体生物这个名称。”
 }}
 </pre>
-
 完整用法：
-
 <pre>
 {{来函
 |title=来函节选｜署名真实性有争议
@@ -37,9 +41,7 @@
 |author=某委员会来函
 }}
 </pre>
-
 == 参数 ==
-
 {| class="wikitable"
 ! 参数
 ! 说明
@@ -53,14 +55,10 @@
 | author
 | 来函来源或署名（可选）
 |}
-
 == 示例 ==
-
 {{来函
 |title=来函节选｜署名真实性有争议
 |text=“我们委员会五百六十名科学家一致认为，应该改成白体生物这个名称。”
 }}
-
 [[Category:引用模板]]
-
 </noinclude>

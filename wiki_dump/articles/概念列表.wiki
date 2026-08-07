@@ -1,72 +1,115 @@
+<div style="
+background:#F7F1E4;
+padding:30px;
+margin:-20px;
+min-height:100vh;
+box-sizing:border-box;
+">
+
+__NOTOC__
+
+<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
 [[File:概念列表.jpg|700px]]
-=== A ===
+</div>
 
-=== B ===
-[[白体生物]]
+<!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:10px;
+padding:12px 18px;
+margin-bottom:24px;
+display:flex;
+flex-wrap:wrap;
+gap:6px 14px;
+font-size:13px;
+">
+<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · <span style="color:#9c8f78;">F</span> · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · <span style="color:#9c8f78;">J</span> · <span style="color:#9c8f78;">K</span> · [[#letterL|L]] · <span style="color:#9c8f78;">M</span> · <span style="color:#9c8f78;">N</span> · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · [[#letterQ|Q]] · <span style="color:#9c8f78;">R</span> · <span style="color:#9c8f78;">S</span> · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · <span style="color:#9c8f78;">Z</span> · [[#letterHash|#]]
+</div>
 
-=== C ===
+<!-- B -->
+<span id="letterB"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">B</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[白体生物]]
+</div>
 
-=== D ===
-[[地球运动模型]]
+<!-- D -->
+<span id="letterD"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[地球运动模型]]
+* [[地球翻滚运动]]
+</div>
 
-[[地球翻滚运动]]
+<!-- H -->
+<span id="letterH"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">H</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[黑体生物]]
+</div>
 
-=== E ===
+<!-- L -->
+<span id="letterL"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[李文亚粒子观]]
+* [[李文亚粒子]]
+</div>
 
-=== F ===
+<!-- Q -->
+<span id="letterQ"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Q</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[枪毙]]
+</div>
 
-=== G ===
+<!-- T -->
+<span id="letterT"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[太阳直径]]
+</div>
 
-=== H ===
-[[黑体生物]]
+<!-- W -->
+<span id="letterW"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[文亚四定律]]
+</div>
 
-=== I ===
+<!-- X -->
+<span id="letterX"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[星球的三个引力范围]]
+</div>
 
-=== J ===
+<!-- Y -->
+<span id="letterY"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Y</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[叶绿体无气孔论]]
+* [[一次动能方程]]
+</div>
 
+<!-- # -->
+<span id="letterHash"></span>
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">#</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[化学理论(未命名)]]
+</div>
 
-=== K ===
+</div>
 
-
-=== L ===
-[[李文亚粒子观]]
-
-[[李文亚粒子]]
-
-=== M ===
-
-=== N ===
-
-
-=== O ===
-
-=== P ===
-
-=== Q ===
-[[枪毙]]
-=== R ===
-
-=== S ===
-
-=== T ===
-[[太阳直径]]
-
-=== U ===
-
-=== V ===
-
-=== W ===
-
-[[文亚四定律]]
-
-=== X ===
-[[星球的三个引力范围]]
-
-=== Y ===
-[[叶绿体无气孔论]]
-
-[[一次动能方程]]
-=== Z ===
-
-=== # ===
-[[化学理论(未命名)]]
+[[Category:X]]
