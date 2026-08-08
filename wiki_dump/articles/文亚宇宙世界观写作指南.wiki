@@ -75,7 +75,8 @@ __NOTOC__
 == <span style="color:#1B2A41;">页面创建指南</span> ==
 <div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
 [[教程请看这里|新手入门指南]]<br>
-[[编辑配色手册|配色手册]]
+[[编辑配色手册|配色手册]]<br>
+[https://community.fandom.com/zh/wiki/Help:%E8%AA%AA%E6%98%8E%E4%B8%AD%E5%BF%83?variant=zh-hans Fandom帮助中心(编辑教程、代码设计教程)]
 
 == <span style="color:#1B2A41;">模板示例</span> ==
 <div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
@@ -97,11 +98,22 @@ __NOTOC__
 [[Template:Notice|提醒模板]]<br>
 [[Template:Warn|警告模板]]
 </div>
+== <span style="color:#1B2A41;">资源</span> ==
+<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:18px 24px;margin-bottom:14px;">
 <div style="color:#8C6D3F;font-weight:bold;font-size:100%;letter-spacing:1px;margin-bottom:8px;">Ai agent skill</div>
-[[li-wenya-universe-wiki-agent|李文亚宇宙 Wiki 初始化编写 Skill]]<br>
-[[ liwenya-wiki-template|文亚宇宙世界观 Wiki 模板使用指导]]<br>
-[[liwenya-universe|李文亚宇宙 (Li Wenya Universe) - AI小说创作世界观技能包]]
+[https://github.com/ylhcqN/Wenya_Wiki_skills <span style="color:#db7734;"> '''李文亚宇宙 Wiki写作skills'''</span>]<br>
+[[li-wenya-universe-wiki-agent|<span style="color:#888;">李文亚宇宙 Wiki 初始化编写 Skill(过时)</span>]]<br>
+[[liwenya-wiki-template|<span style="color:#888;">文亚宇宙世界观 Wiki 模板使用指导(过时)</span>]]<br>
+[[liwenya-universe|<span style="color:#888;">李文亚宇宙 (Li Wenya Universe) - AI小说创作世界观技能包(过时)</span>]]
+</div>
+
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:18px 24px;margin-bottom:14px;">
+<div style="color:#8C6D3F;font-weight:bold;font-size:100%;letter-spacing:1px;margin-bottom:8px;">李文亚教授视频</div>
+[https://archive.org/details/li_wen_ya 李文亚教授视频全集(更新至2026-07-25互联网档案馆、来自抖音镜像)]<br>
+[https://space.bilibili.com/178757758/lists/6850492 秦王扫六合>合集·民科TV(来自抖音转载)]
+
+
 </div>
 
 <div style="

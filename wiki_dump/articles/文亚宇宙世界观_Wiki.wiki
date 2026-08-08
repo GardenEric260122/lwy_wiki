@@ -129,6 +129,34 @@ margin:20px 0;
 我们是一个合作性的网站，请自由编辑 Wiki 页面。
 点击上方的<b>编辑</b>按钮即可开始您的创作。写作前请先阅读[[文亚宇宙世界观写作指南|写作指南]]
 </p>
+
+<div style="
+background:#1B2A41;
+border-left:4px solid #B08D57;
+border-radius:6px;
+padding:16px 22px;
+margin:18px 0 22px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:12px;
+">
+<div style="color:#EDE4D3;">
+<b style="font-size:105%;">还没正式发布前，先在沙盒里练练手</b><br>
+<span style="font-size:90%;color:#C9BBA0;">沙盒是你的个人草稿页，随便编辑都不会影响正式条目</span>
+</div>
+[[Special:MyPage/Sandbox|<span style="
+display:inline-block;
+background:#B08D57;
+color:#1B2A41;
+font-weight:bold;
+padding:8px 18px;
+border-radius:20px;
+white-space:nowrap;
+">进入我的沙盒➡️</span>]]
+</div>
+
 <ol>
 <li><b>请避开政治敏感内容和社会议题及涉黄、涉恐、色情、过度血腥暴力等具有不良影响内容的创作</b></li>
 <li><b>禁止宣传与本维基无关的内容。</b></li>

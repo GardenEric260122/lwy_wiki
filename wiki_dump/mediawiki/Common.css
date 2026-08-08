@@ -2,7 +2,15 @@
  * =================================================================
  * 文亚宇宙世界观 Wiki - 桌面端全局样式表
  * 适配平台：Fandom Desktop / MediaWiki
- * 版本：2.1.0
+ * 版本：3.0.0
+ *
+ * 待发布变更（墨蓝 + 黄铜 + 羊皮纸配色迁移）：
+ *   - 全套设计令牌改用《编辑配色手册》的档案馆配色
+ *   - 新增深色模式暗色档案馆变体（墨蓝底 + 羊皮纸字）
+ *   - 新增语义令牌 --wy-warn（氧化红）/ --wy-ok（苔绿）
+ *   - 新增 .wy-tag-restricted / .wy-tag-verified 标签类
+ *   - .wy-maintenance 硬编码色值改用令牌（清掉 v2.1.0 的 TODO）
+ *   - 标题改用衬线字体，呼应配色卡的档案馆调性
  *
  * v2.1.0 变更：
  *   - 新增维护提示框样式（.wy-maintenance*），收编线上已部署的样式
@@ -19,86 +27,111 @@
 
 /* ==========================================
    1. 基础设计令牌：默认浅色主题
+   配色来源：MediaWiki 页面《编辑配色手册》
+   括号内为实测 WCAG 对比度（相对纸白 #F7F1E4）
    ========================================== */
 
 :root {
-  --wy-css-version: "2.1.0";
+  --wy-css-version: "3.0.0";
 
-  /* 品牌色 */
-  --wy-primary: #1e3a8a;
-  --wy-primary-hover: #1d4ed8;
-  --wy-accent: #0284c7;
-  --wy-accent-bright: #0ea5e9;
+  /* 品牌色：墨蓝 */
+  --wy-primary: #1b2a41;          /* 墨蓝 12.83 AAA */
+  --wy-primary-hover: #101a29;    /* 墨蓝加深 */
+
+  /*
+   * 强调色：黄铜。
+   * 注意：黄铜 #B08D57 实测仅 2.75:1，不合格作文字色，
+   * 因此只用于分割线、边框、装饰竖条等非文字元素。
+   */
+  --wy-accent: #b08d57;           /* 黄铜 —— 装饰专用 */
+  --wy-accent-bright: #8c6d3f;    /* 深黄铜 4.27 —— 小装饰件 */
 
   /* 页面文字 */
-  --wy-heading-1: #0f172a;
-  --wy-heading-2: #0f172a;
-  --wy-heading-3: #1e3a8a;
-  --wy-text-main: #000000;
-  --wy-text-muted: #64748b;
+  --wy-heading-1: #1b2a41;        /* 墨蓝 12.83 AAA */
+  --wy-heading-2: #1b2a41;        /* 墨蓝 12.83 AAA */
+  --wy-heading-3: #8c6d3f;        /* 深黄铜 —— 三级标题降一档 */
+  --wy-text-main: #2b2621;        /* 墨迹黑 13.31 AAA */
+  --wy-text-muted: #6b5f4f;       /* 褪色棕 5.53 AA */
 
-  /* 链接 */
-  --wy-link: #1d4ed8;
-  --wy-link-hover: #0284c7;
-  --wy-link-new: #b42318;
+  /*
+   * 链接：黄铜压深到 #7A5F35 才过 AA。
+   * 纸白 5.31 AA / 羊皮纸 4.73 AA，且与正文墨迹黑有足够色相差可辨认。
+   */
+  --wy-link: #7a5f35;
+  --wy-link-hover: #6b2737;       /* 氧化红 9.47 AAA */
+  --wy-link-new: #6b2737;         /* 氧化红 —— 红链 */
 
-  /* 背景 */
-  --wy-bg-card: #ffffff;
-  --wy-bg-soft: #f8fafc;
-  --wy-bg-subtle: #f1f5f9;
-  --wy-bg-hover: #eaf2fb;
+  /* 背景：纸白 → 羊皮纸 → 褪色棕 递进 */
+  --wy-bg-card: #ede4d3;          /* 羊皮纸 —— 卡片 / 信息框 */
+  --wy-bg-soft: #e5dac6;          /* 羊皮纸压深 —— 表头 / 目录 */
+  --wy-bg-subtle: #d8cdb6;        /* 更深一档 —— 图片区 */
+  --wy-bg-hover: #dcd0b7;         /* 悬停 */
 
   /* 边框 */
-  --wy-border-color: #dce3ec;
-  --wy-border-strong: #cbd5e1;
+  --wy-border-color: #c9bba0;     /* 褪色棕 */
+  --wy-border-strong: #b08d57;    /* 黄铜 */
+
+  /* 语义色 */
+  --wy-warn: #6b2737;             /* 氧化红 9.47 AAA —— 警告 / 限制访问 */
+  --wy-ok: #4a5d45;               /* 苔绿 6.34 AA —— 已验证 / 正常 */
 
   /* 装饰 */
   --wy-radius-sm: 4px;
   --wy-radius-md: 8px;
   --wy-radius-lg: 12px;
 
-  --wy-shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
-  --wy-shadow-md: 0 4px 14px rgba(15, 23, 42, 0.12);
+  --wy-shadow-sm: 0 1px 3px rgba(27, 42, 65, 0.08);
+  --wy-shadow-md: 0 4px 14px rgba(27, 42, 65, 0.12);
+
+  /* 标题衬线字族 —— 呼应配色卡的档案馆调性 */
+  --wy-font-serif: Georgia, "Songti SC", "STSong", "Noto Serif SC", serif;
 }
 
 
 /* ==========================================
    2. Fandom 深色主题设计令牌
+   暗色档案馆风：墨蓝底 + 羊皮纸字
+   括号内对比度相对深色卡片底 #1B2A41
    ========================================== */
 
 body[data-theme="dark"],
 .theme-fandomdesktop-dark,
 .theme-fandommobile-dark {
-  --wy-primary: #8fb3ff;
-  --wy-primary-hover: #b7ccff;
-  --wy-accent: #38bdf8;
-  --wy-accent-bright: #67d2ff;
+  --wy-primary: #c9a66b;          /* 黄铜提亮 6.29 AA */
+  --wy-primary-hover: #e0c48f;
 
-  --wy-heading-1: #f4f7ff;
-  --wy-heading-2: #dce8ff;
-  --wy-heading-3: #abc6ff;
-  --wy-text-main: #ffffff;
-  --wy-text-muted: #aebbd0;
+  --wy-accent: #b08d57;           /* 黄铜 4.67 —— 装饰 */
+  --wy-accent-bright: #c9a66b;    /* 黄铜提亮 */
 
-  --wy-link: #8fb5ff;
-  --wy-link-hover: #c5d6ff;
-  --wy-link-new: #ff9da8;
+  --wy-heading-1: #f7f1e4;        /* 纸白 12.83 AAA */
+  --wy-heading-2: #ede4d3;        /* 羊皮纸 11.44 AAA */
+  --wy-heading-3: #c9a66b;        /* 黄铜提亮 6.29 AA */
+  --wy-text-main: #ede4d3;        /* 羊皮纸 11.44 AAA */
+  --wy-text-muted: #c9bba0;       /* 褪色棕 7.63 AAA */
 
-  --wy-bg-card: #182033;
-  --wy-bg-soft: #222b3d;
-  --wy-bg-subtle: #273247;
-  --wy-bg-hover: #303d56;
+  --wy-link: #c9a66b;             /* 黄铜提亮 6.29 AA */
+  --wy-link-hover: #e0c48f;
+  --wy-link-new: #d98f9c;         /* 氧化红提亮 6.96 AA / card 5.75 AA */
 
-  --wy-border-color: #3d4960;
-  --wy-border-strong: #53627c;
+  --wy-bg-card: #1b2a41;          /* 墨蓝 */
+  --wy-bg-soft: #22334c;
+  --wy-bg-subtle: #2a3d59;
+  --wy-bg-hover: #334866;
 
-  --wy-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.22);
-  --wy-shadow-md: 0 5px 16px rgba(0, 0, 0, 0.3);
+  --wy-border-color: #3a4a63;
+  --wy-border-strong: #b08d57;    /* 黄铜在深色下依然是强边框 */
+
+  --wy-warn: #d98f9c;             /* 氧化红提亮 6.96 AA / card 5.75 AA */
+  --wy-ok: #96ac8f;               /* 苔绿提亮 7.15 AAA / card 5.91 AA */
+
+  --wy-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.28);
+  --wy-shadow-md: 0 5px 16px rgba(0, 0, 0, 0.36);
 }
 
 
 /* ==========================================
    3. 正文与基础排版
+   正文保持无衬线（长文可读性），标题用衬线
    ========================================== */
 
 .mw-parser-output {
@@ -131,6 +164,7 @@ body[data-theme="dark"],
 .firstHeading,
 #firstHeading {
   color: var(--wy-heading-1) !important;
+  font-family: var(--wy-font-serif);
   text-shadow: none !important;
 }
 
@@ -142,7 +176,7 @@ body[data-theme="dark"],
 }
 
 
-/* 页面标题区域分隔线 */
+/* 页面标题区域分隔线 —— 黄铜 */
 
 .page-header {
   border-bottom-color: var(--wy-border-strong) !important;
@@ -163,8 +197,15 @@ body[data-theme="dark"],
   color: var(--wy-heading-2) !important;
   border-bottom: 2px solid var(--wy-border-strong);
 
+  font-family: var(--wy-font-serif);
   font-weight: 700;
 }
+
+
+/*
+ * 标题前的装饰竖条。
+ * 配色手册里的装饰线是黄铜横线，这里沿用黄铜。
+ */
 
 .mw-parser-output h2::before {
   content: "";
@@ -186,6 +227,8 @@ body[data-theme="dark"],
   margin-bottom: 0.6em;
 
   color: var(--wy-heading-3) !important;
+
+  font-family: var(--wy-font-serif);
   font-weight: 650;
 }
 
@@ -193,6 +236,7 @@ body[data-theme="dark"],
 .mw-parser-output h5,
 .mw-parser-output h6 {
   color: var(--wy-heading-2) !important;
+  font-family: var(--wy-font-serif);
 }
 
 
@@ -266,19 +310,26 @@ body[data-theme="dark"],
 }
 
 
-/* 信息框主标题 */
+/*
+ * 信息框主标题：墨蓝渐变 + 纸白字。
+ * 纸白 on 墨蓝实测 12.83 AAA，深浅两个主题下都成立，
+ * 所以这里刻意写死不跟随主题。
+ */
 
 .portable-infobox .pi-title {
   padding: 12px 8px !important;
 
-  color: #ffffff !important;
+  color: #f7f1e4 !important;
   background:
     linear-gradient(
       135deg,
-      #0f172a,
-      #1e3a8a
+      #101a29,
+      #1b2a41
     ) !important;
 
+  border-bottom: 2px solid var(--wy-accent) !important;
+
+  font-family: var(--wy-font-serif);
   font-size: 18px !important;
   font-weight: 700 !important;
   letter-spacing: 0.5px;
@@ -297,6 +348,7 @@ body[data-theme="dark"],
   border-top: 1px solid var(--wy-border-color);
   border-bottom: 1px solid var(--wy-border-color);
 
+  font-family: var(--wy-font-serif);
   font-size: 12px !important;
   font-weight: 700 !important;
   letter-spacing: 0.8px;
@@ -372,7 +424,7 @@ body[data-theme="dark"],
 }
 
 
-/* 表头 */
+/* 表头 —— 底边用黄铜强调 */
 
 .mw-parser-output table.wikitable > tr > th,
 .mw-parser-output table.wikitable > * > tr > th {
@@ -384,6 +436,7 @@ body[data-theme="dark"],
   border-right: 1px solid var(--wy-border-color);
   border-bottom: 2px solid var(--wy-border-strong);
 
+  font-family: var(--wy-font-serif);
   font-weight: 700;
   text-align: left;
 }
@@ -448,7 +501,7 @@ body[data-theme="dark"],
 
   padding-bottom: 10px;
 
-  border-bottom: 1px solid var(--wy-border-color);
+  border-bottom: 1px solid var(--wy-border-strong);
 }
 
 
@@ -465,13 +518,14 @@ body[data-theme="dark"],
   color: var(--wy-heading-1) !important;
   border: 0 !important;
 
+  font-family: var(--wy-font-serif);
   font-size: 17px !important;
   font-weight: 750 !important;
   line-height: 1.4;
 }
 
 
-/* 禁止正文 h2 的蓝色竖条出现在目录标题前面 */
+/* 禁止正文 h2 的黄铜竖条出现在目录标题前面 */
 
 #toc .toctitle h2::before,
 .toc .toctitle h2::before {
@@ -541,20 +595,20 @@ body[data-theme="dark"] .page-header__title,
 body[data-theme="dark"] .page-header__title-wrapper,
 body[data-theme="dark"] #firstHeading,
 body[data-theme="dark"] .firstHeading {
-  color: #f4f7ff !important;
+  color: #f7f1e4 !important;
 }
 
 body[data-theme="dark"] #toc .toctitle h2,
 body[data-theme="dark"] .toc .toctitle h2 {
-  color: #f4f7ff !important;
+  color: #f7f1e4 !important;
 }
 
 body[data-theme="dark"] .mw-parser-output h2 {
-  color: #dce8ff !important;
+  color: #ede4d3 !important;
 }
 
 body[data-theme="dark"] .mw-parser-output h3 {
-  color: #abc6ff !important;
+  color: #c9a66b !important;
 }
 
 
@@ -579,23 +633,29 @@ body[data-theme="dark"] .mw-parser-output h3 {
   }
 }
 
+
 /* ==========================================
-   维护提示框（v2.1.0 收编自线上部署）
-   用法：<div class="wy-maintenance">…</div>
-   TODO：后续可将硬编码色值改用 --wy-* 设计令牌
+   13. 维护提示框
+   用法：{{维护提示|title=…|text=…|icon=⚠️}}
+   原 v2.1.0 的硬编码琥珀色已改用令牌
    ========================================== */
 
 .wy-maintenance {
   display: flex;
   align-items: flex-start;
   gap: 14px;
+
   margin: 18px 0;
   padding: 16px;
-  border: 1px solid #d7d7d7;
-  border-left: 8px solid #d97706;
-  border-radius: 8px;
-  background: #fff9eb;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+
+  color: var(--wy-text-main);
+  background: var(--wy-bg-card);
+
+  border: 1px solid var(--wy-border-color);
+  border-left: 8px solid var(--wy-accent);
+  border-radius: var(--wy-radius-md);
+
+  box-shadow: var(--wy-shadow-sm);
 }
 
 .wy-maintenance-icon {
@@ -608,12 +668,95 @@ body[data-theme="dark"] .mw-parser-output h3 {
 }
 
 .wy-maintenance-title {
+  margin-bottom: 6px;
+
+  color: var(--wy-warn);
+
+  font-family: var(--wy-font-serif);
   font-size: 18px;
   font-weight: 700;
-  color: #b45309;
-  margin-bottom: 6px;
 }
 
 .wy-maintenance-text {
   line-height: 1.7;
+}
+
+
+/* ==========================================
+   14. 语义标签
+   配色手册把氧化红定为「限制访问」、苔绿定为「已验证」，
+   这里提供 class，编辑者不必再写内联 style。
+   用法：<span class="wy-tag wy-tag-verified">已验证</span>
+   ========================================== */
+
+.wy-tag {
+  display: inline-block;
+
+  padding: 2px 10px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.wy-tag-restricted {
+  color: #f7f1e4;
+  background: var(--wy-warn);
+}
+
+.wy-tag-verified {
+  color: #f7f1e4;
+  background: var(--wy-ok);
+}
+
+
+/*
+ * 描边变体：用于正文内联，避免大色块太抢眼。
+ * 文字色直接用语义色，浅色下氧化红 9.47 / 苔绿 6.34，均达标。
+ */
+
+.wy-tag-restricted-outline {
+  color: var(--wy-warn);
+  background: transparent;
+  border: 1px solid currentColor;
+}
+
+.wy-tag-verified-outline {
+  color: var(--wy-ok);
+  background: transparent;
+  border: 1px solid currentColor;
+}
+
+
+/* ==========================================
+   15. 引言块
+   配色手册的「黄铜左边框 + 羊皮纸底」提示框，收编为 class
+   用法：<div class="wy-callout">…</div>
+   ========================================== */
+
+.wy-callout {
+  margin: 18px 0;
+  padding: 10px 16px;
+
+  color: var(--wy-text-main);
+  background: var(--wy-bg-card);
+
+  border-left: 3px solid var(--wy-accent);
+
+  font-size: 13px;
+}
+
+
+/* 黄铜装饰横线 —— 配色手册里每个标题下方那条 */
+
+.wy-rule {
+  width: 64px;
+  height: 3px;
+  margin: 2px 0 20px;
+
+  background: var(--wy-accent);
+  border: 0;
 }
