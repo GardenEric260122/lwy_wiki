@@ -8,7 +8,6 @@
 - **桌面样式表**：`styles/common.css`（部署到线上 `MediaWiki:Common.css`）
 - **Pywikibot 自动化脚本**：登录、抓取、批量编辑、CSS 同步等
 - **内容镜像备份**：`wiki_dump/`（每日由 GitHub Actions 自动更新）
-- **撰写辅助 Skill**：`.claude/skills/liwenya-perspective/`
 
 ## ⚙️ 运行须知（每次跑脚本前必读）
 
@@ -103,8 +102,3 @@ core_claim/key_concepts/related_theories/status）。
 - 凭据 `user-password.py`（**不入库**，含明文密码，勿外传）；格式见 README。
 - 每日备份工作流：`.github/workflows/backup-wiki.yml`（UTC 03:45 / 北京 11:45）。
 - 镜像快照：`wiki_dump/`（`articles/` `templates/` `mediawiki/` `siteinfo.json`）。
-
-## 🎭 撰写辅助 Skill
-
-`liwenya-perspective`（项目级）——以「李文亚」第一人称口吻生成内容，供撰写角色化 Wiki 文本。
-触发词：「李文亚视角」「文亚一下」「民科思维」等（详见 `.claude/skills/liwenya-perspective/SKILL.md`）。

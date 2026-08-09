@@ -17,6 +17,9 @@
 
 **在线 Wiki**：<https://wenyaverse.fandom.com/zh>
 
+> 「李文亚」QQ 机器人已拆分为独立仓库（含人格 skill 与 NoneBot2 项目），
+> 不再随本仓库维护。
+
 ---
 
 ## 📂 目录结构
@@ -51,18 +54,8 @@ lwy_wiki/
 │
 ├── wiki_dump/                       ← 线上内容镜像快照 (60 条目/91 模板/36 界面页)
 │
-├── liwenya_bot/                     ← 「李文亚」QQ 机器人（NoneBot2 + Claude API）
-│   ├── liwenya_persona.txt         ← 人格 system prompt（虚构戏仿框架）
-│   ├── test_once.py                ← API + 人格一次性连通测试
-│   └── qqbot/                      ← NoneBot2 项目
-│       ├── bot.py                  ← 入口
-│       ├── DEPLOY.md               ← VPS 部署清单
-│       ├── 改进指南.md              ← 后续改进 / 运维踩坑记录
-│       └── plugins/                ← liwenya_chat（对话）/ fandom_notify（变更提醒）
-│
 └── (被 .gitignore 忽略，不入库)
     ├── user-password.py            ← BotPasswords 凭据（含明文密码）
-    ├── liwenya_bot/**/.env         ← 机器人密钥（API key 等）
     ├── .venv/                      ← Python 虚拟环境
     └── throttle.ctrl               ← Pywikibot 运行时速率控制文件
 ```
@@ -153,52 +146,6 @@ python3 -m venv .venv
 > 1. **必须开启 Clash Verge 代理**（脚本读取 user-config.py 内置代理，但代理软件本身要运行）；
 > 2. **用 `.venv/bin/python`**，勿用系统 `python3`（未装 pywikibot）；
 > 3. 运行时出现的 `Sleeping for X seconds` 是正常限速保护，非卡死。
-
----
-
-## 🤖 「李文亚」QQ 机器人
-
-`liwenya_bot/` 是一个以**李文亚教授**风格对话的 QQ 群机器人，同时能把 Wiki
-的最近变更推送到群里。它复用了本项目的 `liwenya-perspective` 人格资产与
-Pywikibot 基建，是 Wiki 世界观在群聊里的延伸。
-
-### 架构
-
-```text
-QQ ↔ NapCat（OneBot v11）↔ 反向 WebSocket ↔ NoneBot2 ↔ Claude 中转 API
-```
-
-| 层 | 选型 | 说明 |
-|----|------|------|
-| QQ 协议端 | **NapCat** | 非官方 NTQQ 协议端，OneBot v11 标准（⚠️ 有封号风险，务必用小号）|
-| 机器人框架 | **NoneBot2**（Python） | 与现有脚本同语言，插件生态全 |
-| 对话大脑 | **Claude API**（`claude-sonnet-5`，经中转）| 人格 = `liwenya_persona.txt` 作 system prompt |
-| 部署 | **境外 VPS** + systemd 常驻 | 7×24；见 `qqbot/DEPLOY.md` |
-
-### 功能
-
-| 插件 | 触发 | 作用 |
-|------|------|------|
-| `liwenya_chat` | 群里 `@机器人` 或私聊 | 「文亚Bot」多轮问答/群聊辅助；`@机器人 重置` 或含「退出/不用演了」清空上下文 |
-| `fandom_notify` | 定时轮询（默认 5 分钟）| 把 Wiki `Special:RecentChanges` 的新变更推到指定群 |
-
-普通群消息不触发，仅 @ / 私聊才调 API，配合冷却与上下文轮数限制控成本。
-
-### 本地快速验证（不需要 QQ）
-
-```bash
-# 在 liwenya_bot/.env 填好 LIWENYA_BASE_URL(带 /v1)、LIWENYA_API_KEY、LIWENYA_MODEL
-.venv/bin/python liwenya_bot/test_once.py "光合作用真的需要二氧化碳吗？"
-```
-
-### 相关文档
-
-- **部署**：[`liwenya_bot/qqbot/DEPLOY.md`](liwenya_bot/qqbot/DEPLOY.md) —— VPS 从零部署清单
-- **规划**：[`QQ机器人实施方案.md`](QQ机器人实施方案.md) —— 技术选型与分阶段实施
-- **改进 / 运维**：[`liwenya_bot/qqbot/改进指南.md`](liwenya_bot/qqbot/改进指南.md) —— 后续优化项与踩坑记录
-
-> ⚠️ **密钥安全**：机器人所有密钥走 `.env`（已 gitignore，**不入库**）；
-> QQ 请用专用小号，勿绑重要关系链。
 
 ---
 
