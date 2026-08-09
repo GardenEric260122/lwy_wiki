@@ -1,10 +1,13 @@
-* #|custom-fd-community-header-pages
-** #newlychanged#|custom-fd-community-header-newlychanged
-** Blog:Recent_posts|custom-fd-community-header-recentblogs
-* #|custom-fd-community-header-categories
-** #category1#
-** #category2#
-* #|custom-fd-community-header-community
-** Project:Community_Portal|custom-fd-community-header-communityportal
-** w:zh:|custom-fd-community-header-communitycentral
-** Help:Contents|custom-fd-community-header-help
+#|custom-fd-community-header-pages
+    #newlychanged#|custom-fd-community-header-newlychanged
+    Blog:Recent_posts|custom-fd-community-header-recentblogs
+#|custom-fd-community-header-categories
+    Category:李文亚宇宙人物|人物
+    Category:李文亚宇宙理论|理论
+    Category:李文亚宇宙机构|机构
+    Category:大学|大学
+    Category:事件|事件
+#|custom-fd-community-header-community
+    Project:Community_Portal|custom-fd-community-header-communityportal
+    w:zh:|custom-fd-community-header-communitycentral
+    Help:Contents|custom-fd-community-header-help
