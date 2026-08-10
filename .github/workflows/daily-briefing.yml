@@ -1,0 +1,57 @@
+name: 每日 Git 变更简报
+
+# 触发方式：定时 + 手动
+on:
+  schedule:
+    # UTC 04:17 = 北京时间 12:17。
+    # 安排在 backup-wiki.yml（UTC 03:45）之后，以便简报能覆盖当天的备份提交。
+    # 避开整点高峰，减少 GitHub 定时任务的排队延迟。
+    - cron: '17 4 * * *'
+  workflow_dispatch:        # 允许在 Actions 页面手动触发
+
+# 需要写权限，以便把 briefing-last tag 推回仓库
+permissions:
+  contents: write
+
+# 避免与自身并发（手动 + 定时同时触发时）
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出仓库（fetch-depth: 0 拿全历史 + 所有 tag，
+      #    briefing-last tag 与「距上次以来」的区间计算都依赖完整历史）
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. 安装 Python
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. 生成简报并发信（凭据全部来自 Secrets）
+      #    脚本纯标准库实现，无需 pip install。
+      - name: 生成简报并发信
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM_NAME: 'Git 简报'
+        run: python daily_briefing.py --send
+
+      # 4. 发信成功后，把 briefing-last tag 移到当前 HEAD 并推回。
+      #    下次运行即以此 tag 为「上次处理到的位置」，实现增量简报。
+      #    tag push 不会触发本工作流（本工作流只监听 schedule/dispatch），无循环风险。
+      - name: 更新 briefing-last tag
+        run: |
+          git config user.name  "briefing-bot"
+          git config user.email "actions@github.com"
+          git tag -f briefing-last HEAD
+          git push --force origin briefing-last
+          echo "✅ briefing-last 已指向 $(git rev-parse --short HEAD)"
