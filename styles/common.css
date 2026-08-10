@@ -62,6 +62,7 @@
   --wy-link-new: #6b2737;         /* 氧化红 —— 红链 */
 
   /* 背景：纸白 → 羊皮纸 → 褪色棕 递进 */
+  --wy-bg-page: #f7f1e4;          /* 纸白 —— 页面级大画布背景（如首页），比卡片浅一档 */
   --wy-bg-card: #ede4d3;          /* 羊皮纸 —— 卡片 / 信息框 */
   --wy-bg-soft: #e5dac6;          /* 羊皮纸压深 —— 表头 / 目录 */
   --wy-bg-subtle: #d8cdb6;        /* 更深一档 —— 图片区 */
@@ -113,6 +114,7 @@ body[data-theme="dark"],
   --wy-link-hover: #e0c48f;
   --wy-link-new: #d98f9c;         /* 氧化红提亮 6.96 AA / card 5.75 AA */
 
+  --wy-bg-page: #101a29;          /* 墨蓝加深 —— 页面级大画布背景，比卡片更深，让卡片浮起 */
   --wy-bg-card: #1b2a41;          /* 墨蓝 */
   --wy-bg-soft: #22334c;
   --wy-bg-subtle: #2a3d59;
