@@ -1,5 +1,5 @@
 <div style="
-background:#F7F1E4;
+background:var(--wy-bg-page);
 padding:30px;
 margin:-20px;
 min-height:100vh;
@@ -9,17 +9,17 @@ box-sizing:border-box;
 {| style="width:100%;"
 | style="width:68%;vertical-align:top;" |
 
-<div style="color:#8C6D3F;font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;">
+<div style="color:var(--wy-heading-3);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;">
 ARCHIVUM ACADEMICUM · 文亚宇宙世界观档案
 </div>
 
-== <span style="color:#1B2A41;">欢迎来到{{SITENAME}}</span> ==
-<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+== <span style="color:var(--wy-heading-2);">欢迎来到{{SITENAME}}</span> ==
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
 
 '''一个与现实无关、却拥有完整历史、机构、教授以及事件的学术世界观。'''<br>
 '''这里没有真实人物，也不存在现实中的大学与组织，一切内容属于虚构设定。'''
 
-<p style="margin-top:20px;color:#2B2621;">
+<p style="margin-top:20px;color:var(--wy-text-main);">
 {{SITENAME}}由社区共同维护，也欢迎每一位对这个世界感兴趣的朋友加入我们。<br>
 '''偷偷说一句：我们缺人手（真的很缺！）<br>
 快来加入官方QQ交流群，一起把这个世界越写越大：640168366'''
@@ -64,30 +64,30 @@ gap:14px;
 margin:24px 0 8px;
 ">
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:#1B2A41;">{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:#8C6D3F;margin-top:4px;">活跃编辑者</div>
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">活跃编辑者</div>
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:#1B2A41;">{{formatnum:{{NUMBEROFARTICLES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:#8C6D3F;margin-top:4px;">条目</div>
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFARTICLES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">条目</div>
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:#1B2A41;">{{formatnum:{{NUMBEROFPAGES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:#8C6D3F;margin-top:4px;">页面</div>
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFPAGES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">页面</div>
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:#1B2A41;">{{formatnum:{{NUMBEROFFILES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:#8C6D3F;margin-top:4px;">文件</div>
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFFILES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">文件</div>
 </div>
 
 </div>
 
-== <span style="color:#1B2A41;">浏览世界观</span> ==
-<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+== <span style="color:var(--wy-heading-2);">浏览世界观</span> ==
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
 
 <div style="
 display:grid;
@@ -96,58 +96,58 @@ gap:16px;
 margin:20px 0;
 ">
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Professor.svg|56px|link=教授列表]]
 <br><br>
-'''[[教授列表|<span style="color:#1B2A41;">教授列表</span>]]'''
+'''[[教授列表|<span style="color:var(--wy-heading-2);">教授列表</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Institute.svg|56px|link=机构列表]]
 <br><br>
-'''[[机构列表|<span style="color:#1B2A41;">机构列表</span>]]'''
+'''[[机构列表|<span style="color:var(--wy-heading-2);">机构列表</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:School.svg|56px|link=学校列表]]
 <br><br>
-'''[[学校列表|<span style="color:#1B2A41;">学校列表</span>]]'''
+'''[[学校列表|<span style="color:var(--wy-heading-2);">学校列表</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Concept.svg|56px|link=概念列表]]
 <br><br>
-'''[[概念列表|<span style="color:#1B2A41;">概念列表</span>]]'''
+'''[[概念列表|<span style="color:var(--wy-heading-2);">概念列表</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Event.svg|56px|link=事件]]
 <br><br>
-'''[[事件|<span style="color:#1B2A41;">事件</span>]]'''
+'''[[事件|<span style="color:var(--wy-heading-2);">事件</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Tutorial.svg|56px|link=文亚宇宙世界观写作指南]]
 <br><br>
-'''[[文亚宇宙世界观写作指南|<span style="color:#1B2A41;">写作指南与模板</span>]]'''
+'''[[文亚宇宙世界观写作指南|<span style="color:var(--wy-heading-2);">写作指南与模板</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Category.svg|56px|link=Special:Categories]]
 <br><br>
-'''[[Special:Categories|<span style="color:#1B2A41;">分类</span>]]'''
+'''[[Special:Categories|<span style="color:var(--wy-heading-2);">分类</span>]]'''
 </div>
 
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:14px;padding:22px;text-align:center;box-shadow:0 1px 3px rgba(27,42,65,0.08);">
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:History.svg|56px|link=Special:RecentChanges]]
 <br><br>
-'''[[Special:RecentChanges|<span style="color:#1B2A41;">最近更改</span>]]'''
+'''[[Special:RecentChanges|<span style="color:var(--wy-heading-2);">最近更改</span>]]'''
 </div>
 
 </div>
 
-== <span style="color:#1B2A41;">开始您的创作</span> ==
-<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+== <span style="color:var(--wy-heading-2);">开始您的创作</span> ==
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
 {{页头
 |title=开始您的创作
 |1=<p>
@@ -206,25 +206,27 @@ QQ群：<b style="font-size:120%;color:#1B2A41;">640168366</b>
 </li>
 </ol>
 }}
-== <span style="color:#1B2A41;">免责声明</span> ==
-<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+== <span style="color:var(--wy-heading-2);">免责声明</span> ==
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
 <div style="
-background:#F7F1E4;
-border:1px solid #C9BBA0;
-border-left:4px solid #6B2737;
+background:var(--wy-bg-card);
+border:1px solid var(--wy-border-color);
+border-left:4px solid var(--wy-warn);
 border-radius:6px;
 padding:18px 24px;
 line-height:1.9;
-color:#2B2621;
+color:var(--wy-text-main);
 margin:20px 0;
 ">
 该维基'''所有内容'''为'''虚构内容'''，'''全部与现实无关'''。指向现实、有冒犯性或者敏感的'''所有'''内容都会被删除。<br><br>
 该维基中的'''所有教授'''在现实中'''并不存在'''，所有同名皆为巧合。
 </div>
 
-== <span style="color:#1B2A41;">-{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}-</span> ==
-<div style="height:3px;width:64px;background:#B08D57;margin:2px 0 20px;"></div>
+== <span style="color:var(--wy-heading-2);">-{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}-</span> ==
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
+<div style="color:var(--wy-text-main);">
 {{Special:RecentChanges/5}}
+</div>
 
 <mainpage-endcolumn />
 <mainpage-rightcolumn-start />
