@@ -50,8 +50,8 @@ background:#6B2737;
 border-radius:6px;
 padding:10px 28px;
 ">
-[https://wiki.jiashiben.org <span style="color:#EDE4D3;font-size:22px;font-weight:bold;letter-spacing:1px;">wiki.jiashiben.org</span>] <br>
-[https://wiki.jiashiben.org <span style="color:#EDE4D3;font-size:22px;font-weight:bold;letter-spacing:1px;">测试中</span>]
+[https://wiki.liwenya.com <span style="color:#EDE4D3;font-size:22px;font-weight:bold;letter-spacing:1px;">wiki.liwenya.com</span>] <br>
+[https://wiki.liwenya.com <span style="color:#EDE4D3;font-size:22px;font-weight:bold;letter-spacing:1px;">测试中</span>]
 </div>
 </div>
 </div>
