@@ -24,7 +24,7 @@ flex-wrap:wrap;
 gap:6px 14px;
 font-size:13px;
 ">
-<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · <span style="color:#9c8f78;">F</span> · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · <span style="color:#9c8f78;">J</span> · <span style="color:#9c8f78;">K</span> · [[#letterL|L]] · <span style="color:#9c8f78;">M</span> · <span style="color:#9c8f78;">N</span> · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · [[#letterQ|Q]] · <span style="color:#9c8f78;">R</span> · <span style="color:#9c8f78;">S</span> · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · <span style="color:#9c8f78;">Z</span> · [[#letterHash|#]]
+<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · <span style="color:#9c8f78;">F</span> · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · <span style="color:#9c8f78;">J</span> · <span style="color:#9c8f78;">K</span> · [[#letterL|L]] · <span style="color:#9c8f78;">M</span> · <span style="color:#9c8f78;">N</span> · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · [[#letterQ|Q]] · <span style="color:#9c8f78;">R</span> · <span style="color:#9c8f78;">S</span> · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · <span style="color:#9c8f78;">Z</span> · <span style="color:#9c8f78;">#</span>
 </div>
 
 <!-- B -->
@@ -50,6 +50,7 @@ font-size:13px;
 <div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
 * [[黑体生物]]
+* [[化学理论(未命名)]]
 </div>
 
 <!-- L -->
@@ -106,8 +107,8 @@ font-size:13px;
 <span id="letterHash"></span>
 <div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">#</div>
 <div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
-* [[化学理论(未命名)]]
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
 </div>
 
 </div>

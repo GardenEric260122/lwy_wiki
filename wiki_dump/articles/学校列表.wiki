@@ -24,7 +24,7 @@ flex-wrap:wrap;
 gap:6px 14px;
 font-size:13px;
 ">
-<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · [[#letterF|F]] · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · <span style="color:#9c8f78;">Q</span> · <span style="color:#9c8f78;">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
+<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · [[#letterF|F]] · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · <span style="color:#9c8f78;">Q</span> · <span style="color:#9c8f78;">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · <span style="color:#9c8f78;">W</span> · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
 </div>
 
 <!-- B -->
@@ -59,7 +59,6 @@ font-size:13px;
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
 * [[幻想乡♂大学]]
 * [[花园初中]]
-* [[穗织中学]]
 * [[霍格沃茨]]
 </div>
 
@@ -110,6 +109,7 @@ font-size:13px;
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
 * [[尼基塔大学]]
 * [[南京大学]]
+* [[牛国英津大学]]
 </div>
 
 <!-- S -->
@@ -121,6 +121,7 @@ font-size:13px;
 * [[圣安地列斯大学]]
 * [[恕瑞玛大学]]
 * [[斯玛·黎雯娅大学]]
+* [[穗织中学]]
 </div>
 
 <!-- T -->
@@ -137,12 +138,8 @@ font-size:13px;
 <span id="letterW"></span>
 <div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
 <div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
-* [[下北泽大学]]
-* [[下北泽国立大学]]
-* [[希尔维大学]]
-* [[新日暮里大学]]
-* [[悉尼大学]]
+<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+暂无收录
 </div>
 
 <!-- X -->
@@ -150,6 +147,11 @@ font-size:13px;
 <div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
 <div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+* [[下北泽大学]]
+* [[下北泽国立大学]]
+* [[希尔维大学]]
+* [[新日暮里大学]]
+* [[悉尼大学]]
 * [[香港中文大学（深圳）]]
 </div>
 
@@ -159,7 +161,6 @@ font-size:13px;
 <div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
 * [[英国挑担大学]]
-* [[牛国英津大学]]
 * [[圆蛤镇]]
 </div>
 
