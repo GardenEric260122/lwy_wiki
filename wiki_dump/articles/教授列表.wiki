@@ -1,38 +1,22 @@
-<div style="
-background:#F7F1E4;
-padding:30px;
-margin:-20px;
-min-height:100vh;
-box-sizing:border-box;
-">
+<div class="wy-list-page">
 
 __NOTOC__
 
-<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
+<div class="wy-list-cover">
 [[File:教授列表.jpg|700px]]
 </div>
 
 <!-- 字母跳转导航 -->
-<div style="
-background:#EDE4D3;
-border:1px solid #C9BBA0;
-border-radius:10px;
-padding:12px 18px;
-margin-bottom:24px;
-display:flex;
-flex-wrap:wrap;
-gap:6px 14px;
-font-size:13px;
-">
+<div class="wy-letter-nav">
 [[#letterA|A]] · [[#letterB|B]] · [[#letterC|C]] · [[#letterD|D]] · [[#letterE|E]] · [[#letterF|F]] · [[#letterG|G]] · [[#letterH|H]] · [[#letterI|I]] · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · [[#letterO|O]] · [[#letterP|P]] · [[#letterQ|Q]] · [[#letterR|R]] · [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · [[#letterV|V]] · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]] · [[#letterHash|#]]
 </div>
 
 <!-- A -->
 <span id="letterA"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">A</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">A</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[爱吃鱼的猫]]
 * 爱本邻久博士
 * [[艾路迪克教授]]
@@ -42,10 +26,10 @@ font-size:13px;
 
 <!-- B -->
 <span id="letterB"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">B</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">B</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[巴巴托斯]]
 * [[布尔波特]]
 * [[比格·迪克·查斯利·温雅教授]]
@@ -60,10 +44,10 @@ font-size:13px;
 
 <!-- C -->
 <span id="letterC"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">C</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">C</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[蔡虚坤]]
 * [[陈人杰教授]]
 * [[陈星宇教授]]
@@ -75,10 +59,10 @@ font-size:13px;
 
 <!-- D -->
 <span id="letterD"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">D</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[豆包]]
 * [[达·基巴教授]]
 * [[大卫·戴·里昂兹]]
@@ -90,10 +74,10 @@ font-size:13px;
 
 <!-- E -->
 <span id="letterE"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">E</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">E</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[二阶堂希罗教授]]
 * [[二向箔的投放者]]
 </div>
@@ -101,10 +85,10 @@ font-size:13px;
 
 <!-- F -->
 <span id="letterF"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">F</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">F</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[丰川祥子]]
 * [[芙宁娜·德·枫丹]]
 * [[范小勤]]
@@ -114,10 +98,10 @@ font-size:13px;
 
 <!-- G -->
 <span id="letterG"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">G</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">G</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[冈·交丁·炎珍霜教授]]
 * [[冈·交利文·亚皮严教授]]
 * [[棍母（隐形人）]]
@@ -129,10 +113,10 @@ font-size:13px;
 
 <!-- H -->
 <span id="letterH"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">H</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">H</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[侯国玉教授]]
 * [[哈基米院士]]
 * [[洪伟炳教授]]
@@ -142,18 +126,18 @@ font-size:13px;
 
 <!-- I -->
 <span id="letterI"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">I</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">I</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
 <!-- J -->
 <span id="letterJ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">J</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[季伯常教授（91大神）]]
 * 姜灿荣教授
 * 姜承錄教授
@@ -165,10 +149,10 @@ font-size:13px;
 
 <!-- K -->
 <span id="letterK"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">K</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">K</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[卡利斯托教授]]
 * [[康申凯博勒教授]]
 * [[美国重力学生物学双科教授柯毕·稻温雅·冠紫|柯毕·稻温雅·冠紫]]
@@ -177,10 +161,10 @@ font-size:13px;
 
 <!-- L -->
 <span id="letterL"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">L</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[刘浩文教授]]
 * [[刘建龙教授]]
 * [[来清德]]
@@ -202,10 +186,10 @@ font-size:13px;
 
 <!-- M -->
 <span id="letterM"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">M</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[马丁·马德拉索教授]]
 * [[墨芳·达莎·比]]
 * [[魔理沙]]
@@ -219,10 +203,10 @@ font-size:13px;
 
 <!-- N -->
 <span id="letterN"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">N</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[牛顿]]
 * [[奶龙教授]]
 * [[尼玛莱格贝德·杰克逊教授]]
@@ -233,18 +217,18 @@ font-size:13px;
 
 <!-- O -->
 <span id="letterO"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">O</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">O</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
 <!-- P -->
 <span id="letterP"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">P</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">P</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * 朴载赫教授
 * [[皮特安卓人]]
 </div>
@@ -252,10 +236,10 @@ font-size:13px;
 
 <!-- Q -->
 <span id="letterQ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Q</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">Q</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[千手扉间教授「秽土转生」]]
 * [[千早爱音]]
 * [[乔治·W·布希教授]]
@@ -264,18 +248,18 @@ font-size:13px;
 
 <!-- R -->
 <span id="letterR"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">R</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">R</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
 <!-- S -->
 <span id="letterS"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">S</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">S</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[撒贝宁]]
 * [[孙笑川教授]]
 * [[史育宁教授]]
@@ -284,10 +268,10 @@ font-size:13px;
 
 <!-- T -->
 <span id="letterT"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">T</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[唐振钦教授]]
 * [[田所浩二]]
 * [[特罗菲姆·李森科院士]]
@@ -297,26 +281,26 @@ font-size:13px;
 
 <!-- U -->
 <span id="letterU"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">U</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">U</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
 <!-- V -->
 <span id="letterV"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">V</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">V</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
 <!-- W -->
 <span id="letterW"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">W</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[王楚淇教授]]
 * [[温国凯教授]]
 * [[汪鸿汶教授]]
@@ -330,10 +314,10 @@ font-size:13px;
 
 <!-- X -->
 <span id="letterX"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">X</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[肖际霸教授]]
 * [[肖基薄教授]]
 * 小鸟游六花教授
@@ -345,10 +329,10 @@ font-size:13px;
 
 <!-- Y -->
 <span id="letterY"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Y</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">Y</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[御坂美琴]]
 * [[永雏塔菲教授]]
 * [[伊德格拉米教授]]
@@ -359,10 +343,10 @@ font-size:13px;
 
 <!-- Z -->
 <span id="letterZ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;">
-<div style="column-width:180px;column-gap:24px;line-height:2;">
+<div class="wy-letter-heading">Z</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+<div class="wy-letter-columns">
 * [[张雪峰教授]]
 * 郑明成教授
 </div>
@@ -370,9 +354,9 @@ font-size:13px;
 
 <!-- # -->
 <span id="letterHash"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">#</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;color:#9c8f78;font-style:italic;font-size:13px;">
+<div class="wy-letter-heading">#</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card wy-letter-card-empty">
 暂无收录
 </div>
 
