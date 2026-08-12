@@ -1,45 +1,29 @@
-<div style="
-background:#F7F1E4;
-padding:30px;
-margin:-20px;
-min-height:100vh;
-box-sizing:border-box;
-">
+<div class="wy-list-page">
 
 __NOTOC__
 
-<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
+<div class="wy-list-cover">
 [[File:事件列表 .jpg|700px]]
 </div>
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
-<div style="
-background:#EDE4D3;
-border:1px solid #C9BBA0;
-border-radius:10px;
-padding:12px 18px;
-margin-bottom:24px;
-display:flex;
-flex-wrap:wrap;
-gap:6px 14px;
-font-size:13px;
-">
-<span style="color:#9c8f78;">A</span> · <span style="color:#9c8f78;">B</span> · [[#letterC|C]] · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · <span style="color:#9c8f78;">F</span> · <span style="color:#9c8f78;">G</span> · <span style="color:#9c8f78;">H</span> · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · <span style="color:#9c8f78;">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · [[#letterQ|Q]] · <span style="color:#9c8f78;">R</span> · <span style="color:#9c8f78;">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span style="color:#9c8f78;">V</span> · <span style="color:#9c8f78;">W</span> · <span style="color:#9c8f78;">X</span> · <span style="color:#9c8f78;">Y</span> · [[#letterZ|Z]]
+<div class="wy-letter-nav">
+<span class="wy-letter-disabled">A</span> · <span class="wy-letter-disabled">B</span> · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · <span class="wy-letter-disabled">Y</span> · [[#letterZ|Z]]
 </div>
 
 <!-- C -->
 <span id="letterC"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">C</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">C</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[晨风之役]]
 </div>
 
 <!-- D -->
 <span id="letterD"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">D</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[第十九次李文亚批判大会]]
 * [[第二十次李文亚批判大会]]
 * [[第二十二次李文亚批判大会]]
@@ -49,25 +33,25 @@ font-size:13px;
 
 <!-- E -->
 <span id="letterE"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">E</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">E</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[二向箔伪政变闹剧]]
 </div>
 
 <!-- J -->
 <span id="letterJ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">J</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[金坤奖]]
 </div>
 
 <!-- L -->
 <span id="letterL"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">L</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[李文亚否定光合作用]]
 * [[李文亚健康风波]]
 * [[裸奔举报]]
@@ -76,49 +60,49 @@ font-size:13px;
 
 <!-- M -->
 <span id="letterM"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">M</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[诺贝尔奖窃案]]
 </div>
 
 <!-- N -->
 <span id="letterN"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">N</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[诺奖与民科研究交流协会内乱]]
 </div>
 
 <!-- Q -->
 <span id="letterQ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Q</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">Q</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[全球学术围剿]]
 </div>
 
 <!-- T -->
 <span id="letterT"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">T</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[天际省独立运动]]
 </div>
 
 <!-- U -->
 <span id="letterU"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">U</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">U</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[U盘失窃事件]]
 </div>
 
 <!-- Z -->
 <span id="letterZ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">Z</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[紫金山天文台之争]]
 * [[蜘蛛巢大学批判孙笑川大会]]
 </div>

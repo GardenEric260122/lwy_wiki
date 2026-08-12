@@ -1,62 +1,46 @@
-<div style="
-background:#F7F1E4;
-padding:30px;
-margin:-20px;
-min-height:100vh;
-box-sizing:border-box;
-">
+<div class="wy-list-page">
 
 __NOTOC__
 
-<div style="border-radius:16px;overflow:hidden;margin:0 0 20px;box-shadow:0 2px 6px rgba(27,42,65,.10);">
+<div class="wy-list-cover">
 [[File:学校列表.jpg|700px]]
 </div>
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
-<div style="
-background:#EDE4D3;
-border:1px solid #C9BBA0;
-border-radius:10px;
-padding:12px 18px;
-margin-bottom:24px;
-display:flex;
-flex-wrap:wrap;
-gap:6px 14px;
-font-size:13px;
-">
-<span style="color:#9c8f78;">A</span> · [[#letterB|B]] · <span style="color:#9c8f78;">C</span> · [[#letterD|D]] · <span style="color:#9c8f78;">E</span> · [[#letterF|F]] · <span style="color:#9c8f78;">G</span> · [[#letterH|H]] · <span style="color:#9c8f78;">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span style="color:#9c8f78;">O</span> · <span style="color:#9c8f78;">P</span> · <span style="color:#9c8f78;">Q</span> · <span style="color:#9c8f78;">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span style="color:#9c8f78;">U</span> · <span style="color:#9c8f78;">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
+<div class="wy-letter-nav">
+<span class="wy-letter-disabled">A</span> · [[#letterB|B]] · <span class="wy-letter-disabled">C</span> · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · [[#letterF|F]] · <span class="wy-letter-disabled">G</span> · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · <span class="wy-letter-disabled">Q</span> · <span class="wy-letter-disabled">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
 </div>
 
 <!-- B -->
 <span id="letterB"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">B</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">B</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[贝利亚大学]]
 </div>
 
 <!-- D -->
 <span id="letterD"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">D</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">D</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[德玛西亚/诺克萨斯]]
 </div>
 
 <!-- F -->
 <span id="letterF"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">F</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">F</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[枫丹研究院]]
 * [[福建大学（FKING U）]]
 </div>
 
 <!-- H -->
 <span id="letterH"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">H</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">H</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[幻想乡♂大学]]
 * [[花园初中]]
 * [[穗织中学]]
@@ -65,27 +49,27 @@ font-size:13px;
 
 <!-- J -->
 <span id="letterJ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">J</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">J</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[剑桥鲁管智学院]]
 * [[九一大学]]
 </div>
 
 <!-- K -->
 <span id="letterK"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">K</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">K</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[卡塞尔学院]]
 * [[开原棋牌学院]]
 </div>
 
 <!-- L -->
 <span id="letterL"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">L</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">L</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[卢关大学]]
 * [[卢管高中]]
 * [[鲁管科技大学]]
@@ -95,9 +79,9 @@ font-size:13px;
 
 <!-- M -->
 <span id="letterM"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">M</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">M</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[美国导管子理工学院]]
 * [[魔女岛大学]]
 * [[麻豆大学]]
@@ -105,18 +89,18 @@ font-size:13px;
 
 <!-- N -->
 <span id="letterN"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">N</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">N</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[尼基塔大学]]
 * [[南京大学]]
 </div>
 
 <!-- S -->
 <span id="letterS"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">S</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">S</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[桑德斯大学]]
 * [[圣安地列斯大学]]
 * [[恕瑞玛大学]]
@@ -125,9 +109,9 @@ font-size:13px;
 
 <!-- T -->
 <span id="letterT"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">T</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">T</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[特雷森学院]]
 * [[棠芯学府]]
 * [[泰姆瑞尔国立大学]]
@@ -135,9 +119,9 @@ font-size:13px;
 
 <!-- W -->
 <span id="letterW"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">W</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">W</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[下北泽大学]]
 * [[下北泽国立大学]]
 * [[希尔维大学]]
@@ -147,17 +131,17 @@ font-size:13px;
 
 <!-- X -->
 <span id="letterX"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">X</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">X</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[香港中文大学（深圳）]]
 </div>
 
 <!-- Y -->
 <span id="letterY"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Y</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">Y</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[英国挑担大学]]
 * [[牛国英津大学]]
 * [[圆蛤镇]]
@@ -165,9 +149,9 @@ font-size:13px;
 
 <!-- Z -->
 <span id="letterZ"></span>
-<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:26px 0 4px;">Z</div>
-<div style="height:2px;width:36px;background:#B08D57;margin-bottom:10px;"></div>
-<div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:16px 22px;margin-bottom:18px;line-height:2;">
+<div class="wy-letter-heading">Z</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
 * [[蜘蛛巢大学]]
 * 祖安大学
 * [[中国科学技术大学]]
