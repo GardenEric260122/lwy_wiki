@@ -2,7 +2,12 @@
  * =================================================================
  * 文亚宇宙世界观 Wiki - 桌面端全局样式表
  * 适配平台：Fandom Desktop / MediaWiki
- * 版本：3.1.0
+ * 版本：3.2.0
+ *
+ * v3.2.0 变更：
+ *   - 新增列表页布局类（.wy-list-page / .wy-letter-nav / .wy-letter-heading 等）
+ *   - 将教授列表、机构列表、学校列表、概念列表、事件页面的硬编码调色盘改为 CSS 变量
+ *   - 实现上述列表页深色模式自适应
  *
  * v3.1.0 变更：
  *   - 新增页面级背景令牌 --wy-bg-page（比卡片背景更深一档），
@@ -36,7 +41,7 @@
    ========================================== */
 
 :root {
-  --wy-css-version: "3.1.0";
+  --wy-css-version: "3.2.0";
 
   /* 品牌色：墨蓝 */
   --wy-primary: #1b2a41;          /* 墨蓝 12.83 AAA */
@@ -765,4 +770,77 @@ body[data-theme="dark"] .mw-parser-output h3 {
 
   background: var(--wy-accent);
   border: 0;
+}
+
+
+/* ==========================================
+   16. 列表页布局
+   用于教授列表、机构列表、学校列表、概念列表、事件等页面
+   替换原页面内的硬编码调色盘，深色模式下自动跟随主题
+   ========================================== */
+
+.wy-list-page {
+  background: var(--wy-bg-page);
+  padding: 30px;
+  margin: -20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.wy-list-cover {
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 0 20px;
+  box-shadow: 0 2px 6px rgba(27, 42, 65, 0.10);
+}
+
+.wy-letter-nav {
+  background: var(--wy-bg-card);
+  border: 1px solid var(--wy-border-color);
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 13px;
+}
+
+.wy-letter-nav .wy-letter-disabled {
+  color: var(--wy-text-muted);
+}
+
+.wy-letter-heading {
+  color: var(--wy-heading-2);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 26px 0 4px;
+}
+
+.wy-letter-rule {
+  height: 2px;
+  width: 36px;
+  background: var(--wy-accent);
+  margin-bottom: 10px;
+}
+
+.wy-letter-card {
+  background: var(--wy-bg-card);
+  border: 1px solid var(--wy-border-color);
+  border-radius: 10px;
+  padding: 16px 22px;
+  margin-bottom: 18px;
+  line-height: 2;
+}
+
+.wy-letter-card-empty {
+  color: var(--wy-text-muted);
+  font-style: italic;
+  font-size: 13px;
+}
+
+.wy-letter-columns {
+  column-width: 180px;
+  column-gap: 24px;
+  line-height: 2;
 }

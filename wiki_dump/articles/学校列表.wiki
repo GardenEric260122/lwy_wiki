@@ -8,7 +8,7 @@ __NOTOC__
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> · [[#letterB|B]] · <span class="wy-letter-disabled">C</span> · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · [[#letterF|F]] · <span class="wy-letter-disabled">G</span> · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · <span class="wy-letter-disabled">Q</span> · <span class="wy-letter-disabled">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
+<span class="wy-letter-disabled">A</span> · [[#letterB|B]] · <span class="wy-letter-disabled">C</span> · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · [[#letterF|F]] · <span class="wy-letter-disabled">G</span> · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · <span class="wy-letter-disabled">Q</span> · <span class="wy-letter-disabled">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
 </div>
 
 <!-- B -->
@@ -43,7 +43,6 @@ __NOTOC__
 <div class="wy-letter-card">
 * [[幻想乡♂大学]]
 * [[花园初中]]
-* [[穗织中学]]
 * [[霍格沃茨]]
 </div>
 
@@ -94,6 +93,7 @@ __NOTOC__
 <div class="wy-letter-card">
 * [[尼基塔大学]]
 * [[南京大学]]
+* [[牛国英津大学]]
 </div>
 
 <!-- S -->
@@ -105,6 +105,7 @@ __NOTOC__
 * [[圣安地列斯大学]]
 * [[恕瑞玛大学]]
 * [[斯玛·黎雯娅大学]]
+* [[穗织中学]]
 </div>
 
 <!-- T -->
@@ -121,12 +122,8 @@ __NOTOC__
 <span id="letterW"></span>
 <div class="wy-letter-heading">W</div>
 <div class="wy-letter-rule"></div>
-<div class="wy-letter-card">
-* [[下北泽大学]]
-* [[下北泽国立大学]]
-* [[希尔维大学]]
-* [[新日暮里大学]]
-* [[悉尼大学]]
+<div class="wy-letter-card wy-letter-card-empty">
+暂无收录
 </div>
 
 <!-- X -->
@@ -134,6 +131,11 @@ __NOTOC__
 <div class="wy-letter-heading">X</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+* [[下北泽大学]]
+* [[下北泽国立大学]]
+* [[希尔维大学]]
+* [[新日暮里大学]]
+* [[悉尼大学]]
 * [[香港中文大学（深圳）]]
 </div>
 
@@ -143,7 +145,6 @@ __NOTOC__
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[英国挑担大学]]
-* [[牛国英津大学]]
 * [[圆蛤镇]]
 </div>
 

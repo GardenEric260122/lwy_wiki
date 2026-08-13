@@ -8,7 +8,7 @@ __NOTOC__
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> · [[#letterB|B]] · <span class="wy-letter-disabled">C</span> · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> · <span class="wy-letter-disabled">J</span> · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · <span class="wy-letter-disabled">M</span> · <span class="wy-letter-disabled">N</span> · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · <span class="wy-letter-disabled">Z</span> · [[#letterHash|#]]
+<span class="wy-letter-disabled">A</span> · [[#letterB|B]] · <span class="wy-letter-disabled">C</span> · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> · <span class="wy-letter-disabled">J</span> · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · <span class="wy-letter-disabled">M</span> · <span class="wy-letter-disabled">N</span> · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · <span class="wy-letter-disabled">Z</span> · <span class="wy-letter-disabled">#</span>
 </div>
 
 <!-- B -->
@@ -34,6 +34,7 @@ __NOTOC__
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[黑体生物]]
+* [[化学理论(未命名)]]
 </div>
 
 <!-- L -->
@@ -90,8 +91,8 @@ __NOTOC__
 <span id="letterHash"></span>
 <div class="wy-letter-heading">#</div>
 <div class="wy-letter-rule"></div>
-<div class="wy-letter-card">
-* [[化学理论(未命名)]]
+<div class="wy-letter-card wy-letter-card-empty">
+暂无收录
 </div>
 
 </div>
