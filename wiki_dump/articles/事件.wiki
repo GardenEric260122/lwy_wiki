@@ -8,7 +8,15 @@ __NOTOC__
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> · <span class="wy-letter-disabled">B</span> · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · <span class="wy-letter-disabled">Y</span> · [[#letterZ|Z]]
+<span class="wy-letter-disabled">A</span> ·  [[#letterB|B]]  · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · <span class="wy-letter-disabled">Y</span> · [[#letterZ|Z]]
+</div>
+
+<!-- B -->
+<span id="letterB"></span>
+<div class="wy-letter-heading">B</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+* [[北风qwq会晤李文亚突发意外事件]]
 </div>
 
 <!-- C -->
