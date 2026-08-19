@@ -1,0 +1,22 @@
+想要编写维基，首先应该理解什么是维基。
+
+维基，即Wiki的音译，是一种通过[https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8 浏览器]访问并由用户协同编辑其内容的'''网站'''<ref name="wiki">
+[[wikipedia:Wiki|维基百科中的Wiki条目]]
+</ref>。
+
+该定义说明了维基本身属于一种特殊的网站，由[https://zh.wikipedia.org/zh-hans/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8 网站服务器]提供核心服务。
+
+其名字源自夏威夷语”Wiki”，本是“快速”的意思[https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8 浏览器]访问并由用户协同编辑其内容的'''网站'''<ref name="wiki"/>。
+
+1995年Wiki面世，第一个Wiki网站是Ward Cunningham创建的WikiWikiWeb，现在最著名的维基站是[https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 WikiPeida]，也就是维基百科，是世界上最大的在线百科全书，与之类似的是中国的[https://baike.baidu.com/ 百度百科]，[https://zh.moegirl.org.cn/#/flow 萌娘百科]等。
+
+Wiki由Wiki软件（或称Wiki引擎）提供支持，最广泛使用的是[https://www.mediawiki.org/wiki/MediaWiki MediaWiki引擎]。
+
+Wiki的核心设计理念是人人都可以使用浏览器在线编辑，不同页面之间互相引用以表示关联，操作简单易懂便于无代码基础的人学习<ref name="wiki"/>。
+
+Wiki的功能主要包括源代码编辑和可视化编辑，权限分配和页码保护以保障安全，一般保留历史更改以避免犯错，提供搜索功能以方便检索，提供留言板评论功能以方便讨论<ref name="wiki"/>。
+
+Wiki的应用场景不仅可以用于百科全书，更是一种内容管理系统（CMS），适用于个人或是团队的知识分享和检索，应用领域遍布学术研究、金融法律医疗地理等专业领域以及游戏、动漫等娱乐领域<ref name="wiki"/>。
+== 参考来源==
+<references />
+[[Category:教程]]
