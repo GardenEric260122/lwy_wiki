@@ -1,6 +1,6 @@
 {{Institutions
 |name=114514研究所
-|image=114514研究所标志.jpg
+|image=114514研究所logo by terminator7211.png
 |caption=114514研究所标志
 
 |type=综合性科研机构

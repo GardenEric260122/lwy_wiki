@@ -60,6 +60,7 @@ __NOTOC__
 <div class="wy-letter-heading">L</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+*[[李文亚痛批金思成骚对其扰行为]]
 *[[李文亚在采访中坚决拥护达尔文并痛批王昌文事件]]
 *[[李文亚约战陈人杰]]
 * [[李文亚否定光合作用]]
@@ -74,14 +75,6 @@ __NOTOC__
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[诺贝尔奖窃案]]
-</div>
-
-<!-- N -->
-<span id="letterN"></span>
-<div class="wy-letter-heading">N</div>
-<div class="wy-letter-rule"></div>
-<div class="wy-letter-card">
-* [[诺奖与民科研究交流协会内乱]]
 </div>
 
 <!-- Q -->
