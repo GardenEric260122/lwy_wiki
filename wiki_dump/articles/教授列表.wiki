@@ -6,6 +6,33 @@ __NOTOC__
 [[File:教授列表.jpg|700px]]
 </div>
 
+<!-- 知名教授 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:14px;
+padding:24px 28px;
+margin-bottom:32px;
+">
+
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:0 0 4px;">知名教授</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:16px;"></div>
+
+<div style="
+display:flex;
+gap:14px;
+overflow-x:auto;
+padding-bottom:6px;
+">
+<div style="flex:0 0 auto;min-width:150px;background:linear-gradient(135deg,#2E5C8A,#1B2A41);border-top:3px solid #B08D57;border-radius:10px;padding:20px 18px;text-align:center;font-size:15px;font-weight:bold;box-shadow:0 3px 8px rgba(27,42,65,.25);white-space:nowrap;">[[李文亚|<span style="color:#F7F1E4;">李文亚</span>]]</div>
+<div style="flex:0 0 auto;min-width:150px;background:linear-gradient(135deg,#2E5C8A,#1B2A41);border-top:3px solid #B08D57;border-radius:10px;padding:20px 18px;text-align:center;font-size:15px;font-weight:bold;box-shadow:0 3px 8px rgba(27,42,65,.25);white-space:nowrap;">[[碧桑驾dell教授|<span style="color:#F7F1E4;">碧桑驾dell教授</span>]]</div>
+<div style="flex:0 0 auto;min-width:150px;background:linear-gradient(135deg,#2E5C8A,#1B2A41);border-top:3px solid #B08D57;border-radius:10px;padding:20px 18px;text-align:center;font-size:15px;font-weight:bold;box-shadow:0 3px 8px rgba(27,42,65,.25);white-space:nowrap;">[[孙笑川教授|<span style="color:#F7F1E4;">孙笑川教授</span>]]</div>
+<div style="flex:0 0 auto;min-width:150px;background:linear-gradient(135deg,#2E5C8A,#1B2A41);border-top:3px solid #B08D57;border-radius:10px;padding:20px 18px;text-align:center;font-size:15px;font-weight:bold;box-shadow:0 3px 8px rgba(27,42,65,.25);white-space:nowrap;">[[唐振钦教授|<span style="color:#F7F1E4;">唐振钦教授</span>]]</div>
+<div style="flex:0 0 auto;min-width:150px;background:linear-gradient(135deg,#2E5C8A,#1B2A41);border-top:3px solid #B08D57;border-radius:10px;padding:20px 18px;text-align:center;font-size:15px;font-weight:bold;box-shadow:0 3px 8px rgba(27,42,65,.25);white-space:nowrap;">[[王楚淇教授|<span style="color:#F7F1E4;">王楚淇教授</span>]]</div>
+</div>
+
+</div>
+
 <!-- 字母跳转导航 -->
 <div class="wy-letter-nav">
 [[#letterA|A]] · [[#letterB|B]] · [[#letterC|C]] · [[#letterD|D]] · [[#letterE|E]] · [[#letterF|F]] · [[#letterG|G]] · [[#letterH|H]] · [[#letterI|I]] · [[#letterJ|J]] · [[#letterK|K]] · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · [[#letterO|O]] · [[#letterP|P]] · [[#letterQ|Q]] · [[#letterR|R]] · [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · [[#letterV|V]] · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]] · [[#letterHash|#]]

@@ -70,9 +70,9 @@ __NOTOC__
 * [[联合国批判孙笑川大会]]
 </div>
 
-<!-- M -->
-<span id="letterM"></span>
-<div class="wy-letter-heading">M</div>
+<!-- N -->
+<span id="letterN"></span>
+<div class="wy-letter-heading">N</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[诺贝尔奖窃案]]
