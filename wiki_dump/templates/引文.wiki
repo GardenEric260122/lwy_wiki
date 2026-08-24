@@ -1,0 +1,10 @@
+<includeonly><table style="margin:0.5em auto; border-collapse:collapse; background:{{{bgcolor|transparent}}}; width:{{{width|auto}}}; {{{bgcolor|border:0;|border:1px solid #AAAAAA;}}};">
+<tr>
+<td style="vertical-align:top; font-size:{{{4|{{{size|{{{quotewidth|36px}}}}}}}}}; font-weight:bold; color:#B2B7F2; padding:0 4px; line-height:0.8; font-family:serif;">{{{open|“}}}</td>
+<td style="padding:0 8px; vertical-align:middle;">{{{1|}}}</td>
+<td style="vertical-align:bottom; font-size:{{{4|{{{size|{{{quotewidth|36px}}}}}}}}}; font-weight:bold; color:#B2B7F2; padding:0 4px; line-height:0.8; font-family:serif;">{{{close|”}}}</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:right; padding:4px 8px 0 8px; font-size:0.9em; {{{2|display:none;}}}">—— <span style="{{{2|display:none;}}}">{{{2}}}</span><span style="{{{3|display:none;}}}">，{{{3}}}</span></td>
+</tr>
+</table></includeonly>
