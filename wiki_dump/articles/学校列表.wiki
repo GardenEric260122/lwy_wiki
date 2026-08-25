@@ -2,8 +2,54 @@
 
 __NOTOC__
 
-<div class="wy-list-cover">
-[[File:学校列表.jpg|700px]]
+<!-- 优秀学校 -->
+<div style="
+background:#EDE4D3;
+border:1px solid #C9BBA0;
+border-radius:14px;
+padding:24px 28px;
+margin-bottom:32px;
+">
+
+<div style="color:#1B2A41;font-size:20px;font-weight:bold;margin:0 0 4px;">优秀学校</div>
+<div style="height:2px;width:36px;background:#B08D57;margin-bottom:16px;"></div>
+
+<div style="
+display:flex;
+gap:14px;
+overflow-x:auto;
+padding-bottom:6px;
+">
+
+<div style="flex:0 0 auto;width:150px;">
+<div style="background:#5C7355;padding:10px 10px 0 10px;">
+<div style="width:130px;height:130px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#263A22;">
+[[File:卢关大学校徽.png|x130px|link=卢关大学]]
+</div>
+</div>
+<div style="background:#4A5D45;padding:14px 8px;text-align:center;">[[卢关大学|<span style="color:#EDE4D3;font-size:15px;font-weight:bold;">卢关大学</span>]]</div>
+</div>
+
+<div style="flex:0 0 auto;width:150px;">
+<div style="background:#5C7355;padding:10px 10px 0 10px;">
+<div style="width:130px;height:130px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#263A22;">
+[[File:南京大学.png|x130px|link=南京大学]]
+</div>
+</div>
+<div style="background:#4A5D45;padding:14px 8px;text-align:center;">[[南京大学|<span style="color:#EDE4D3;font-size:15px;font-weight:bold;">南京大学</span>]]</div>
+</div>
+
+<div style="flex:0 0 auto;width:150px;">
+<div style="background:#5C7355;padding:10px 10px 0 10px;">
+<div style="width:130px;height:130px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#263A22;">
+[[File:蜘蛛巢大学校徽.png|x130px|link=蜘蛛巢大学]]
+</div>
+</div>
+<div style="background:#4A5D45;padding:14px 8px;text-align:center;">[[蜘蛛巢大学|<span style="color:#EDE4D3;font-size:15px;font-weight:bold;">蜘蛛巢大学</span>]]</div>
+</div>
+
+</div>
+
 </div>
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->

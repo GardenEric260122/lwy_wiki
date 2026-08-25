@@ -1,6 +1,6 @@
 {{Theory
 |name=光合作用不存在论
-|image=
+|image=光合作用不存在论 .png
 |caption=
 |foreign_name=Photosynthesis Denial Theory
 |proposer=[[李文亚]]

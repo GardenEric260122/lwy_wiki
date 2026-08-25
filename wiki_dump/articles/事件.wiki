@@ -2,9 +2,210 @@
 
 __NOTOC__
 
-<div class="wy-list-cover">
-[[File:事件列表 .jpg|700px]]
+<div style="
+  width:100%;
+  max-width:720px;
+  margin:24px auto;
+  font-family:Georgia,'Times New Roman',serif;
+  box-sizing:border-box;
+">
+
+<!-- ===== 日期选择区域 ===== -->
+<div style="
+  display:flex;
+  align-items:center;
+  background:#EDE4D3;
+  border:1px solid #C9BBA0;
+  border-bottom:none;
+  border-radius:12px 12px 0 0;
+  box-shadow:0 4px 10px rgba(0,0,0,.15);
+  box-sizing:border-box;
+  overflow:hidden;
+">
+
+  <!-- 左箭头 -->
+  <div id="btn-prev" style="
+    flex:0 0 auto;
+    padding:0 18px;
+    font-size:34px;
+    font-weight:bold;
+    line-height:1;
+    color:#B08D57;
+    user-select:none;
+    cursor:pointer;
+  ">&#9664;</div>
+
+  <!-- 日期滚动容器 -->
+  <div id="date-scroll-container" style="
+    flex:1 1 auto;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:thin;
+    scrollbar-color:#C9BBA0 #EDE4D3;
+  ">
+    <div id="date-list" style="
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      gap:14px;
+      padding:14px 0;
+      min-width:max-content;
+    ">
+
+      <!-- 方块 19 -->
+      <span id="d19" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#1B2A41;
+        font-size:29px;
+        font-weight:bold;
+      ">[[第十九次李文亚批判大会|19]]</span>
+
+      <!-- 方块 20 -->
+      <span id="d20" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#1B2A41;
+        font-size:29px;
+        font-weight:bold;
+      ">[[第二十次李文亚批判大会|20]]</span>
+
+      <!-- 方块 21 -->
+      <span id="d21" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#6B2737;
+        font-size:29px;
+        font-weight:bold;
+      ">21</span>
+
+      <!-- 方块 22 -->
+      <span id="d22" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#1B2A41;
+        font-size:29px;
+        font-weight:bold;
+      ">[[第二十二次李文亚批判大会|22]]</span>
+
+      <!-- 方块 23 -->
+      <span id="d23" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#6B2737;
+        font-size:29px;
+        font-weight:bold;
+      ">23</span>
+
+      <!-- 方块 24 -->
+      <span id="d24" style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:64px;
+        height:64px;
+        min-width:64px;
+        flex:0 0 64px;
+        box-sizing:border-box;
+        background:#F7F1E4;
+        border:1px solid transparent;
+        border-radius:12px;
+        box-shadow:0 2px 5px rgba(0,0,0,.12);
+        color:#1B2A41;
+        font-size:29px;
+        font-weight:bold;
+      ">[[第二十四次李文亚批判大会|24]]</span>
+
+    </div>
+  </div>
+
+  <!-- 右箭头 -->
+  <div id="btn-next" style="
+    flex:0 0 auto;
+    padding:0 18px;
+    font-size:34px;
+    font-weight:bold;
+    line-height:1;
+    color:#B08D57;
+    user-select:none;
+    cursor:pointer;
+  ">&#9654;</div>
+
 </div>
+
+  <!-- ===== 下半部分：标题区域 ===== -->
+  <div style="
+    width:100%;
+    background:#1B2A41;
+    text-align:center;
+    padding:12px 15px;
+    border-radius:0 0 12px 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    box-sizing:border-box;
+  ">
+    <!-- 用 span 强制控制链接的颜色、字号、字重和间距 -->
+    <span style="
+      color:#EDE4D3; 
+      text-decoration:none; 
+      font-size:34px; 
+      font-weight:bold; 
+      letter-spacing:.2em;
+    ">[[批判李文亚大会|批判李文亚大会系列]]</span>
+  </div>
+
+</div>
+
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">

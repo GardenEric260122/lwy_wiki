@@ -1,6 +1,6 @@
 {{Theory
 |name=白体生物
-|image=
+|image=白体生物.png
 |caption=
 |foreign_name=The "White-body"
 |proposer=[[李文亚]]

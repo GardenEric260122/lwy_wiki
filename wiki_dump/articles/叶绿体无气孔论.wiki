@@ -1,6 +1,6 @@
 {{Theory
 |name=叶绿体无气孔论
-|image=
+|image=叶绿体无气孔论.png
 |caption=
 |foreign_name=Chloroplast No-Stomata Theory
 |proposer=[[李文亚]]

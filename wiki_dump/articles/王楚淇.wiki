@@ -1,6 +1,6 @@
 {{Character
 |name=王楚淇教授
-|image=王楚淇教授.png
+|image=站位人物图像.jpg
 |caption=王楚淇教授
 |foreign_name=Wang Chuqi
 |birth_date=不详

@@ -2,8 +2,253 @@
 
 __NOTOC__
 
-<div class="wy-list-cover">
-[[File:概念列表.jpg|700px]]
+<!-- 制作创新理论 -->
+<div style="
+background:#E7F6F7;
+border:1px solid #A9D8D9;
+border-radius:14px;
+padding:24px 28px;
+margin-bottom:32px;
+">
+
+<div style="
+color:#164E63;
+font-size:20px;
+font-weight:bold;
+margin:0 0 4px;
+">
+'''创新理论'''
+</div>
+
+<div style="
+height:2px;
+width:36px;
+background:#22B8B8;
+margin-bottom:16px;
+"></div>
+
+<div style="
+display:flex;
+gap:14px;
+overflow-x:auto;
+padding-bottom:6px;
+">
+
+<!-- 青色光合作用不存在论 -->
+<div style="flex:0 0 auto;width:150px;">
+
+<div style="
+background:#237C7E;
+padding:10px 10px 0 10px;
+">
+
+<div style="
+width:130px;
+height:130px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#123B45;
+">
+
+[[File:光合作用不存在论 .png|x130px|link=光合作用不存在论]]
+
+</div>
+</div>
+
+<div style="
+background:#155E63;
+padding:14px 8px;
+text-align:center;
+">
+
+[[光合作用不存在论|
+<span style="
+color:#E8FFFF;
+font-size:15px;
+font-weight:bold;
+">
+光合作用不存在论
+</span>
+]]
+
+</div>
+</div>
+
+
+<!-- 白体生物 -->
+<div style="flex:0 0 auto;width:150px;">
+
+<div style="
+background:#237C7E;
+padding:10px 10px 0 10px;
+">
+
+<div style="
+width:130px;
+height:130px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#123B45;
+">
+
+[[File:白体生物.png|x130px|link=白体生物]]
+
+</div>
+</div>
+
+<div style="
+background:#155E63;
+padding:14px 8px;
+text-align:center;
+">
+
+[[白体生物|
+<span style="
+color:#E8FFFF;
+font-size:15px;
+font-weight:bold;
+">
+白体生物
+</span>
+]]
+
+</div>
+</div>
+
+
+<!-- 黑体生物 -->
+<div style="flex:0 0 auto;width:150px;">
+
+<div style="
+background:#237C7E;
+padding:10px 10px 0 10px;
+">
+
+<div style="
+width:130px;
+height:130px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#123B45;
+">
+
+[[File:黑体生物.png|x130px|link=黑体生物]]
+
+</div>
+</div>
+
+<div style="
+background:#155E63;
+padding:14px 8px;
+text-align:center;
+">
+
+[[黑体生物|
+<span style="
+color:#E8FFFF;
+font-size:15px;
+font-weight:bold;
+">
+黑体生物
+</span>
+]]
+
+</div>
+</div>
+
+
+<!-- 叶绿体无气孔论 -->
+<div style="flex:0 0 auto;width:150px;">
+
+<div style="
+background:#237C7E;
+padding:10px 10px 0 10px;
+">
+
+<div style="
+width:130px;
+height:130px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#123B45;
+">
+
+[[File:叶绿体无气孔论.png|x130px|link=叶绿体无气孔论]]
+
+</div>
+</div>
+
+<div style="
+background:#155E63;
+padding:14px 8px;
+text-align:center;
+">
+
+[[叶绿体无气孔论|
+<span style="
+color:#E8FFFF;
+font-size:15px;
+font-weight:bold;
+">
+叶绿体无气孔论
+</span>
+]]
+
+</div>
+</div>
+
+
+<!-- 星球三重引力范围 -->
+<div style="flex:0 0 auto;width:150px;">
+
+<div style="
+background:#237C7E;
+padding:10px 10px 0 10px;
+">
+
+<div style="
+width:130px;
+height:130px;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#123B45;
+">
+
+[[File:地球引力范围与运动解析.png|x130px|link=星球三重引力范围]]
+
+</div>
+</div>
+
+<div style="
+background:#155E63;
+padding:14px 8px;
+text-align:center;
+">
+
+[[星球三重引力范围|
+<span style="
+color:#E8FFFF;
+font-size:15px;
+font-weight:bold;
+">
+星球三重引力范围
+</span>
+]]
+
+</div>
+</div>
+
+</div>
 </div>
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->

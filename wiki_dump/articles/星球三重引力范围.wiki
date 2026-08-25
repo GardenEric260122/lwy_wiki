@@ -1,6 +1,6 @@
 {{Theory
 |name=星球三重引力范围
-|image=
+|image=地球引力范围与运动解析.png
 |caption=
 |foreign_name=Triple Gravitational Range of Celestial Bodies
 |proposer=[[李文亚]]

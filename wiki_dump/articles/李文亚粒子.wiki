@@ -1,6 +1,6 @@
 {{Theory
 |name=李文亚粒子
-|image=
+|image=李文亚粒子.png
 |caption=
 |foreign_name=Li Wenya Particle
 |proposer=[[李文亚]]

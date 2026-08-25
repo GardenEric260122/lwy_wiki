@@ -1,6 +1,6 @@
 {{Character
 |name=唐振钦教授
-|image=唐振钦教授.png
+|image=File:站位人物图像.jpg
 |caption=唐振钦教授
 |foreign_name=Tang Zhenqin
 |birth_date=不详（已到退休年龄）
