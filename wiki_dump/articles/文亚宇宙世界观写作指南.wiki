@@ -109,7 +109,8 @@ __NOTOC__
 [[批判李文亚大会系列模板说明页]]<br>
 [[Template:引言|引言模板]]<br>
 [[Template:来函|来函模板]]<br>
-[[Template:页头|页头模板]]
+[[Template:页头|页头模板]]<br>
+[[Template:画廊|画廊模板]]
 </div>
 
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:18px 24px;margin-bottom:14px;">

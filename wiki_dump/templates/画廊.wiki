@@ -1,0 +1,51 @@
+<includeonly>
+<div style="margin:1em 0; border:1px solid #C9BBA0;">
+<!-- 顶部细绿条 -->
+<div style="background:#1F4D3B; height:4px; line-height:4px; font-size:1px;">&nbsp;</div>
+<!-- 主体内容区 -->
+<div style="background:#F7F1E4; padding:24px;">
+<!-- 画廊容器：单行，超出横向滚动 -->
+<div style="background:#EDE4D3; padding:16px; border:1px solid rgba(201,187,160,0.3); display:flex; flex-wrap:nowrap; gap:8px; overflow-x:auto;">
+{{{content|}}}
+</div>
+</div>
+<!-- 底部footer标题栏 -->
+<div style="background:#1F4D3B; border-top:1px solid #B08D57; padding:12px 32px;">
+<span style="color:#EDE4D3; font-size:1.1em; letter-spacing:2px; font-weight:normal;">{{{title|画廊名称}}}</span>
+</div>
+</div>
+</includeonly><noinclude>
+== 用法 ==
+搭配 [[Template:GalleryCard]] 使用，卡片数量不限，超出容器宽度时显示横向滚动条（不换行）。
+
+<pre>
+{{画廊
+|title=画廊名称
+|content=
+{{GalleryCard|image=A.jpg|desc=图片描述1}}
+{{GalleryCard|image=B.jpg|desc=图片描述2}}
+{{GalleryCard|image=C.jpg|desc=图片描述3}}
+{{GalleryCard|image=D.jpg|desc=图片描述4}}
+{{GalleryCard|image=E.jpg|desc=图片描述5}}
+}}
+</pre>
+
+== 模板参数 ==
+{| class="wikitable"
+! 参数 !! 必填 !! 说明 !! 默认值
+|-
+| <code>title</code> || 否 || 底部footer显示的画廊名称 || <code>画廊名称</code>
+|-
+| <code>content</code> || 是 || 一系列 <code>{{GalleryCard|...}}</code> 调用 || 无
+|}
+
+== 示例 ==
+{{画廊
+|title=画廊名称
+|content=
+{{GalleryCard|image=Example1.jpg|desc=图片描述}}
+{{GalleryCard|image=Example2.jpg|desc=图片描述}}
+{{GalleryCard|image=Example3.jpg|desc=图片描述}}
+{{GalleryCard|image=Example4.jpg|desc=图片描述}}
+{{GalleryCard|image=Example5.jpg|desc=图片描述}}
+}}

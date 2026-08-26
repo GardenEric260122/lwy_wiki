@@ -1,0 +1,25 @@
+<includeonly><div style="flex:0 0 200px; width:200px; background:#dbccb5; border:1px solid #C9BBA0; padding:12px; text-align:center; box-sizing:border-box;">
+<div style="background:#F7F1E4; border:1px solid rgba(201,187,160,0.5); aspect-ratio:4/3; margin-bottom:8px; overflow:hidden; display:flex; align-items:center; justify-content:center;">[[File:{{{image|}}}|180px]]</div>
+<span style="font-weight:bold; color:#2B2621; font-size:0.9em;">{{{desc|图片描述}}}</span>
+</div></includeonly><noinclude>
+== 用法 ==
+单独使用无意义，需配合 [[Template:Gallery]] 使用。卡片宽度固定为200px，用于横向滚动布局。
+
+<pre>
+{{GalleryCard
+|image=Example.jpg
+|desc=图片描述
+}}
+</pre>
+
+== 模板参数 ==
+{| class="wikitable"
+! 参数 !! 必填 !! 说明 !! 默认值
+|-
+| <code>image</code> || 否 || 图片文件名 || 无
+|-
+| <code>desc</code> || 否 || 图片下方描述文字 || <code>图片描述</code>
+|}
+
+[[Category:图廊模板]]
+</noinclude>

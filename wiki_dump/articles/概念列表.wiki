@@ -294,6 +294,8 @@ font-weight:bold;
 <div class="wy-letter-heading">H</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+* [[黑体生物源石本源论]]
+
 * [[黑体生物]]
 * [[化学理论(未命名)]]
 </div>
