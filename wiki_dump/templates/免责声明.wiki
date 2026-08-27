@@ -1,0 +1,14 @@
+<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
+<div style="
+background:var(--wy-bg-card);
+border:1px solid var(--wy-border-color);
+border-left:4px solid var(--wy-warn);
+border-radius:6px;
+padding:18px 24px;
+line-height:1.9;
+color:var(--wy-text-main);
+margin:20px 0;
+">
+该维基'''所有内容'''为'''虚构内容'''，'''全部与现实无关'''。指向现实、有冒犯性或者敏感的'''所有'''内容都会被删除。<br><br>
+该维基中的'''所有教授'''在现实中'''并不存在'''，所有同名皆为巧合。
+</div>

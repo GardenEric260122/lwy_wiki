@@ -1,0 +1,86 @@
+<div style="background:#EDE4D3; border:2px solid #000; margin:1.5em auto; max-width:1000px; border-radius:16px; overflow:hidden;">
+<!-- 顶部装饰条 -->
+<div style="background:linear-gradient(90deg, #1B2A41 0%, #2D3E54 100%); height:24px; border-bottom:2px solid #000;"></div>
+
+<!-- 导航卡片区 -->
+<div style="padding:32px 16px;">
+{| style="width:100%; border-spacing:16px 0; border-collapse:separate;"
+|- valign="top"
+
+<!-- 卡片1：Fandom主站 -->
+| style="width:16.66%; background:#89324D; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(137,50,77,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:Fandom主站图标.png|64px|link=https://wenyaverse.fandom.com/zh]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://wenyaverse.fandom.com/zh <span style="color:#fff; font-weight:600; background:transparent;">Fandom主站</span>]
+</div>
+</div>
+
+<!-- 卡片2：国内镜像 -->
+| style="width:16.66%; background:#174D7C; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(23,77,124,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:国内镜像图标.png|64px|link=https://wenyaverse.fanarchive.co/]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://wenyaverse.fanarchive.co/ <span style="color:#fff; font-weight:600; background:transparent;">国内镜像</span>]
+</div>
+</div>
+
+<!-- 卡片3：国内自建站 -->
+| style="width:16.66%; background:#8D7C67; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(141,124,103,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:自建站图标.png|64px|link=https://wiki.liwenya.com]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://wiki.liwenya.com <span style="color:#fff; font-weight:600; background:transparent;">国内自建站</span>]
+</div>
+</div>
+
+<!-- 卡片4：导航(防失联) -->
+| style="width:16.66%; background:#216C4E; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(33,108,78,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:导航图标.png|64px|link=https://linkdd.cn/liwenya]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://linkdd.cn/liwenya <span style="color:#fff; font-weight:600; background:transparent;">导航(防失联)</span>]
+</div>
+</div>
+
+<!-- 卡片5：编辑交流群 -->
+| style="width:16.66%; background:#795FA7; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(121,95,167,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:QQ群图标.png|64px|link=https://qm.qq.com/q/u8FTnYHz8Y]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://qm.qq.com/q/u8FTnYHz8Y <span style="color:#fff; font-weight:600; background:transparent;">编辑交流群</span>]
+</div>
+</div>
+
+<!-- 卡片6：Github文本镜像 -->
+| style="width:16.66%; background:#C27548; aspect-ratio:1/1; padding:16px 8px; box-sizing:border-box; vertical-align:bottom; text-align:center; border-radius:12px; box-shadow:0 4px 12px rgba(194,117,72,0.25); transition:all 0.3s ease;" |
+<div style="height:100%; display:flex; flex-direction:column; justify-content:space-between; background:transparent;">
+<div style="flex:1; display:flex; align-items:center; justify-content:center; background:transparent;">
+[[File:Github图标.png|64px|link=https://github.com/GardenEric260122/lwy_wiki]]
+</div>
+<div style="background:transparent; line-height:1.2;">
+[https://github.com/GardenEric260122/lwy_wiki <span style="color:#fff; font-weight:600; background:transparent;">Github文本镜像</span>]
+</div>
+</div>
+
+|}
+</div>
+
+<!-- 底部提示条 -->
+<div style="background:#C9BBA0; padding:12px 24px; border-top:2px solid #000; border-radius:0 0 14px 14px; box-shadow:inset 0 2px 8px rgba(0,0,0,0.08);">
+<p style="margin:0; color:#000; line-height:1.6;">
+'''由于近期 Fandom 访问不稳定，文亚维基现已建立多个访问渠道，请按需选用！'''<br>
+'''建议添加'''[https://linkdd.cn/liwenya <span style="color:#6B2737; font-weight:600; background:transparent;">导航页</span>]'''并加入QQ群，防止失联。'''
+</p>
+</div>
+</div>

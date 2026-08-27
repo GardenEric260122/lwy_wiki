@@ -32,78 +32,7 @@ ARCHIVUM ACADEMICUM · 文亚宇宙世界观档案
 
 |}
 
-<div style="
-background:#1B2A41;
-border:1px solid #C9BBA0;
-border-left:6px solid #6B2737;
-border-radius:6px;
-padding:24px 32px;
-margin:20px 0;
-text-align:center;
-">
-  <div style="color:#EDE4D3;font-size:16px;font-weight:bold;line-height:1.8;">
-    由于近期 Fandom 访问不稳定，文亚维基现已建立多个访问渠道，请按需选用：
-  </div>
-
-  <div style="margin-top:18px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px;">
-
-    <div style="background:#6B2737;border-radius:6px;padding:10px 22px;">
-    <span style="color:#EDE4D3;font-size:15px;font-weight:bold;letter-spacing:1px;">[https://wiki.liwenya.com 国内独立站（测试中）]</span>
-    </div>
-
-    <div style="background:#6B2737;border-radius:6px;padding:10px 22px;">
-    <span style="color:#EDE4D3;font-size:15px;font-weight:bold;letter-spacing:1px;">[https://wenyaverse.fanarchive.co/ 国内只读镜像]</span>
-    </div>
-
-   <div style="background:#3C4A63;border:1px solid #C9BBA0;border-radius:6px;padding:10px 22px;">
-    <span style="color:#EDE4D3;font-size:15px;font-weight:bold;letter-spacing:1px;">[https://linkdd.cn/liwenya 文亚宇宙世界观导航(防失联)]</span>
-    </div>
-
-
-    <div style="background:#3C4A63;border:1px solid #C9BBA0;border-radius:6px;padding:10px 22px;">
-    <span style="color:#EDE4D3;font-size:15px;font-weight:bold;letter-spacing:1px;">[https://qm.qq.com/q/u8FTnYHz8Y 编辑交流群]</span>
-    </div>G
-
-      <div style="background:#3C4A63;border:1px solid #C9BBA0;border-radius:6px;padding:10px 22px;">
-    <span style="color:#EDE4D3;font-size:15px;font-weight:bold;letter-spacing:1px;">[https://github.com/GardenEric260122/lwy_wiki Github文本镜像]</span>
-    </div>
-
-  </div>
-
-  <div style="color:#C9BBA0;font-size:12px;margin-top:14px;">
-  建议添加[https://linkdd.cn/liwenya 导航页]并加入qq群，并防止失联
-  </div>
-</div>
-
-<!-- 统计卡片条 -->
-<div style="
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:14px;
-margin:24px 0 8px;
-">
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">活跃编辑者</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFARTICLES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">条目</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFPAGES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">页面</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFFILES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">文件</div>
-</div>
-
-</div>
+{{文亚站点导航}}
 
 == <span style="color:var(--wy-heading-2);">浏览世界观</span> ==
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
@@ -166,80 +95,9 @@ margin:20px 0;
 </div>
 
 == <span style="color:var(--wy-heading-2);">开始您的创作</span> ==
-<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
-{{页头
-|title=开始您的创作
-|1=<p>
-我们是一个合作性的网站，请自由编辑 Wiki 页面。
-点击上方的<b>编辑</b>按钮即可开始您的创作。写作前请先阅读[[文亚宇宙世界观写作指南|写作指南]]
-</p>
-
-<div style="
-background:#1B2A41;
-border-left:4px solid #B08D57;
-border-radius:6px;
-padding:16px 22px;
-margin:18px 0 22px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-flex-wrap:wrap;
-gap:12px;
-">
-<div style="color:#EDE4D3;">
-<b style="font-size:105%;">还没正式发布前，先在沙盒里练练手</b><br>
-<span style="font-size:90%;color:#C9BBA0;">沙盒是你的个人草稿页，随便编辑都不会影响正式条目</span>
-</div>
-[[Special:MyPage/Sandbox|<span style="
-display:inline-block;
-background:#B08D57;
-color:#1B2A41;
-font-weight:bold;
-padding:8px 18px;
-border-radius:20px;
-white-space:nowrap;
-">进入我的沙盒➡️</span>]]
-</div>
-
-<ol>
-<li><b>请避开政治敏感内容和社会议题及涉黄、涉恐、色情、过度血腥暴力等具有不良影响内容的创作</b></li>
-<li><b>禁止宣传与本维基无关的内容。</b></li>
-<li><b>请不要套用著名人物或具有争议人物的真实姓名。</b></li>
-<li><b>请尊重所有人，包括李教授本人。严禁对他人进行任何形式的骚扰、辱骂、诽谤等表示不尊重的行为！</b></li>
-<li><b>对他人作品拥有一定的包容度，对新人的作品可以适当的提出建议抑或是严厉却有建设性的批评。禁止直接辱骂、贬低(即便提出了建议也不应掺杂这些)!</b></li>
-<li><b>禁止破坏性编辑，例如:在页面中添加无意义内容或无理由删除内容,进行编辑战</b></li>
-<li><b>请尊重并遵守CC-BY-SA许可协议</b></li>
-<li><b>在进行创作时，请尽量保持客观中立,尽量避免个人立场倾向</b></li>
-<li>
-<b>人物图像请使用 AI 生成，不要使用真人图像。</b><br>
-推荐使用 GPT-Image2 或其他 AI 绘图工具。
-</li>
-<li><b>严禁任何打广告行为。</b></li>
-<li>
-<b>允许创作李教授未读过的内容。</b><br>
-请明确标注为「事实争议」内容。
-</li>
-<li>
-<b>官方交流群</b><br>
-QQ群：<b style="font-size:120%;color:#1B2A41;">640168366</b>
-</li>
-</ol>
-}}
+{{开始您的创作}}
 == <span style="color:var(--wy-heading-2);">免责声明</span> ==
-<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
-<div style="
-background:var(--wy-bg-card);
-border:1px solid var(--wy-border-color);
-border-left:4px solid var(--wy-warn);
-border-radius:6px;
-padding:18px 24px;
-line-height:1.9;
-color:var(--wy-text-main);
-margin:20px 0;
-">
-该维基'''所有内容'''为'''虚构内容'''，'''全部与现实无关'''。指向现实、有冒犯性或者敏感的'''所有'''内容都会被删除。<br><br>
-该维基中的'''所有教授'''在现实中'''并不存在'''，所有同名皆为巧合。
-</div>
+{{免责声明}}
 
 == <span style="color:var(--wy-heading-2);">-{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}-</span> ==
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>

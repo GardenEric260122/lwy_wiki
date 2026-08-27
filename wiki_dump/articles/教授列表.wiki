@@ -133,6 +133,7 @@ padding-bottom:6px;
 * [[东雪莲（孙笑川妻子）]]
 * [[丁真]]
 * [[党延川教授]]
+* [[戴云季教授]]
 </div>
 </div>
 
@@ -416,6 +417,8 @@ padding-bottom:6px;
 <div class="wy-letter-columns">
 * [[张雪峰教授]]
 * 郑明成教授
+*[[赞达尔教授]]
+*[[周根奇教授]]
 </div>
 </div>
 

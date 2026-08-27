@@ -88,6 +88,7 @@ padding-bottom:6px;
 <div class="wy-letter-card">
 * [[范德林德帮]]
 * [[反114514研究所]]
+*[[枫丹科学院]]
 </div>
 
 <!-- L -->
@@ -120,7 +121,7 @@ padding-bottom:6px;
 <div class="wy-letter-heading">Q</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
-* 全球超自然联盟
+* [[全球超自然联盟]]
 *[[全球反李文亚反动伪科学协会]]
 </div>
 
@@ -151,6 +152,9 @@ padding-bottom:6px;
 * [[先进科学研究会]]
 * [[香港中文大学（深圳）医学院]]
 * [[香港中文大学（深圳）第九书院]]
+* [[香港中文大学（深圳）反民科社团]]
+* [[香港中文大学（深圳）数据科学学院]]
+* [[香港中文大学（深圳）人文社科学院]]
 </div>
 
 <!-- Z -->
