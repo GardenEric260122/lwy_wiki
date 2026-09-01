@@ -1,0 +1,1 @@
+<includeonly><div class="wy-stat-card"><div class="wy-stat-num">{{{数值|}}}</div><div class="wy-stat-label">{{{标签|}}}</div></div></includeonly>

@@ -99,6 +99,36 @@ margin:20px 0;
 == <span style="color:var(--wy-heading-2);">免责声明</span> ==
 {{免责声明}}
 
+<!-- 统计卡片条 -->
+<div style="
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:14px;
+margin:24px 0 8px;
+">
+
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">活跃编辑者</div>
+</div>
+
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFARTICLES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">条目</div>
+</div>
+
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFPAGES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">页面</div>
+</div>
+
+<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
+<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFFILES}}|R}}</div>
+<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">文件</div>
+</div>
+
+</div>
+
 == <span style="color:var(--wy-heading-2);">-{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}-</span> ==
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
 <div style="color:var(--wy-text-main);">
