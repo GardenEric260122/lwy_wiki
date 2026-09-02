@@ -1,150 +1,115 @@
+<div style="background:var(--wy-bg-page);padding:30px;margin:-20px;min-height:100vh;box-sizing:border-box;">
+<!-- =========================================================
+     重要公告
+     使用 float，使公告独立悬浮在右侧
+     不再因为公告高度把左侧撑出巨大空白
+     ========================================================= -->
 <div style="
-background:var(--wy-bg-page);
-padding:30px;
-margin:-20px;
-min-height:100vh;
+float:right;
+width:30%;
+margin:0 0 30px 30px;
 box-sizing:border-box;
 ">
-
-{| style="width:100%;"
-| style="width:68%;vertical-align:top;" |
-
-<div style="color:var(--wy-heading-3);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;">
+{{重要公告}}
+</div>
+<!-- =========================================================
+     欢迎区域
+     ========================================================= -->
+<div style="
+color:var(--wy-heading-3);
+font-size:12px;
+letter-spacing:3px;
+text-transform:uppercase;
+margin-bottom:8px;
+">
 ARCHIVUM ACADEMICUM · 文亚宇宙世界观档案
 </div>
-
 == <span style="color:var(--wy-heading-2);">欢迎来到{{SITENAME}}</span> ==
-<div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
-
+<div style="
+height:3px;
+width:64px;
+background:var(--wy-accent);
+margin:2px 0 20px;
+">
+</div>
 '''一个与现实无关、却拥有完整历史、机构、教授以及事件的学术世界观。'''<br>
 '''这里没有真实人物，也不存在现实中的大学与组织，一切内容属于虚构设定。'''
-
-<p style="margin-top:20px;color:var(--wy-text-main);">
+<p style="
+margin-top:20px;
+color:var(--wy-text-main);
+line-height:1.8;
+">
 {{SITENAME}}由社区共同维护，也欢迎每一位对这个世界感兴趣的朋友加入我们。<br>
 '''偷偷说一句：我们缺人手（真的很缺！）<br>
 快来加入官方QQ交流群，一起把这个世界越写越大：640168366'''<br>
 '''[[用户:PhD_Big_Dick_Charsley_Wina]]和[[用户:EricGarden260809]]是网站管理员，有任何问题请及时联系我们哦！'''
 </p>
-
-| style="width:32%;text-align:center;vertical-align:middle;" |
-
-[[File:wywiki_logo.jpg|360px|link=]]
-
-|}
-
-{{文亚站点导航}}
-
 == <span style="color:var(--wy-heading-2);">浏览世界观</span> ==
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
-
-<div style="
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:16px;
-margin:20px 0;
-">
-
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:20px 0;">
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Professor.svg|56px|link=教授列表]]
 <br><br>
 '''[[教授列表|<span style="color:var(--wy-heading-2);">教授列表</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Institute.svg|56px|link=机构列表]]
 <br><br>
 '''[[机构列表|<span style="color:var(--wy-heading-2);">机构列表</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:School.svg|56px|link=学校列表]]
 <br><br>
 '''[[学校列表|<span style="color:var(--wy-heading-2);">学校列表</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Concept.svg|56px|link=概念列表]]
 <br><br>
 '''[[概念列表|<span style="color:var(--wy-heading-2);">概念列表</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Event.svg|56px|link=事件]]
 <br><br>
 '''[[事件|<span style="color:var(--wy-heading-2);">事件</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Tutorial.svg|56px|link=文亚宇宙世界观写作指南]]
 <br><br>
 '''[[文亚宇宙世界观写作指南|<span style="color:var(--wy-heading-2);">写作指南与模板</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:Category.svg|56px|link=Special:Categories]]
 <br><br>
 '''[[Special:Categories|<span style="color:var(--wy-heading-2);">分类</span>]]'''
 </div>
-
 <div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:14px;padding:22px;text-align:center;box-shadow:var(--wy-shadow-sm);">
 [[File:History.svg|56px|link=Special:RecentChanges]]
 <br><br>
 '''[[Special:RecentChanges|<span style="color:var(--wy-heading-2);">最近更改</span>]]'''
 </div>
-
 </div>
-
 == <span style="color:var(--wy-heading-2);">开始您的创作</span> ==
 {{开始您的创作}}
 == <span style="color:var(--wy-heading-2);">免责声明</span> ==
 {{免责声明}}
-
-<!-- 统计卡片条 -->
-<div style="
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:14px;
-margin:24px 0 8px;
-">
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFACTIVEUSERS}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">活跃编辑者</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFARTICLES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">条目</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFPAGES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">页面</div>
-</div>
-
-<div style="background:var(--wy-bg-card);border:1px solid var(--wy-border-color);border-radius:10px;padding:16px 8px;text-align:center;">
-<div style="font-size:22px;font-weight:bold;color:var(--wy-heading-2);">{{formatnum:{{NUMBEROFFILES}}|R}}</div>
-<div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">文件</div>
-</div>
-
-</div>
+<!-- =========================================================
+     清除浮动
+     公告和欢迎区域结束
+     ========================================================= -->
+<div style="clear:both;"></div>
 
 == <span style="color:var(--wy-heading-2);">-{zh-hans:最近更改; zh-cn:最近更改; zh-hant:近期變更; zh-tw:近期變更;}-</span> ==
+
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>
+
 <div style="color:var(--wy-text-main);">
 {{Special:RecentChanges/5}}
 </div>
-
 <mainpage-endcolumn />
 <mainpage-rightcolumn-start />
-
 -{zh-hans:视频; zh-cn:视频; zh-hant:影片; zh-tw:影片;}-和图片是最好的-{zh-hans:信息资源; zh-cn:信息资源; zh-hant:資訊來源; zh-tw:資訊來源;}-。您可以直接从您的电脑上传-{zh-hans:文件; zh-cn:文件; zh-hant:檔案; zh-tw:檔案;}-。
-
 <mainpage-endcolumn />
-
 __NOTOC__
 __NOEDITSECTION__
-
 [[Category:索引| ]]
-
 </div>

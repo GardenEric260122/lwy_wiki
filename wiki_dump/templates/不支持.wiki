@@ -1,0 +1,17 @@
+<div style="
+background:#F0A46F;
+border-left:4px solid #934625;
+border-radius:6px;
+padding:16px 22px;
+margin:18px 0 22px;
+">
+<div style="color:#FFF8F3;">
+<b style="font-size:105%;">免责声明</b><br>
+</div>
+<ol style="color:#FFF8F3;font-size:100%;font-weight:bold;line-height:1.85;margin:12px 0 0 0;padding-left:22px;">
+<li>本 Wiki 是一个开放的资料记录平台，所有条目及编辑内容均由社区成员自愿贡献，旨在进行信息整理与知识存档。</li>
+<li>Wiki 作为中立的信息载体，不对任何成员的个人行为、言论或立场进行背书，成员的个人行为与 Wiki 平台无关。</li>
+<li>平台不对用户提交内容的准确性、完整性或合法性作任何保证，使用者应自行判断并承担相应风险。</li>
+<li>如发现任何违反法律法规或社区规范的内容，请及时联系管理团队，我们将在核实后予以处理。感谢大家的理解与配合～</li>
+</ol>
+</div>
