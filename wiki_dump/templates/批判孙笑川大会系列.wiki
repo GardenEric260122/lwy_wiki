@@ -29,6 +29,7 @@
 <div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:center;">
 <span style="display:inline-block; padding:4px 10px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda;">[[蜘蛛巢大学批判孙笑川大会|蜘蛛巢大学]]</span>
 <span style="display:inline-block; padding:4px 10px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda;">[[联合国批判孙笑川大会|联合国]]</span>
+<span style="display:inline-block; padding:4px 10px; border:1px solid #95c9a3; border-radius:4px; background:#d4edda;">[[第一届全球反孙笑川大会|全球]]</span>
 </div>
 </div>
 </div>
