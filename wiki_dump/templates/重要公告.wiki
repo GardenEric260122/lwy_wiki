@@ -16,6 +16,7 @@ __NOTOC__
 * 条目可能包含'''主观解读、虚构创意、双关讽刺'''等多种创作成分，难以严格区分
 * 某些记录可能存在'''遗漏、错误、夸大或简化'''
 * 对于任何在本 Wiki 中看到的信息，'''请保持独立思考，谨慎甄别'''
+本 Wiki 记录的理论与事件虽然来自网络讨论与创意再创作，但'''部分涉及真实人物''',所有涉及真实人物的事件、背景均为虚构，请勿当真！
 我们建议读者：
 * 跨越多个来源验证重要信息
 * 了解"文亚宇宙"本质上是一个网络社群现象与创意叙事
@@ -26,8 +27,9 @@ __NOTOC__
 * 在记录与讨论时保持理性与尊重，即使对观点有异议，也应以建设性的方式表达
 * 认识到这是民间创意讨论，但涉及的是具有实名身份的真实个体
 === 社区责任说明 ===
-本 Wiki 作为信息平台，'''不对任何成员的个人观点、言论、行为或由此引发的后果负责。'''编辑者的观点仅代表个人立场，与 Wiki 平台无关。
+本 Wiki 作为信息平台，编辑者的观点仅代表个人立场，与 Wiki 平台无关。
 任何用户因使用本 Wiki 内容而引发的争议，相关责任由用户自行承担。
+如果存在违规内容， 可联系管理员， 我们将在72小时内核实后删除。
 |}
 <!-- ==================== 链接 ==================== -->
 {| class="wikitable" style="width:100%;"
@@ -73,7 +75,7 @@ __NOTOC__
 </div>
 </div>
 
-<!-- 卡片4：导航(防失联) -->
+<!-- 卡片4：导航页 -->
 |-
 | style="width:100%;background:#216C4E;padding:14px 20px;box-sizing:border-box;vertical-align:middle;text-align:left;border-radius:12px;box-shadow:0 4px 12px rgba(33,108,78,0.25);" |
 <div style="display:flex;align-items:center;background:transparent;">
@@ -81,7 +83,7 @@ __NOTOC__
 [[File:导航图标.png|64px|link=https://linkdd.cn/liwenya]]
 </div>
 <div style="margin-left:16px;background:transparent;line-height:1.2;">
-[https://linkdd.cn/liwenya <span style="color:#fff;font-weight:600;background:transparent;">导航(防失联)</span>]
+[https://linkdd.cn/liwenya <span style="color:#fff;font-weight:600;background:transparent;">导航页</span>]
 </div>
 </div>
 

@@ -95,12 +95,10 @@ padding-bottom:6px;
 <div class="wy-letter-card">
 <div class="wy-letter-columns">
 * [[巴巴托斯]]
-* [[布尔波特]]
 * [[比格·迪克·查斯利·温雅教授]]
 * [[博丽灵梦]]
 * [[布雷斯维特夫人]]
 * [[贝利亚大帝]]
-* [[白锁成教授]]
 * [[白露江風教授]]
 * [[碧桑驾dell教授]]
 </div>
@@ -132,7 +130,6 @@ padding-bottom:6px;
 * [[大卫·戴·里昂兹]]
 * [[东雪莲（孙笑川妻子）]]
 * [[丁真]]
-* [[党延川教授]]
 * [[戴云季教授]]
 </div>
 </div>
@@ -144,7 +141,6 @@ padding-bottom:6px;
 <div class="wy-letter-card">
 <div class="wy-letter-columns">
 * [[二阶堂希罗教授]]
-* [[二向箔的投放者]]
 </div>
 </div>
 
@@ -235,7 +231,6 @@ padding-bottom:6px;
 <div class="wy-letter-columns">
 * [[刘浩文教授]]
 * [[刘建龙教授]]
-* [[来清德]]
 * [[李天燕教授]]
 * 李珉炯教授
 * [[绫波丽]]
@@ -331,6 +326,7 @@ padding-bottom:6px;
 * [[撒贝宁]]
 * [[孙笑川教授]]
 * [[史育宁教授]]
+* [[斯卡利茨的亨利]]
 </div>
 </div>
 
@@ -371,7 +367,6 @@ padding-bottom:6px;
 <div class="wy-letter-columns">
 * [[王楚淇教授]]
 * [[温国凯教授]]
-* [[汪鸿汶教授]]
 * [[王静伟教授]]
 * [[王书涵]]
 * [[王伟恒教授]]

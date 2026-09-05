@@ -25,6 +25,7 @@ margin-bottom:8px;
 ARCHIVUM ACADEMICUM · 文亚宇宙世界观档案
 </div>
 == <span style="color:var(--wy-heading-2);">欢迎来到{{SITENAME}}</span> ==
+
 <div style="
 height:3px;
 width:64px;
@@ -33,7 +34,7 @@ margin:2px 0 20px;
 ">
 </div>
 '''一个与现实无关、却拥有完整历史、机构、教授以及事件的学术世界观。'''<br>
-'''这里没有真实人物，也不存在现实中的大学与组织，一切内容属于虚构设定。'''
+'''一切内容属于虚构设定。'''
 <p style="
 margin-top:20px;
 color:var(--wy-text-main);
@@ -91,7 +92,7 @@ line-height:1.8;
 == <span style="color:var(--wy-heading-2);">开始您的创作</span> ==
 {{开始您的创作}}
 == <span style="color:var(--wy-heading-2);">免责声明</span> ==
-{{免责声明}}
+{{内容甄别警示}}
 <!-- =========================================================
      清除浮动
      公告和欢迎区域结束

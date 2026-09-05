@@ -1,0 +1,25 @@
+<div style="
+background-image: repeating-linear-gradient(45deg, #fff6f6, #fff6f6 12px, #ffecec 12px, #ffecec 24px);
+border: 2px solid #cc3300;
+border-radius: 6px;
+padding: 18px 22px;
+margin: 16px 0;
+position: relative;
+">
+<div style="
+position: absolute;
+top: 0;
+left: 0;
+color: #5F1F2E;
+font-size: 25px;
+font-weight: bold;
+padding: 4px 12px;
+border-radius: 0 0 6px 0;
+">
+内容甄别警示——网友伪造 · 非事实
+</div>
+
+<div style="margin-top: 20px; color: #990000; font-weight: bold; font-size: 20px; line-height: 1.8;">
+以下内容为网友扮演与社群虚构设定，请谨慎甄别！内容中所涉及的真实存在的主体所发生的行为皆为虚构。
+</div>
+</div>

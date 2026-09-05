@@ -253,7 +253,7 @@ font-weight:bold;
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> · [[#letterB|B]] ·  [[#letterC|C]]· [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · [[#letterG|G]] · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> ·[[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · <span class="wy-letter-disabled">M</span> · <span class="wy-letter-disabled">N</span> · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]· <span class="wy-letter-disabled">#</span>
+<span class="wy-letter-disabled">A</span> · [[#letterB|B]] ·  [[#letterC|C]]· [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · [[#letterG|G]] · [[#letterH|H]] · <span class="wy-letter-disabled">I</span> ·[[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · <span class="wy-letter-disabled">M</span> · <span class="wy-letter-disabled">N</span> · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · [[#letterS|S]] · [[#letterT|T]] · <span class="wy-letter-disabled">U</span> · <span class="wy-letter-disabled">V</span> · [[#letterW|W]] · [[#letterX|X]] · [[#letterY|Y]] · [[#letterZ|Z]]· <span class="wy-letter-disabled">#</span>
 </div>
 
 <!-- B -->
@@ -323,6 +323,14 @@ font-weight:bold;
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[枪毙]]
+</div>
+
+<!-- S -->
+<span id="letterS"></span>
+<div class="wy-letter-heading">S</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+* [[孙笑川教授相关指控]]
 </div>
 
 <!-- T -->
