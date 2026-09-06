@@ -43,7 +43,7 @@ line-height:1.8;
 {{SITENAME}}由社区共同维护，也欢迎每一位对这个世界感兴趣的朋友加入我们。<br>
 '''偷偷说一句：我们缺人手（真的很缺！）<br>
 快来加入官方QQ交流群，一起把这个世界越写越大：640168366'''<br>
-'''[[用户:PhD_Big_Dick_Charsley_Wina]]和[[用户:EricGarden260809]]是网站管理员，有任何问题请及时联系我们哦！'''
+'''[[用户:PhD_Big_Dick_Charsley_Wina]]和[[用户:EricGarden260723]]是网站管理员，有任何问题请及时联系我们哦！'''
 </p>
 == <span style="color:var(--wy-heading-2);">浏览世界观</span> ==
 <div style="height:3px;width:64px;background:var(--wy-accent);margin:2px 0 20px;"></div>

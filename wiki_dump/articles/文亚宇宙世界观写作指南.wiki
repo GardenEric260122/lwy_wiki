@@ -14,16 +14,18 @@ __NOTOC__
 }}
 
 {{不支持}}
-==行为准则==
+=行为准则=
 {{行为准则禁止}}
 {{行为准则注意}}
-== 创作规范 ==
+= 创作规范 =
+
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:20px 26px;margin-bottom:18px;">
 <div style="color:#8C6D3F;font-weight:bold;font-size:105%;letter-spacing:1px;margin-bottom:10px;">守则</div>
 <div style="border-left:3px solid #6B2737;padding:8px 14px;margin-bottom:14px;font-style:italic;color:#2B2621;background:#F7F1E4;">
 违反守则的内容将会被删除，对不起，我不想进去。
 </div>
 <div style="line-height:2;color:#2B2621;">
+#根据 Fandom所有参与 Wiki 的编辑者都要'''满足13岁以上''',未满足的账号一经发现将封禁直至其满足年龄要求!
 # 创建条目后请在主页中点击相关链接：[[教授列表|教授]]/[[机构列表|机构]]/[[学校列表|学校]]，并在其中创建索引。
 # 关于与文亚宇宙有联系的机构和学校，请在有必要的时候加上对应词条，并且仅用于介绍与文亚宇宙的关联。
 # 请不要提交政治内容或者敏感内容。
