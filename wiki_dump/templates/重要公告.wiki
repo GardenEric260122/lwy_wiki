@@ -34,7 +34,7 @@ __NOTOC__
 <!-- ==================== 链接 ==================== -->
 {| class="wikitable" style="width:100%;"
 |-
-! <span style="color:#CC3300;font-size:20px;">链接</span>
+! <span style="color:#1B2A41 ;font-size:20px;">链接</span>
 |-
 |
 {| style="width:100%;border-spacing:0 12px;border-collapse:separate;"
@@ -142,4 +142,41 @@ __NOTOC__
 <div style="font-size:11px;letter-spacing:1px;color:var(--wy-heading-3);margin-top:4px;">文件</div>
 </div>
 |}
+
+<!-- ==================== 工具 ==================== -->
+{| class="wikitable" style="width:100%;"
+|-
+! <span style="color:#216C4E;font-size:20px;">工具</span>
+|-
+|
+{| style="width:100%;border-spacing:0 12px;border-collapse:separate;"
+
+<!-- 卡片1：我的沙盒 -->
+|-
+| style="width:100%;background:#89324D;padding:14px 20px;box-sizing:border-box;vertical-align:middle;text-align:left;border-radius:12px;box-shadow:0 4px 12px rgba(137,50,77,0.25);" |
+<div style="display:flex;align-items:center;background:transparent;">
+<div style="flex:0 0 64px;display:flex;align-items:center;justify-content:center;background:transparent;">
+[[File:我的沙盒.svg|64px|link=Special:MyPage/Sandbox]]
+</div>
+<div style="margin-left:16px;background:transparent;line-height:1.2;">
+[[Special:MyPage/Sandbox|<span style="color:#fff;font-weight:600;background:transparent;">我的沙盒</span>]]
+</div>
+</div>
+
+<!-- <!-- 卡片2：写作指南、规范与模板 -->
+|-
+| style="width:100%;background:#174D7C;padding:14px 20px;box-sizing:border-box;vertical-align:middle;text-align:left;border-radius:12px;box-shadow:0 4px 12px rgba(23,77,124,0.25);" |
+<div style="display:flex;align-items:center;background:transparent;">
+<div style="flex:0 0 64px;display:flex;align-items:center;justify-content:center;background:transparent;">
+[[File:写作指南、规范与模板.svg|64px|link=文亚宇宙世界观写作指南]]
+</div>
+<div style="margin-left:16px;background:transparent;line-height:1.2;">
+[[文亚宇宙世界观写作指南| <span style="color:#fff;font-weight:600;background:transparent;">写作指南、规范与模板</span>]]
+</div>
+</div> 
+
+|}
+|}
+
+
 </div>

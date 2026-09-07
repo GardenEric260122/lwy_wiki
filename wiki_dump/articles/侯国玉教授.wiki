@@ -1,5 +1,5 @@
 {{内容甄别警示}}
-{{Character|name=侯国玉教授|image=侯国玉教授.png|foreign_name=Dr. Hou Guoyu "Otto"|birth_date=1996年3月8日|birth_place=中国辽宁省鞍山市|occupation=计算机科学研究者、
+{{Character|name=侯国玉教授|image=侯国玉教授.webp|foreign_name=Dr. Hou Guoyu "Otto"|birth_date=1996年3月8日|birth_place=中国辽宁省鞍山市|occupation=计算机科学研究者、
 超算系统专家|affiliation=[[114514研究所]]|position=研究员、
 孙笑川教授职务助手之一|colleagues=[[孙笑川教授]]|fields=高性能计算、曼德尔超算系统、滚木算法、量子存储网络干扰|rival=[[李文亚]]|caption=侯国玉教授}}'''侯国玉教授'''（1996年3月8日－），辽宁省鞍山市人，计算机科学与超算系统研究者，[[114514研究所]]研究员，[[孙笑川教授]]职务助手之一。其主要研究方向包括高性能计算、理论成果监控、量子存储网络干扰、自动化成果生成与符号化算法设计。
 

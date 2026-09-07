@@ -146,7 +146,7 @@ __NOTOC__
         color:#6B2737;
         font-size:29px;
         font-weight:bold;
-      ">23</span>
+      ">[[第二十三次批判李文亚伪科学大会|23]]</span>
 
       <!-- 方块 24 -->
       <span id="d24" style="
@@ -209,7 +209,7 @@ __NOTOC__
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> ·  [[#letterB|B]]  · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> · <span class="wy-letter-disabled">S</span> · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · <span class="wy-letter-disabled">Y</span> · [[#letterZ|Z]]
+<span class="wy-letter-disabled">A</span> ·  [[#letterB|B]]  · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> ·  [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · <span class="wy-letter-disabled">Y</span> · [[#letterZ|Z]]
 </div>
 
 <!-- B -->
@@ -237,6 +237,7 @@ __NOTOC__
 * [[第十九次李文亚批判大会]]
 * [[第二十次李文亚批判大会]]
 * [[第二十二次李文亚批判大会]]
+* [[第二十三次批判李文亚伪科学大会|第二十三次李文亚批判大会]]
 * [[第二十四次李文亚批判大会]]
 * [[第一届孙笑川批判大会]]
 *[[第一届全球反孙笑川大会]]
@@ -263,6 +264,7 @@ __NOTOC__
 <div class="wy-letter-heading">L</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+*[[李文亚微信被禁止添加好友事件]]
 *[[李文亚痛批碧桑驾dell要求说明讣告事件真相]]
 *[[李文亚公布黑体生物叶绿体论]]
 *[[李文亚遭鸿运宾馆殴打事件]]
@@ -279,6 +281,14 @@ __NOTOC__
 *[[李公大揭露114514研究所罪行]]
 </div>
 
+<!-- M -->
+<span id="letterM"></span>
+<div class="wy-letter-heading">M</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+* [[马斯勒就任全球反孙笑川联盟主任，呼吁学术诚信、透明与对话]]
+</div>
+
 <!-- N -->
 <span id="letterN"></span>
 <div class="wy-letter-heading">N</div>
@@ -293,6 +303,14 @@ __NOTOC__
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[全球学术围剿]]
+</div>
+
+<!-- S -->
+<span id="letterS"></span>
+<div class="wy-letter-heading">S</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+* [[孙笑川借军筛选并训迫害李文亚支持者]]
 </div>
 
 <!-- T -->

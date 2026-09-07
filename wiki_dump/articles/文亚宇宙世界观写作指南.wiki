@@ -88,9 +88,10 @@ __NOTOC__
 <div style="background:#EDE4D3;border:1px solid #C9BBA0;border-radius:10px;padding:18px 24px;margin-bottom:14px;">
 <div style="color:#8C6D3F;font-weight:bold;font-size:100%;letter-spacing:1px;margin-bottom:8px;">李文亚教授视频</div>
 [https://archive.org/details/li_wen_ya 李文亚教授视频全集(更新至2026-07-25互联网档案馆、来自抖音镜像)]<br>
-[https://space.bilibili.com/178757758/lists/6850492 秦王扫六合>合集·民科TV(来自抖音转载)]
-
-
+[https://space.bilibili.com/178757758/lists/6850492 秦王扫六合>合集·民科TV(来自抖音转载)]<br>
+[https://github.com/GardenEric260122/lwy_wiki 文亚宇宙世界观 Wiki的Github仓库每日镜像(用于Ai参考)！]<br>
+[https://github.com/ylhcqN/Wenya_Wiki_skills 文亚宇宙世界观 Wiki Ai辅助Skill ！]<br>
+[https://github.com/ylhcqN/liwenya_video_sub 李文亚视频转入字幕（已校对）]
 </div>
 
 <div style="
