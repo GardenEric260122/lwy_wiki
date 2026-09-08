@@ -32,7 +32,7 @@ padding-bottom:6px;
 <div style="flex:0 0 auto;width:150px;">
 <div style="background:#5A1F2C;padding:10px 10px 0 10px;">
 <div style="width:130px;height:130px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#3d1520;">
-[[File:碧桑驾dell教授.webp|x130px|link=碧桑驾dell教授]]
+[[File:碧桑驾dell教授正装照.jpg|alt=|129x129px]]
 </div>
 </div>
 <div style="background:#4A1925;padding:14px 8px;text-align:center;">[[碧桑驾dell教授|<span style="color:#EDE4D3;font-size:15px;font-weight:bold;">碧桑驾dell教授</span>]]</div>

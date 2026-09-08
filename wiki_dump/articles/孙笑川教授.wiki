@@ -157,6 +157,16 @@ __TOC__
 * 114514研究所北美合作中心负责人（曾兼任）
 * 国际理论物理合作委员会委员
 
+== 画廊 ==
+{{画廊
+|title=孙笑川
+|content=
+{{GalleryCard|image=孙笑川否认李文亚理论.png|desc=孙笑川否认李文亚理论}}
+{{GalleryCard|image=面露难色.png|desc=面露难色}}
+{{GalleryCard|image=我下的任务罢了.jpg|desc=我下的任务罢了}}
+{{GalleryCard|image=孙笑川和114514四研究所.png|desc=孙笑川和114514四研究所}}
+}}
+
 == 相关条目 ==
 
 * [[复杂系统计算方法]]
