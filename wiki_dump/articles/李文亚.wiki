@@ -69,6 +69,7 @@
 2026年9月2日、2026年9月3日；李文亚在抖音平台演唱《泉水叮咚响》。详见：<br>
 [https://www.bilibili.com/video/BV1HUtE68EUE 【新民科TV】李文亚 演唱《泉水叮咚响》]<br>
 [https://www.bilibili.com/video/BV12PtR6KEk9 【新民科TV】李文亚 再唱《泉水叮咚响》]
+<div class="html5audio" data-file="{{filepath:李文亚再唱《泉水叮咚响》.mp3}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
 == 主要理论 ==
 
 === 星球三重引力范围 ===
@@ -117,7 +118,14 @@
 * 回应评论区与私信争议
 * 控诉孙笑川及114514研究所
 * 朗读支持者、反对者和告密者来信
-
+===语音===
+	
+<div class="html5audio" data-file="{{filepath:南京大学的王书提要枪毙.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
+<div class="html5audio" data-file="{{filepath:一一五五哇我哇我就上来了.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
+<div class="html5audio" data-file="{{filepath:中国人民大学陈人杰必须枪毙.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
+<div class="html5audio" data-file="{{filepath:他妈的个逼， 我日他妈的个逼.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
+<div class="html5audio" data-file="{{filepath:你死我活的斗争.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
+<div class="html5audio" data-file="{{filepath:北京大学的领导权威， 他恶不恶.wav}}" data-volume="0.7" data-download="false" data-preload="metadata" data-options="loop">You need to enable JavaScript to play this audio</div>
 这种强烈口语化、连续剧式更新和多方人物登场的创作方式，使李文亚的视频逐渐脱离普通科普自媒体形态，形成了完整的叙事宇宙。
 
 == 与孙笑川教授的冲突 ==
