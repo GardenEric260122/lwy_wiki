@@ -80,9 +80,10 @@
 {{GalleryCard|image=皮豆动作.png|desc=皮豆动作}}
 {{GalleryCard|image=皮豆动作+棍母识字表.png|desc=皮豆动作+棍母识字表}}
 {{GalleryCard|image=蓄力.jpg|desc=蓄力}}
+{{GalleryCard|image=经典配色.jpg|desc=经典配色}}
+{{GalleryCard|image=DLSS5.png|desc=DLSS5}}
 }}
-[[File:经典配色.jpg|center|1430x1430px]]
-[[File:DLSS5.png|center|700x700px]]
+
 
 
 == 相关条目 ==
