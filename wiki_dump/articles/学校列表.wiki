@@ -202,6 +202,7 @@ padding-bottom:6px;
 <div class="wy-letter-card">
 * [[蜘蛛巢大学]]
 * 祖安大学
+* [[中国民科大学]]
 * [[中国科学技术大学]]
 </div>
 
