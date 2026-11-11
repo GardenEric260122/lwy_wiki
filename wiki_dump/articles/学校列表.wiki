@@ -178,6 +178,7 @@ padding-bottom:6px;
 <div class="wy-letter-heading">X</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+* [[西西弗大学]]
 * [[下北泽大学]]
 * [[下北泽国立大学]]
 * [[希尔维大学]]

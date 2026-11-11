@@ -209,7 +209,7 @@ __NOTOC__
 
 <!-- 字母跳转导航：有内容的字母可点，空字母显示为灰色 -->
 <div class="wy-letter-nav">
-<span class="wy-letter-disabled">A</span> ·  [[#letterB|B]]  · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> ·  [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · <span class="wy-letter-disabled">X</span> · [[#letterY|Y]] · [[#letterZ|Z]]
+<span class="wy-letter-disabled">A</span> ·  [[#letterB|B]]  · [[#letterC|C]] · [[#letterD|D]] · <span class="wy-letter-disabled">E</span> · <span class="wy-letter-disabled">F</span> · <span class="wy-letter-disabled">G</span> · <span class="wy-letter-disabled">H</span> · <span class="wy-letter-disabled">I</span> · [[#letterJ|J]] · <span class="wy-letter-disabled">K</span> · [[#letterL|L]] · [[#letterM|M]] · [[#letterN|N]] · <span class="wy-letter-disabled">O</span> · <span class="wy-letter-disabled">P</span> · [[#letterQ|Q]] · <span class="wy-letter-disabled">R</span> ·  [[#letterS|S]] · [[#letterT|T]] · [[#letterU|U]] · <span class="wy-letter-disabled">V</span> · <span class="wy-letter-disabled">W</span> · [[#letterY|X]] · [[#letterY|Y]] · [[#letterZ|Z]]
 </div>
 
 <!-- B -->
@@ -256,8 +256,9 @@ __NOTOC__
 <div class="wy-letter-heading">J</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+* [[金紫愁伏法与海岛枪决事件]]
 * [[金坤奖]]
-*[[李文亚在采访中表示与抖音、快手两大平台发生矛盾]]
+* [[李文亚在采访中表示与抖音、快手两大平台发生矛盾]]
 </div>
 
 <!-- L -->
@@ -265,6 +266,10 @@ __NOTOC__
 <div class="wy-letter-heading">L</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
+*[[李文亚谈中医与中草药治疗黑体生物事件]]
+*[[李文亚再次跑步驳斥下肢腐烂传闻事件]]
+*[[李文亚电脑遭「完成设置」弹窗干扰出书翻译]]
+*[[李文亚祝贺德国图勒学术研究学会成立十周年]]
 *[[淮海文理学院授予李文亚荣誉博士学位事件]]
 *[[李文亚电脑再遭USB入侵破坏写作事件]]
 *[[李文亚获新西兰国授勋与爵位事件]]
@@ -324,6 +329,7 @@ __NOTOC__
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[孙笑川借军筛选并训迫害李文亚支持者]]
+* [[首届爱丁堡黑体生物研讨会]]
 </div>
 
 <!-- T -->
@@ -342,9 +348,17 @@ __NOTOC__
 * [[U盘失窃事件]]
 </div>
 
+<!-- X -->
+<span id="letterY"></span>
+<div class="wy-letter-heading">X</div>
+<div class="wy-letter-rule"></div>
+<div class="wy-letter-card">
+* [[西西弗大学卡门教授评价李文亚事件]]
+</div>
+
 <!-- Y -->
 <span id="letterY"></span>
-<div class="wy-letter-heading">Z</div>
+<div class="wy-letter-heading">Y</div>
 <div class="wy-letter-rule"></div>
 <div class="wy-letter-card">
 * [[永雏塔菲研究中心实验大楼落成典礼]]
